@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sat Nov 11 15:08:49 2023
+# Process ID: 43572
+# Current directory: C:/Users/Mayank/Desktop/385/FInal Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent96916 C:\Users\Mayank\Desktop\385\FInal Project\pokemon.xpr
+# Log file: C:/Users/Mayank/Desktop/385/FInal Project/vivado.log
+# Journal file: C:/Users/Mayank/Desktop/385/FInal Project\vivado.jou
+# Running On: ece, OS: Windows, CPU Frequency: 2296 MHz, CPU Physical cores: 12, Host memory: 16483 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Mayank/Desktop/385/FInal Project/pokemon.xpr}
+update_compile_order -fileset sources_1
