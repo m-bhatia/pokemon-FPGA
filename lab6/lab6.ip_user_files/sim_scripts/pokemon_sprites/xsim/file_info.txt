@@ -1,0 +1,2 @@
+pokemon_sprites.v,verilog,xil_defaultlib,../../../../lab6.gen/sources_1/ip/pokemon_sprites/sim/pokemon_sprites.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

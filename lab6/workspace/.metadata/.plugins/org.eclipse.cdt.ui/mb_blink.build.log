@@ -1,0 +1,35 @@
+00:39:58 **** Build of configuration Debug for project mb_blink ****
+make all 
+'Building file: ../src/mb_blink.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/mb_blink.o" -IC:/Users/Mayank/Desktop/385/lab6/workspace/mb_intro_top/export/mb_intro_top/sw/mb_intro_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/mb_blink.d" -MT"src/mb_blink.o" -o "src/mb_blink.o" "../src/mb_blink.c"
+../src/mb_blink.c:18:36: warning: initialization of 'volatile uint32_t *' {aka 'volatile long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   18 | volatile uint32_t* led_gpio_data = 0x40000000;  //Hint: either find the manual address (via the memory map in the block diagram, or
+      |                                    ^~~~~~~~~~
+../src/mb_blink.c:19:35: warning: initialization of 'volatile uint32_t *' {aka 'volatile long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   19 | volatile uint32_t* SW_gpio_data = 0x40010000;  //Hint: either find the manual address (via the memory map in the block diagram, or
+      |                                   ^~~~~~~~~~
+../src/mb_blink.c:20:36: warning: initialization of 'volatile uint32_t *' {aka 'volatile long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   20 | volatile uint32_t* btn_gpio_data = 0x40020000;  //Hint: either find the manual address (via the memory map in the block diagram, or
+      |                                    ^~~~~~~~~~
+'Finished building: ../src/mb_blink.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/Mayank/Desktop/385/lab6/workspace/mb_intro_top/export/mb_intro_top/sw/mb_intro_top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: mb_blink.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/Mayank/Desktop/385/lab6/workspace/mb_intro_top/export/mb_intro_top/sw/mb_intro_top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "mb_blink.elf"  ./src/mb_blink.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: mb_blink.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size mb_blink.elf  |tee "mb_blink.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   5500	    328	   3108	   8936	   22e8	mb_blink.elf
+'Finished building: mb_blink.elf.size'
+' '
+
+00:39:59 Build Finished (took 1s.141ms)
+
