@@ -1,0 +1,46 @@
+timestamp=[2023-11-15 18:00:20], mode=WORKBENCH_START, duration=0:00:07.179, duration_ms=7179, data={}
+timestamp=[2023-11-15 18:00:20], mode=WORKBENCH_UI_INIT, duration=0:00:00.498, duration_ms=498, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2023-11-15 18:00:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.065, duration_ms=65, data={}
+timestamp=[2023-11-15 18:01:01], mode=APP_CREATION, duration=0:00:06.809, duration_ms=6809, data={name=ECE385_DDR3, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_ddr3_top, application_type=application}
+timestamp=[2023-11-15 18:01:42], mode=PLATFORM_GENERATION, duration=0:00:03.766, duration_ms=3766, data={name=mb_ddr3_top}
+timestamp=[2023-11-15 18:02:00], mode=PLATFORM_GENERATION, duration=0:00:10.571, duration_ms=10571, data={name=mb_ddr3_top}
+timestamp=[2023-11-15 18:02:03], mode=BUILD, duration=0:00:02.587, duration_ms=2587, data={name=ECE385_DDR3, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:13:50], mode=WORKBENCH_START, duration=0:00:09.192, duration_ms=9192, data={}
+timestamp=[2023-11-29 12:13:51], mode=WORKBENCH_UI_INIT, duration=0:00:01.038, duration_ms=1038, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_DDR3,ECE385_DDR3_system,RemoteSystemsTempFiles,mb_ddr3_top}
+timestamp=[2023-11-29 12:13:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.123, duration_ms=123, data={}
+timestamp=[2023-11-29 12:14:57], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=ECE385_DDR3, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 12:15:02], mode=PLATFORM_GENERATION, duration=0:00:05.173, duration_ms=5173, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:15:28], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=ECE385_DDR3, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 12:15:32], mode=PLATFORM_GENERATION, duration=0:00:03.252, duration_ms=3252, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:16:04], mode=PLATFORM_GENERATION, duration=0:00:12.288, duration_ms=12288, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:16:07], mode=BUILD, duration=0:00:02.753, duration_ms=2753, data={name=ECE385_DDR3, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:16:08], mode=BUILD, duration=0:00:00.244, duration_ms=244, data={name=ECE385_DDR3_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:35:32], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=ECE385_DDR3, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 12:35:32], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=ECE385_DDR3_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 12:35:37], mode=PLATFORM_GENERATION, duration=0:00:04.758, duration_ms=4758, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:35:53], mode=PLATFORM_GENERATION, duration=0:00:12.268, duration_ms=12268, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:35:57], mode=BUILD, duration=0:00:03.111, duration_ms=3111, data={name=ECE385_DDR3, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:35:58], mode=BUILD, duration=0:00:00.230, duration_ms=230, data={name=ECE385_DDR3_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:41:55], mode=APP_CREATION, duration=0:00:05.075, duration_ms=5075, data={name=ECE_DDR3_1, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb_ddr3_top_1, application_type=application}
+timestamp=[2023-11-29 12:42:41], mode=BUILD, duration=0:00:00.345, duration_ms=345, data={name=ECE385_DDR3, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 12:42:41], mode=BUILD, duration=0:00:00.246, duration_ms=246, data={name=ECE385_DDR3_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 12:42:46], mode=PLATFORM_GENERATION, duration=0:00:04.230, duration_ms=4230, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:42:50], mode=PLATFORM_GENERATION, duration=0:00:04.168, duration_ms=4168, data={name=mb_ddr3_top_1}
+timestamp=[2023-11-29 12:43:02], mode=PLATFORM_GENERATION, duration=0:00:09.133, duration_ms=9133, data={name=mb_ddr3_top}
+timestamp=[2023-11-29 12:43:05], mode=BUILD, duration=0:00:02.431, duration_ms=2431, data={name=ECE385_DDR3, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:43:05], mode=BUILD, duration=0:00:00.249, duration_ms=249, data={name=ECE385_DDR3_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:43:16], mode=PLATFORM_GENERATION, duration=0:00:11.048, duration_ms=11048, data={name=mb_ddr3_top_1}
+timestamp=[2023-11-29 12:43:18], mode=BUILD, duration=0:00:01.999, duration_ms=1999, data={name=ECE_DDR3_1, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 12:43:20], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=ECE_DDR3_1_system, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 14:21:00], mode=WORKBENCH_START, duration=0:00:12.466, duration_ms=12466, data={}
+timestamp=[2023-11-29 14:21:02], mode=WORKBENCH_UI_INIT, duration=0:00:01.336, duration_ms=1336, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE_DDR3_1,ECE_DDR3_1_system,RemoteSystemsTempFiles,mb_ddr3_top_1}
+timestamp=[2023-11-29 14:21:03], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.106, duration_ms=106, data={}
+timestamp=[2023-11-29 14:22:19], mode=BUILD, duration=0:00:00.431, duration_ms=431, data={name=ECE_DDR3_1, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 14:22:20], mode=BUILD, duration=0:00:00.258, duration_ms=258, data={name=ECE_DDR3_1_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 14:22:24], mode=PLATFORM_GENERATION, duration=0:00:04.692, duration_ms=4692, data={name=mb_ddr3_top_1}
+timestamp=[2023-11-29 14:23:14], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=ECE_DDR3_1, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 14:23:15], mode=BUILD, duration=0:00:00.335, duration_ms=335, data={name=ECE_DDR3_1_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-29 14:23:18], mode=PLATFORM_GENERATION, duration=0:00:03.608, duration_ms=3608, data={name=mb_ddr3_top_1}
+timestamp=[2023-11-29 14:23:40], mode=PLATFORM_GENERATION, duration=0:00:16.643, duration_ms=16643, data={name=mb_ddr3_top_1}
+timestamp=[2023-11-29 14:23:44], mode=BUILD, duration=0:00:03.268, duration_ms=3268, data={name=ECE_DDR3_1, configuration=Debug, clean_build=false}
+timestamp=[2023-11-29 14:23:45], mode=BUILD, duration=0:00:00.306, duration_ms=306, data={name=ECE_DDR3_1_system, configuration=Debug, clean_build=false}

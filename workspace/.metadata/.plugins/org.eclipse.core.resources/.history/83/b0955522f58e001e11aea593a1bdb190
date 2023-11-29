@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ECE_DDR3_1" location="C:/Users/klok1/Documents/ECE385_DDR3/workspace/ECE_DDR3_1" platform="C:/Users/klok1/Documents/ECE385_DDR3/workspace/mb_ddr3_top_1/export/mb_ddr3_top_1/mb_ddr3_top_1.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="ECE_DDR3_1_system" sysConfig="mb_ddr3_top_1" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="3ccd10870f519cb3ce65d9856fc82465">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.1645362789">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1746151940" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="dhrystone"/>
+</sdkproject:SdkProject>

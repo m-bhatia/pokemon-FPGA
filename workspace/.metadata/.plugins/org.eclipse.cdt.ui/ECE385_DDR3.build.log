@@ -1,0 +1,31 @@
+12:43:02 **** Build of configuration Debug for project ECE385_DDR3 ****
+make all 
+'Building file: ../src/dhry_1.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dhry_1.o" -IC:/Users/klok1/Documents/ECE385_DDR3/workspace/mb_ddr3_top/export/mb_ddr3_top/sw/mb_ddr3_top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/dhry_1.d" -MT"src/dhry_1.o" -o "src/dhry_1.o" "../src/dhry_1.c"
+'Finished building: ../src/dhry_1.c'
+' '
+'Building file: ../src/dhry_2.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dhry_2.o" -IC:/Users/klok1/Documents/ECE385_DDR3/workspace/mb_ddr3_top/export/mb_ddr3_top/sw/mb_ddr3_top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/dhry_2.d" -MT"src/dhry_2.o" -o "src/dhry_2.o" "../src/dhry_2.c"
+'Finished building: ../src/dhry_2.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/klok1/Documents/ECE385_DDR3/workspace/mb_ddr3_top/export/mb_ddr3_top/sw/mb_ddr3_top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: ECE385_DDR3.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/klok1/Documents/ECE385_DDR3/workspace/mb_ddr3_top/export/mb_ddr3_top/sw/mb_ddr3_top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mno-xl-soft-div -mcpu=v11.0 -mno-xl-soft-mul -mxl-multiply-high -mhard-float -Wl,--no-relax -Wl,--gc-sections -o "ECE385_DDR3.elf"  ./src/dhry_1.o ./src/dhry_2.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ECE385_DDR3.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ECE385_DDR3.elf  |tee "ECE385_DDR3.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  20852	    396	  43168	  64416	   fba0	ECE385_DDR3.elf
+'Finished building: ECE385_DDR3.elf.size'
+' '
+
+12:43:05 Build Finished (took 2s.412ms)
+
