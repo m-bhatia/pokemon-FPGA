@@ -1,0 +1,2441 @@
+03:20:21 DEBUG : Logs will be stored at 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/IDE.log'.
+03:20:24 INFO  : Platform repository initialization has completed.
+03:20:24 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\klok1\Documents\ECE385_Pokemon\workspace\temp_xsdb_launch_script.tcl
+03:20:24 INFO  : Registering command handlers for Vitis TCF services
+03:20:30 INFO  : XSCT server has started successfully.
+03:20:34 INFO  : Successfully done setting XSCT server connection channel  
+03:20:34 INFO  : plnx-install-location is set to ''
+03:20:34 INFO  : Successfully done query RDI_DATADIR 
+03:20:34 INFO  : Successfully done setting workspace for the tool. 
+03:23:23 INFO  : Result from executing command 'getProjects': Pokemon_Top
+03:23:23 INFO  : Result from executing command 'getPlatforms': 
+03:23:23 WARN  : An unexpected exception occurred in the module 'platform project logging'
+03:23:23 INFO  : Platform 'Pokemon_Top' is added to custom repositories.
+03:23:26 INFO  : Platform 'Pokemon_Top' is added to custom repositories.
+03:25:22 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+03:25:43 INFO  : Result from executing command 'removePlatformRepo': 
+03:29:03 INFO  : Result from executing command 'getProjects': Pokemon_Top
+03:29:03 INFO  : Result from executing command 'getPlatforms': 
+03:29:03 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+03:47:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:47:25 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+03:47:25 INFO  : 'jtag frequency' command is executed.
+03:47:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:47:27 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+03:47:27 INFO  : Context for processor 'microblaze_0' is selected.
+03:47:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+03:47:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:47:27 INFO  : Context for processor 'microblaze_0' is selected.
+03:47:27 INFO  : System reset is completed.
+03:47:30 INFO  : 'after 3000' command is executed.
+03:47:30 INFO  : Context for processor 'microblaze_0' is selected.
+03:47:30 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+03:47:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+03:47:30 INFO  : Context for processor 'microblaze_0' is selected.
+03:47:30 INFO  : 'con' command is executed.
+03:47:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:47:30 INFO  : Launch script is exported to file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon_system\_ide\scripts\debugger_ece385_pokemon-default.tcl'
+03:50:26 INFO  : Result from executing command 'removePlatformRepo': 
+03:50:50 INFO  : Result from executing command 'getProjects': Pokemon_Top
+03:50:50 INFO  : Result from executing command 'getPlatforms': 
+03:50:51 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+03:51:20 INFO  : Disconnected from the channel tcfchan#3.
+03:51:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:51:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+03:51:30 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+03:51:45 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:51:45 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+03:51:45 INFO  : 'jtag frequency' command is executed.
+03:51:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:51:47 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+03:51:47 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:47 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+03:51:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:51:47 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:47 INFO  : System reset is completed.
+03:51:50 INFO  : 'after 3000' command is executed.
+03:51:50 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:50 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+03:51:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+03:51:50 INFO  : Context for processor 'microblaze_0' is selected.
+03:51:50 INFO  : 'con' command is executed.
+03:51:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:51:50 INFO  : Launch script is exported to file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon_system\_ide\scripts\debugger_ece385_pokemon-default.tcl'
+04:06:45 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:06:59 INFO  : Result from executing command 'removePlatformRepo': 
+04:07:44 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:07:44 INFO  : Result from executing command 'getPlatforms': 
+04:07:45 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:08:00 INFO  : Disconnected from the channel tcfchan#6.
+04:08:01 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:08:01 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:08:01 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:08:01 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:08:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:08:02 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:08:02 INFO  : 'jtag frequency' command is executed.
+04:08:06 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:06 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:08:06 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:08:09 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:08:09 INFO  : 'jtag frequency' command is executed.
+04:08:12 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:12 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:08:12 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:08:21 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:08:21 INFO  : 'jtag frequency' command is executed.
+04:08:24 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:24 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:08:24 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:08:37 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:08:37 INFO  : 'jtag frequency' command is executed.
+04:08:41 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:41 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:08:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:08:41 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:09:01 INFO  : Result from executing command 'removePlatformRepo': 
+04:09:31 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:09:31 INFO  : Result from executing command 'getPlatforms': 
+04:09:31 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:09:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:09:40 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:09:40 INFO  : 'jtag frequency' command is executed.
+04:09:43 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:09:43 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:09:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:09:43 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+04:10:12 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:10:25 INFO  : Result from executing command 'removePlatformRepo': 
+04:11:01 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:11:01 INFO  : Result from executing command 'getPlatforms': 
+04:11:02 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:11:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:11:28 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:11:28 INFO  : 'jtag frequency' command is executed.
+04:11:32 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:11:32 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:11:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:11:32 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:12:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:12:07 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:12:07 INFO  : 'jtag frequency' command is executed.
+04:12:11 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:12:11 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:12:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:12:11 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:12:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:12:30 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:12:30 INFO  : 'jtag frequency' command is executed.
+04:12:33 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:12:33 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:12:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+04:12:33 ERROR : no targets found with "jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"". available targets:
+  1  xc7s50
+  2  whole scan chain (FT_Write failed: io error)
+04:14:25 DEBUG : Logs will be stored at 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/IDE.log'.
+04:14:26 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\klok1\Documents\ECE385_Pokemon\workspace\temp_xsdb_launch_script.tcl
+04:14:30 INFO  : XSCT server has started successfully.
+04:14:30 INFO  : Successfully done setting XSCT server connection channel  
+04:14:30 INFO  : plnx-install-location is set to ''
+04:14:30 INFO  : Successfully done setting workspace for the tool. 
+04:14:31 INFO  : Platform repository initialization has completed.
+04:14:32 INFO  : Registering command handlers for Vitis TCF services
+04:14:32 INFO  : Successfully done query RDI_DATADIR 
+04:14:46 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:14:56 INFO  : Result from executing command 'removePlatformRepo': 
+04:15:32 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:15:32 INFO  : Result from executing command 'getPlatforms': 
+04:15:32 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:15:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:15:50 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:15:50 INFO  : 'jtag frequency' command is executed.
+04:15:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:15:51 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:15:52 INFO  : Context for processor 'microblaze_0' is selected.
+04:15:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:15:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:15:52 INFO  : Context for processor 'microblaze_0' is selected.
+04:15:52 INFO  : System reset is completed.
+04:15:55 INFO  : 'after 3000' command is executed.
+04:15:55 INFO  : Context for processor 'microblaze_0' is selected.
+04:15:55 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:15:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:15:55 INFO  : Context for processor 'microblaze_0' is selected.
+04:15:55 INFO  : 'con' command is executed.
+04:15:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:15:55 INFO  : Disconnected from the channel tcfchan#3.
+04:23:05 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:23:13 INFO  : Result from executing command 'removePlatformRepo': 
+04:23:37 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:23:37 INFO  : Result from executing command 'getPlatforms': 
+04:23:37 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:23:42 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:23:42 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:23:42 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:23:43 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:23:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:23:49 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:23:49 INFO  : 'jtag frequency' command is executed.
+04:23:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:23:50 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:23:50 INFO  : Context for processor 'microblaze_0' is selected.
+04:23:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:23:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:23:51 INFO  : Context for processor 'microblaze_0' is selected.
+04:23:51 INFO  : System reset is completed.
+04:23:54 INFO  : 'after 3000' command is executed.
+04:23:54 INFO  : Context for processor 'microblaze_0' is selected.
+04:23:54 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:23:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:23:54 INFO  : Context for processor 'microblaze_0' is selected.
+04:23:54 INFO  : 'con' command is executed.
+04:23:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:23:54 INFO  : Disconnected from the channel tcfchan#6.
+04:31:55 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:32:04 INFO  : Result from executing command 'removePlatformRepo': 
+04:32:22 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:32:22 INFO  : Result from executing command 'getPlatforms': 
+04:32:22 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:32:26 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:32:26 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:32:26 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:32:26 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:32:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:32:36 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:32:36 INFO  : 'jtag frequency' command is executed.
+04:32:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:32:37 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:32:37 INFO  : Context for processor 'microblaze_0' is selected.
+04:32:37 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:32:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:32:37 INFO  : Context for processor 'microblaze_0' is selected.
+04:32:37 INFO  : System reset is completed.
+04:32:40 INFO  : 'after 3000' command is executed.
+04:32:40 INFO  : Context for processor 'microblaze_0' is selected.
+04:32:41 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:32:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:32:41 INFO  : Context for processor 'microblaze_0' is selected.
+04:32:41 INFO  : 'con' command is executed.
+04:32:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:32:41 INFO  : Disconnected from the channel tcfchan#9.
+04:41:07 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:41:15 INFO  : Result from executing command 'removePlatformRepo': 
+04:41:33 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:41:33 INFO  : Result from executing command 'getPlatforms': 
+04:41:33 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:41:37 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:41:37 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:41:37 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:41:37 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:43:03 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:43:03 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:43:03 INFO  : 'jtag frequency' command is executed.
+04:43:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:43:05 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:43:05 INFO  : Context for processor 'microblaze_0' is selected.
+04:43:05 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:43:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:43:05 INFO  : Context for processor 'microblaze_0' is selected.
+04:43:05 INFO  : System reset is completed.
+04:43:08 INFO  : 'after 3000' command is executed.
+04:43:08 INFO  : Context for processor 'microblaze_0' is selected.
+04:43:08 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:43:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:43:08 INFO  : Context for processor 'microblaze_0' is selected.
+04:43:08 INFO  : 'con' command is executed.
+04:43:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:43:08 INFO  : Disconnected from the channel tcfchan#12.
+04:51:52 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:52:03 INFO  : Result from executing command 'removePlatformRepo': 
+04:52:22 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:52:22 INFO  : Result from executing command 'getPlatforms': 
+04:52:22 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:52:26 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:52:26 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:52:26 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:52:26 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:52:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:52:42 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:52:42 INFO  : 'jtag frequency' command is executed.
+04:52:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:52:43 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:52:44 INFO  : Context for processor 'microblaze_0' is selected.
+04:52:44 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:52:44 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:52:44 INFO  : Context for processor 'microblaze_0' is selected.
+04:52:44 INFO  : System reset is completed.
+04:52:47 INFO  : 'after 3000' command is executed.
+04:52:47 INFO  : Context for processor 'microblaze_0' is selected.
+04:52:47 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:52:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:52:47 INFO  : Context for processor 'microblaze_0' is selected.
+04:52:47 INFO  : 'con' command is executed.
+04:52:47 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:52:47 INFO  : Disconnected from the channel tcfchan#15.
+05:32:06 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+05:32:15 INFO  : Result from executing command 'removePlatformRepo': 
+05:32:34 INFO  : Result from executing command 'getProjects': Pokemon_Top
+05:32:34 INFO  : Result from executing command 'getPlatforms': 
+05:32:35 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+05:32:39 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+05:32:39 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+05:32:39 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+05:32:39 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+05:34:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:34:58 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+05:34:58 INFO  : 'jtag frequency' command is executed.
+05:34:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+05:34:59 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+05:34:59 INFO  : Context for processor 'microblaze_0' is selected.
+05:34:59 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+05:34:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+05:34:59 INFO  : Context for processor 'microblaze_0' is selected.
+05:34:59 INFO  : System reset is completed.
+05:35:02 INFO  : 'after 3000' command is executed.
+05:35:02 INFO  : Context for processor 'microblaze_0' is selected.
+05:35:03 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+05:35:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+05:35:03 INFO  : Context for processor 'microblaze_0' is selected.
+05:35:03 INFO  : 'con' command is executed.
+05:35:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+05:35:03 INFO  : Disconnected from the channel tcfchan#18.
+05:52:17 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+05:52:27 INFO  : Result from executing command 'removePlatformRepo': 
+05:52:44 INFO  : Result from executing command 'getProjects': Pokemon_Top
+05:52:44 INFO  : Result from executing command 'getPlatforms': 
+05:52:45 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+05:52:49 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+05:52:49 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+05:52:49 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+05:52:49 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+05:53:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:53:07 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+05:53:07 INFO  : 'jtag frequency' command is executed.
+05:53:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+05:53:09 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+05:53:09 INFO  : Context for processor 'microblaze_0' is selected.
+05:53:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+05:53:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+05:53:09 INFO  : Context for processor 'microblaze_0' is selected.
+05:53:09 INFO  : System reset is completed.
+05:53:12 INFO  : 'after 3000' command is executed.
+05:53:12 INFO  : Context for processor 'microblaze_0' is selected.
+05:53:12 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+05:53:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+05:53:12 INFO  : Context for processor 'microblaze_0' is selected.
+05:53:12 INFO  : 'con' command is executed.
+05:53:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+05:53:12 INFO  : Disconnected from the channel tcfchan#21.
+04:13:33 DEBUG : Logs will be stored at 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/IDE.log'.
+04:13:34 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\klok1\Documents\ECE385_Pokemon\workspace\temp_xsdb_launch_script.tcl
+04:13:39 INFO  : Platform repository initialization has completed.
+04:13:39 INFO  : XSCT server has started successfully.
+04:13:39 INFO  : Registering command handlers for Vitis TCF services
+04:13:43 INFO  : plnx-install-location is set to ''
+04:13:43 INFO  : Successfully done setting XSCT server connection channel  
+04:13:43 INFO  : Successfully done query RDI_DATADIR 
+04:13:43 INFO  : Successfully done setting workspace for the tool. 
+04:13:49 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:14:03 INFO  : Result from executing command 'removePlatformRepo': 
+04:14:21 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:14:21 INFO  : Result from executing command 'getPlatforms': 
+04:14:21 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:14:25 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:14:25 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:14:25 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:14:25 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:14:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:14:32 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:14:32 INFO  : 'jtag frequency' command is executed.
+04:14:32 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:14:33 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:14:33 INFO  : Context for processor 'microblaze_0' is selected.
+04:14:33 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:14:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:14:33 INFO  : Context for processor 'microblaze_0' is selected.
+04:14:33 INFO  : System reset is completed.
+04:14:37 INFO  : 'after 3000' command is executed.
+04:14:37 INFO  : Context for processor 'microblaze_0' is selected.
+04:14:37 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:14:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:14:37 INFO  : Context for processor 'microblaze_0' is selected.
+04:14:37 INFO  : 'con' command is executed.
+04:14:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:14:37 INFO  : Disconnected from the channel tcfchan#3.
+04:34:53 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+04:35:03 INFO  : Result from executing command 'removePlatformRepo': 
+04:35:27 INFO  : Result from executing command 'getProjects': Pokemon_Top
+04:35:27 INFO  : Result from executing command 'getPlatforms': 
+04:35:27 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+04:35:34 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+04:35:34 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+04:35:34 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+04:35:34 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+04:35:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+04:35:56 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+04:35:56 INFO  : 'jtag frequency' command is executed.
+04:35:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+04:35:57 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+04:35:58 INFO  : Context for processor 'microblaze_0' is selected.
+04:35:58 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+04:35:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+04:35:58 INFO  : Context for processor 'microblaze_0' is selected.
+04:35:58 INFO  : System reset is completed.
+04:36:01 INFO  : 'after 3000' command is executed.
+04:36:01 INFO  : Context for processor 'microblaze_0' is selected.
+04:36:01 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+04:36:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+04:36:01 INFO  : Context for processor 'microblaze_0' is selected.
+04:36:01 INFO  : 'con' command is executed.
+04:36:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+04:36:01 INFO  : Disconnected from the channel tcfchan#6.
+06:24:58 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+06:25:12 INFO  : Result from executing command 'removePlatformRepo': 
+06:25:32 INFO  : Result from executing command 'getProjects': Pokemon_Top
+06:25:32 INFO  : Result from executing command 'getPlatforms': 
+06:25:33 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+06:25:38 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+06:25:38 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+06:25:38 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+06:25:38 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+06:25:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:25:50 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+06:25:50 INFO  : 'jtag frequency' command is executed.
+06:25:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+06:25:52 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+06:25:52 INFO  : Context for processor 'microblaze_0' is selected.
+06:25:52 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+06:25:52 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+06:25:52 INFO  : Context for processor 'microblaze_0' is selected.
+06:25:52 INFO  : System reset is completed.
+06:25:55 INFO  : 'after 3000' command is executed.
+06:25:55 INFO  : Context for processor 'microblaze_0' is selected.
+06:25:55 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+06:25:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+06:25:55 INFO  : Context for processor 'microblaze_0' is selected.
+06:25:55 INFO  : 'con' command is executed.
+06:25:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+06:25:55 INFO  : Disconnected from the channel tcfchan#9.
+06:40:25 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+06:40:35 INFO  : Result from executing command 'removePlatformRepo': 
+06:40:50 INFO  : Result from executing command 'getProjects': Pokemon_Top
+06:40:50 INFO  : Result from executing command 'getPlatforms': 
+06:40:51 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+06:40:54 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+06:40:54 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+06:40:54 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+06:40:54 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+06:41:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+06:41:01 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+06:41:01 INFO  : 'jtag frequency' command is executed.
+06:41:01 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+06:41:02 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+06:41:02 INFO  : Context for processor 'microblaze_0' is selected.
+06:41:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+06:41:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+06:41:02 INFO  : Context for processor 'microblaze_0' is selected.
+06:41:02 INFO  : System reset is completed.
+06:41:05 INFO  : 'after 3000' command is executed.
+06:41:05 INFO  : Context for processor 'microblaze_0' is selected.
+06:41:05 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+06:41:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+06:41:05 INFO  : Context for processor 'microblaze_0' is selected.
+06:41:05 INFO  : 'con' command is executed.
+06:41:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+06:41:05 INFO  : Disconnected from the channel tcfchan#12.
+10:24:51 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+10:25:05 INFO  : Result from executing command 'removePlatformRepo': 
+10:25:29 INFO  : Result from executing command 'getProjects': Pokemon_Top
+10:25:29 INFO  : Result from executing command 'getPlatforms': 
+10:25:29 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+10:25:33 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:25:33 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+10:25:33 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+10:25:33 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+10:25:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:25:40 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+10:25:40 INFO  : 'jtag frequency' command is executed.
+10:25:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:25:41 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+10:25:42 INFO  : Context for processor 'microblaze_0' is selected.
+10:25:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+10:25:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:25:42 INFO  : Context for processor 'microblaze_0' is selected.
+10:25:42 INFO  : System reset is completed.
+10:25:45 INFO  : 'after 3000' command is executed.
+10:25:45 INFO  : Context for processor 'microblaze_0' is selected.
+10:25:45 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+10:25:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+10:25:45 INFO  : Context for processor 'microblaze_0' is selected.
+10:25:45 INFO  : 'con' command is executed.
+10:25:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:25:45 INFO  : Disconnected from the channel tcfchan#15.
+10:32:22 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+10:32:36 INFO  : Result from executing command 'removePlatformRepo': 
+10:32:57 INFO  : Result from executing command 'getProjects': Pokemon_Top
+10:32:57 INFO  : Result from executing command 'getPlatforms': 
+10:32:58 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+10:33:01 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:33:01 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+10:33:01 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+10:33:01 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+10:33:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:33:07 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+10:33:07 INFO  : 'jtag frequency' command is executed.
+10:33:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:33:09 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+10:33:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:33:09 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+10:33:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:33:09 INFO  : Context for processor 'microblaze_0' is selected.
+10:33:09 INFO  : System reset is completed.
+10:33:12 INFO  : 'after 3000' command is executed.
+10:33:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:33:12 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+10:33:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+10:33:12 INFO  : Context for processor 'microblaze_0' is selected.
+10:33:12 INFO  : 'con' command is executed.
+10:33:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:33:12 INFO  : Disconnected from the channel tcfchan#18.
+10:38:55 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+10:39:05 INFO  : Result from executing command 'removePlatformRepo': 
+10:39:21 INFO  : Result from executing command 'getProjects': Pokemon_Top
+10:39:21 INFO  : Result from executing command 'getPlatforms': 
+10:39:21 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+10:39:24 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:39:24 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+10:39:24 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+10:39:24 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+10:39:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:39:33 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+10:39:33 INFO  : 'jtag frequency' command is executed.
+10:39:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:39:35 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+10:39:35 INFO  : Context for processor 'microblaze_0' is selected.
+10:39:35 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+10:39:35 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:39:35 INFO  : Context for processor 'microblaze_0' is selected.
+10:39:35 INFO  : System reset is completed.
+10:39:38 INFO  : 'after 3000' command is executed.
+10:39:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:39:38 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+10:39:38 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+10:39:38 INFO  : Context for processor 'microblaze_0' is selected.
+10:39:38 INFO  : 'con' command is executed.
+10:39:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:39:38 INFO  : Disconnected from the channel tcfchan#21.
+10:49:42 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+10:49:52 INFO  : Result from executing command 'removePlatformRepo': 
+10:50:11 INFO  : Result from executing command 'getProjects': Pokemon_Top
+10:50:11 INFO  : Result from executing command 'getPlatforms': 
+10:50:11 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+10:50:14 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:50:14 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+10:50:14 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+10:50:14 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+10:50:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:50:20 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+10:50:20 INFO  : 'jtag frequency' command is executed.
+10:50:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:50:22 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+10:50:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+10:50:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:50:22 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:22 INFO  : System reset is completed.
+10:50:25 INFO  : 'after 3000' command is executed.
+10:50:25 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:25 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+10:50:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+10:50:25 INFO  : Context for processor 'microblaze_0' is selected.
+10:50:25 INFO  : 'con' command is executed.
+10:50:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:50:25 INFO  : Disconnected from the channel tcfchan#24.
+12:06:55 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+12:07:06 INFO  : Result from executing command 'removePlatformRepo': 
+12:07:25 INFO  : Result from executing command 'getProjects': Pokemon_Top
+12:07:25 INFO  : Result from executing command 'getPlatforms': 
+12:07:25 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+12:07:29 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+12:07:29 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+12:07:29 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+12:07:29 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+12:07:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:07:36 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+12:07:36 INFO  : 'jtag frequency' command is executed.
+12:07:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:07:38 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+12:07:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:07:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+12:07:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:07:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:07:38 INFO  : System reset is completed.
+12:07:41 INFO  : 'after 3000' command is executed.
+12:07:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:07:41 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+12:07:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+12:07:41 INFO  : Context for processor 'microblaze_0' is selected.
+12:07:41 INFO  : 'con' command is executed.
+12:07:41 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:07:41 INFO  : Disconnected from the channel tcfchan#27.
+12:17:09 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+12:17:25 INFO  : Result from executing command 'removePlatformRepo': 
+12:17:40 INFO  : Result from executing command 'getProjects': Pokemon_Top
+12:17:40 INFO  : Result from executing command 'getPlatforms': 
+12:17:40 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+12:17:43 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+12:17:43 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+12:17:43 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+12:17:43 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+12:17:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:17:49 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+12:17:49 INFO  : 'jtag frequency' command is executed.
+12:17:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+12:17:51 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+12:17:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:51 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+12:17:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:17:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:51 INFO  : System reset is completed.
+12:17:54 INFO  : 'after 3000' command is executed.
+12:17:54 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:54 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+12:17:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+12:17:54 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:54 INFO  : 'con' command is executed.
+12:17:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:17:54 INFO  : Disconnected from the channel tcfchan#30.
+13:07:37 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+13:07:52 INFO  : Result from executing command 'removePlatformRepo': 
+13:08:09 INFO  : Result from executing command 'getProjects': Pokemon_Top
+13:08:10 INFO  : Result from executing command 'getPlatforms': 
+13:08:10 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+13:08:13 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:08:13 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+13:08:13 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+13:08:13 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+13:08:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:08:20 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+13:08:20 INFO  : 'jtag frequency' command is executed.
+13:08:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:08:21 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+13:08:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:08:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+13:08:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:08:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:08:21 INFO  : System reset is completed.
+13:08:24 INFO  : 'after 3000' command is executed.
+13:08:24 INFO  : Context for processor 'microblaze_0' is selected.
+13:08:25 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+13:08:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+13:08:25 INFO  : Context for processor 'microblaze_0' is selected.
+13:08:25 INFO  : 'con' command is executed.
+13:08:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:08:25 INFO  : Disconnected from the channel tcfchan#33.
+13:18:52 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+13:19:01 INFO  : Result from executing command 'removePlatformRepo': 
+13:19:19 INFO  : Result from executing command 'getProjects': Pokemon_Top
+13:19:19 INFO  : Result from executing command 'getPlatforms': 
+13:19:19 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+13:19:22 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:19:22 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+13:19:22 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+13:19:22 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+13:19:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:19:28 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+13:19:28 INFO  : 'jtag frequency' command is executed.
+13:19:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:19:29 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+13:19:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+13:19:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:19:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:30 INFO  : System reset is completed.
+13:19:33 INFO  : 'after 3000' command is executed.
+13:19:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:33 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+13:19:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+13:19:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:19:33 INFO  : 'con' command is executed.
+13:19:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:19:33 INFO  : Disconnected from the channel tcfchan#36.
+13:38:52 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+13:39:02 INFO  : Result from executing command 'removePlatformRepo': 
+13:39:17 INFO  : Result from executing command 'getProjects': Pokemon_Top
+13:39:17 INFO  : Result from executing command 'getPlatforms': 
+13:39:18 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+13:39:22 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:39:22 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+13:39:22 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+13:39:22 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+13:39:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:39:31 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+13:39:31 INFO  : 'jtag frequency' command is executed.
+13:39:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:39:33 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+13:39:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:39:33 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+13:39:33 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:39:33 INFO  : Context for processor 'microblaze_0' is selected.
+13:39:33 INFO  : System reset is completed.
+13:39:36 INFO  : 'after 3000' command is executed.
+13:39:36 INFO  : Context for processor 'microblaze_0' is selected.
+13:39:36 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+13:39:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+13:39:36 INFO  : Context for processor 'microblaze_0' is selected.
+13:39:36 INFO  : 'con' command is executed.
+13:39:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:39:36 INFO  : Disconnected from the channel tcfchan#39.
+13:49:41 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+13:49:49 INFO  : Result from executing command 'removePlatformRepo': 
+13:50:05 INFO  : Result from executing command 'getProjects': Pokemon_Top
+13:50:05 INFO  : Result from executing command 'getPlatforms': 
+13:50:05 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+13:50:08 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+13:50:08 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+13:50:08 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+13:50:09 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+13:50:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:50:25 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+13:50:25 INFO  : 'jtag frequency' command is executed.
+13:50:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+13:50:27 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+13:50:27 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:27 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+13:50:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:50:27 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:27 INFO  : System reset is completed.
+13:50:30 INFO  : 'after 3000' command is executed.
+13:50:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:30 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+13:50:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+13:50:30 INFO  : Context for processor 'microblaze_0' is selected.
+13:50:30 INFO  : 'con' command is executed.
+13:50:30 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+13:50:30 INFO  : Disconnected from the channel tcfchan#42.
+14:02:55 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+14:03:21 INFO  : Result from executing command 'removePlatformRepo': 
+14:03:46 INFO  : Result from executing command 'getProjects': Pokemon_Top
+14:03:46 INFO  : Result from executing command 'getPlatforms': 
+14:03:46 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+14:03:49 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+14:03:49 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+14:03:49 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+14:03:49 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+14:03:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:03:55 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+14:03:55 INFO  : 'jtag frequency' command is executed.
+14:03:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+14:03:57 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+14:03:57 INFO  : Context for processor 'microblaze_0' is selected.
+14:03:57 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+14:03:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:03:57 INFO  : Context for processor 'microblaze_0' is selected.
+14:03:57 INFO  : System reset is completed.
+14:04:00 INFO  : 'after 3000' command is executed.
+14:04:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:04:00 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+14:04:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+14:04:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:04:00 INFO  : 'con' command is executed.
+14:04:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:04:00 INFO  : Disconnected from the channel tcfchan#45.
+17:07:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:07:24 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+17:07:24 INFO  : 'jtag frequency' command is executed.
+17:07:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+17:07:25 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+17:07:25 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:25 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+17:07:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:07:25 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:25 INFO  : System reset is completed.
+17:07:28 INFO  : 'after 3000' command is executed.
+17:07:28 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:28 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+17:07:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+17:07:29 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:29 INFO  : 'con' command is executed.
+17:07:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:07:29 INFO  : Disconnected from the channel tcfchan#46.
+20:40:58 INFO  : Result from executing command 'removePlatformRepo': 
+20:41:10 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+20:41:28 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+20:41:56 INFO  : Result from executing command 'getProjects': Pokemon_Top
+20:41:56 INFO  : Result from executing command 'getPlatforms': 
+20:41:57 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:45:33 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:45:43 INFO  : Result from executing command 'removePlatformRepo': 
+20:45:58 INFO  : Result from executing command 'getProjects': Pokemon_Top
+20:45:58 INFO  : Result from executing command 'getPlatforms': 
+20:45:59 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:46:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:46:21 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+20:46:21 INFO  : 'jtag frequency' command is executed.
+20:46:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+20:46:22 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+20:46:22 INFO  : Context for processor 'microblaze_0' is selected.
+20:46:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+20:46:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:46:22 INFO  : Context for processor 'microblaze_0' is selected.
+20:46:22 INFO  : System reset is completed.
+20:46:25 INFO  : 'after 3000' command is executed.
+20:46:25 INFO  : Context for processor 'microblaze_0' is selected.
+20:46:25 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+20:46:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+20:46:25 INFO  : Context for processor 'microblaze_0' is selected.
+20:46:25 INFO  : 'con' command is executed.
+20:46:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:46:25 INFO  : Disconnected from the channel tcfchan#53.
+20:50:00 INFO  : Result from executing command 'removePlatformRepo': 
+20:50:13 INFO  : Result from executing command 'getProjects': Pokemon_Top
+20:50:13 INFO  : Result from executing command 'getPlatforms': 
+20:50:13 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:50:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:50:23 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+20:50:23 INFO  : 'jtag frequency' command is executed.
+20:50:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+20:50:24 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+20:50:24 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:24 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+20:50:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:50:24 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:24 INFO  : System reset is completed.
+20:50:27 INFO  : 'after 3000' command is executed.
+20:50:27 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:27 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+20:50:27 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+20:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+20:50:28 INFO  : 'con' command is executed.
+20:50:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:50:28 INFO  : Disconnected from the channel tcfchan#56.
+20:52:08 INFO  : Result from executing command 'removePlatformRepo': 
+20:52:21 INFO  : Result from executing command 'getProjects': Pokemon_Top
+20:52:21 INFO  : Result from executing command 'getPlatforms': 
+20:52:22 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:52:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:52:31 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+20:52:31 INFO  : 'jtag frequency' command is executed.
+20:52:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+20:52:32 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+20:52:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:32 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+20:52:32 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:52:32 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:32 INFO  : System reset is completed.
+20:52:35 INFO  : 'after 3000' command is executed.
+20:52:35 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:36 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+20:52:36 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+20:52:36 INFO  : Context for processor 'microblaze_0' is selected.
+20:52:36 INFO  : 'con' command is executed.
+20:52:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:52:36 INFO  : Disconnected from the channel tcfchan#59.
+20:53:54 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:54:26 INFO  : Result from executing command 'removePlatformRepo': 
+20:54:40 INFO  : Result from executing command 'getProjects': Pokemon_Top
+20:54:40 INFO  : Result from executing command 'getPlatforms': 
+20:54:40 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:54:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:54:48 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+20:54:48 INFO  : 'jtag frequency' command is executed.
+20:54:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+20:54:50 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+20:54:50 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+20:54:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:54:50 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:50 INFO  : System reset is completed.
+20:54:53 INFO  : 'after 3000' command is executed.
+20:54:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:53 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+20:54:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+20:54:53 INFO  : Context for processor 'microblaze_0' is selected.
+20:54:53 INFO  : 'con' command is executed.
+20:54:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:54:53 INFO  : Disconnected from the channel tcfchan#62.
+20:55:44 INFO  : Result from executing command 'removePlatformRepo': 
+20:55:57 INFO  : Result from executing command 'getProjects': Pokemon_Top
+20:55:57 INFO  : Result from executing command 'getPlatforms': 
+20:55:57 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+20:56:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+20:56:12 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+20:56:12 INFO  : 'jtag frequency' command is executed.
+20:56:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+20:56:13 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+20:56:13 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:13 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+20:56:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+20:56:13 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:13 INFO  : System reset is completed.
+20:56:16 INFO  : 'after 3000' command is executed.
+20:56:16 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:16 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+20:56:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+20:56:16 INFO  : Context for processor 'microblaze_0' is selected.
+20:56:16 INFO  : 'con' command is executed.
+20:56:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+20:56:16 INFO  : Disconnected from the channel tcfchan#65.
+23:34:11 INFO  : Result from executing command 'removePlatformRepo': 
+23:34:44 INFO  : Result from executing command 'getProjects': Pokemon_Top
+23:34:44 INFO  : Result from executing command 'getPlatforms': 
+23:34:44 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+23:34:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:35:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+23:35:14 ERROR : Could not find FPGA device on the board for connection 'Local'.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+23:35:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:35:39 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+23:35:39 INFO  : 'jtag frequency' command is executed.
+23:35:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:35:40 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+23:35:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+23:35:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:35:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:40 INFO  : System reset is completed.
+23:35:43 INFO  : 'after 3000' command is executed.
+23:35:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:43 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+23:35:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+23:35:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:35:43 INFO  : 'con' command is executed.
+23:35:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:35:43 INFO  : Disconnected from the channel tcfchan#68.
+23:36:22 INFO  : Result from executing command 'removePlatformRepo': 
+23:36:47 INFO  : Result from executing command 'getProjects': Pokemon_Top
+23:36:47 INFO  : Result from executing command 'getPlatforms': 
+23:36:48 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+23:37:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:37:38 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+23:37:38 INFO  : 'jtag frequency' command is executed.
+23:37:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:37:40 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+23:37:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:37:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+23:37:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:37:40 INFO  : Context for processor 'microblaze_0' is selected.
+23:37:40 INFO  : System reset is completed.
+23:37:43 INFO  : 'after 3000' command is executed.
+23:37:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:37:43 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+23:37:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+23:37:43 INFO  : Context for processor 'microblaze_0' is selected.
+23:37:43 INFO  : 'con' command is executed.
+23:37:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:37:43 INFO  : Disconnected from the channel tcfchan#71.
+23:46:54 INFO  : Result from executing command 'removePlatformRepo': 
+23:50:37 INFO  : Result from executing command 'getProjects': Pokemon_Top
+23:50:37 INFO  : Result from executing command 'getPlatforms': 
+23:50:38 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+23:50:54 INFO  : Result from executing command 'removePlatformRepo': 
+23:51:55 INFO  : Result from executing command 'getProjects': Pokemon_Top
+23:51:55 INFO  : Result from executing command 'getPlatforms': 
+23:51:55 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+23:52:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+23:52:19 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+23:52:19 INFO  : 'jtag frequency' command is executed.
+23:52:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+23:52:20 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+23:52:20 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:20 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+23:52:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+23:52:20 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:20 INFO  : System reset is completed.
+23:52:23 INFO  : 'after 3000' command is executed.
+23:52:23 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:23 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+23:52:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+23:52:23 INFO  : Context for processor 'microblaze_0' is selected.
+23:52:23 INFO  : 'con' command is executed.
+23:52:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+23:52:23 INFO  : Disconnected from the channel tcfchan#76.
+23:59:44 INFO  : Result from executing command 'removePlatformRepo': 
+00:00:31 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:00:31 INFO  : Result from executing command 'getPlatforms': 
+00:00:32 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:00:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:00:40 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:00:40 INFO  : 'jtag frequency' command is executed.
+00:00:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:00:42 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:00:42 INFO  : Context for processor 'microblaze_0' is selected.
+00:00:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:00:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:00:42 INFO  : Context for processor 'microblaze_0' is selected.
+00:00:42 INFO  : System reset is completed.
+00:00:45 INFO  : 'after 3000' command is executed.
+00:00:45 INFO  : Context for processor 'microblaze_0' is selected.
+00:00:45 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:00:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:00:45 INFO  : Context for processor 'microblaze_0' is selected.
+00:00:45 INFO  : 'con' command is executed.
+00:00:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:00:45 INFO  : Disconnected from the channel tcfchan#79.
+00:03:39 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:04:02 INFO  : Result from executing command 'removePlatformRepo': 
+00:04:27 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:04:27 INFO  : Result from executing command 'getPlatforms': 
+00:04:28 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:04:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:04:38 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:04:38 INFO  : 'jtag frequency' command is executed.
+00:04:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:04:40 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:04:40 INFO  : Context for processor 'microblaze_0' is selected.
+00:04:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:04:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:04:40 INFO  : Context for processor 'microblaze_0' is selected.
+00:04:40 INFO  : System reset is completed.
+00:04:43 INFO  : 'after 3000' command is executed.
+00:04:43 INFO  : Context for processor 'microblaze_0' is selected.
+00:04:43 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:04:43 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:04:43 INFO  : Context for processor 'microblaze_0' is selected.
+00:04:43 INFO  : 'con' command is executed.
+00:04:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:04:43 INFO  : Disconnected from the channel tcfchan#82.
+00:05:31 INFO  : Result from executing command 'removePlatformRepo': 
+00:06:10 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:06:10 INFO  : Result from executing command 'getPlatforms': 
+00:06:10 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:06:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:06:21 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:06:21 INFO  : 'jtag frequency' command is executed.
+00:06:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:06:22 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:06:22 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:22 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:06:22 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:06:22 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:22 INFO  : System reset is completed.
+00:06:25 INFO  : 'after 3000' command is executed.
+00:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:25 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:06:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:06:25 INFO  : Context for processor 'microblaze_0' is selected.
+00:06:25 INFO  : 'con' command is executed.
+00:06:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:06:25 INFO  : Disconnected from the channel tcfchan#85.
+00:09:33 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:09:44 INFO  : Result from executing command 'removePlatformRepo': 
+00:10:01 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:10:01 INFO  : Result from executing command 'getPlatforms': 
+00:10:02 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:10:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:10:46 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:10:46 INFO  : 'jtag frequency' command is executed.
+00:10:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:10:48 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:10:48 INFO  : Context for processor 'microblaze_0' is selected.
+00:10:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:10:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:10:48 INFO  : Context for processor 'microblaze_0' is selected.
+00:10:48 INFO  : System reset is completed.
+00:10:51 INFO  : 'after 3000' command is executed.
+00:10:51 INFO  : Context for processor 'microblaze_0' is selected.
+00:10:51 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:10:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:10:51 INFO  : Context for processor 'microblaze_0' is selected.
+00:10:51 INFO  : 'con' command is executed.
+00:10:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:10:51 INFO  : Disconnected from the channel tcfchan#88.
+00:12:27 INFO  : Result from executing command 'removePlatformRepo': 
+00:12:45 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:12:45 INFO  : Result from executing command 'getPlatforms': 
+00:12:45 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:12:55 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:12:55 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:12:55 INFO  : 'jtag frequency' command is executed.
+00:12:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:12:56 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:12:56 INFO  : Context for processor 'microblaze_0' is selected.
+00:12:56 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:12:56 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:12:56 INFO  : Context for processor 'microblaze_0' is selected.
+00:12:56 INFO  : System reset is completed.
+00:12:59 INFO  : 'after 3000' command is executed.
+00:12:59 INFO  : Context for processor 'microblaze_0' is selected.
+00:13:00 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:13:00 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:13:00 INFO  : Context for processor 'microblaze_0' is selected.
+00:13:00 INFO  : 'con' command is executed.
+00:13:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:13:00 INFO  : Disconnected from the channel tcfchan#91.
+00:15:21 INFO  : Result from executing command 'removePlatformRepo': 
+00:15:58 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:15:58 INFO  : Result from executing command 'getPlatforms': 
+00:15:59 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:16:20 INFO  : Result from executing command 'removePlatformRepo': 
+00:16:42 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:16:42 INFO  : Result from executing command 'getPlatforms': 
+00:16:42 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:16:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:16:53 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:16:53 INFO  : 'jtag frequency' command is executed.
+00:16:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:16:55 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:16:55 INFO  : Context for processor 'microblaze_0' is selected.
+00:16:55 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:16:55 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:16:55 INFO  : Context for processor 'microblaze_0' is selected.
+00:16:55 INFO  : System reset is completed.
+00:16:58 INFO  : 'after 3000' command is executed.
+00:16:58 INFO  : Context for processor 'microblaze_0' is selected.
+00:16:58 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:16:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:16:58 INFO  : Context for processor 'microblaze_0' is selected.
+00:16:58 INFO  : 'con' command is executed.
+00:16:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:16:58 INFO  : Disconnected from the channel tcfchan#96.
+00:18:49 INFO  : Result from executing command 'removePlatformRepo': 
+00:19:06 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:19:06 INFO  : Result from executing command 'getPlatforms': 
+00:19:06 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:19:17 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:19:17 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:19:17 INFO  : 'jtag frequency' command is executed.
+00:19:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:19:19 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:19:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:19 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:19:19 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:19:19 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:19 INFO  : System reset is completed.
+00:19:22 INFO  : 'after 3000' command is executed.
+00:19:22 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:22 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:19:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:19:22 INFO  : Context for processor 'microblaze_0' is selected.
+00:19:22 INFO  : 'con' command is executed.
+00:19:22 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:19:22 INFO  : Disconnected from the channel tcfchan#99.
+00:26:20 INFO  : Result from executing command 'removePlatformRepo': 
+00:26:37 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:26:37 INFO  : Result from executing command 'getPlatforms': 
+00:26:38 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:26:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:26:48 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:26:48 INFO  : 'jtag frequency' command is executed.
+00:26:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:26:49 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:26:50 INFO  : Context for processor 'microblaze_0' is selected.
+00:26:50 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:26:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:26:50 INFO  : Context for processor 'microblaze_0' is selected.
+00:26:50 INFO  : System reset is completed.
+00:26:53 INFO  : 'after 3000' command is executed.
+00:26:53 INFO  : Context for processor 'microblaze_0' is selected.
+00:26:53 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:26:53 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:26:53 INFO  : Context for processor 'microblaze_0' is selected.
+00:26:53 INFO  : 'con' command is executed.
+00:26:53 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:26:53 INFO  : Disconnected from the channel tcfchan#102.
+00:28:08 INFO  : Result from executing command 'removePlatformRepo': 
+00:28:25 INFO  : Result from executing command 'getProjects': Pokemon_Top
+00:28:25 INFO  : Result from executing command 'getPlatforms': 
+00:28:26 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+00:28:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+00:28:37 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+00:28:37 INFO  : 'jtag frequency' command is executed.
+00:28:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+00:28:38 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+00:28:38 INFO  : Context for processor 'microblaze_0' is selected.
+00:28:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+00:28:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+00:28:38 INFO  : Context for processor 'microblaze_0' is selected.
+00:28:38 INFO  : System reset is completed.
+00:28:41 INFO  : 'after 3000' command is executed.
+00:28:41 INFO  : Context for processor 'microblaze_0' is selected.
+00:28:42 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+00:28:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+00:28:42 INFO  : Context for processor 'microblaze_0' is selected.
+00:28:42 INFO  : 'con' command is executed.
+00:28:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+00:28:42 INFO  : Disconnected from the channel tcfchan#105.
+01:14:27 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+01:14:56 INFO  : Result from executing command 'removePlatformRepo': 
+01:15:50 INFO  : Result from executing command 'getProjects': Pokemon_Top
+01:15:50 INFO  : Result from executing command 'getPlatforms': 
+01:15:50 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+01:15:54 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+01:15:54 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+01:15:54 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+01:15:54 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+01:16:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:16:00 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+01:16:00 INFO  : 'jtag frequency' command is executed.
+01:16:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+01:16:02 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+01:16:02 INFO  : Context for processor 'microblaze_0' is selected.
+01:16:02 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+01:16:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:16:02 INFO  : Context for processor 'microblaze_0' is selected.
+01:16:02 INFO  : System reset is completed.
+01:16:05 INFO  : 'after 3000' command is executed.
+01:16:05 INFO  : Context for processor 'microblaze_0' is selected.
+01:16:05 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+01:16:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+01:16:05 INFO  : Context for processor 'microblaze_0' is selected.
+01:16:05 INFO  : 'con' command is executed.
+01:16:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:16:05 INFO  : Disconnected from the channel tcfchan#108.
+01:40:35 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+01:40:45 INFO  : Result from executing command 'removePlatformRepo': 
+01:41:14 INFO  : Result from executing command 'getProjects': Pokemon_Top
+01:41:14 INFO  : Result from executing command 'getPlatforms': 
+01:41:14 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+01:41:18 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+01:41:18 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+01:41:18 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+01:41:18 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+01:41:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+01:41:41 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+01:41:41 INFO  : 'jtag frequency' command is executed.
+01:41:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+01:41:42 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+01:41:42 INFO  : Context for processor 'microblaze_0' is selected.
+01:41:42 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+01:41:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+01:41:42 INFO  : Context for processor 'microblaze_0' is selected.
+01:41:42 INFO  : System reset is completed.
+01:41:45 INFO  : 'after 3000' command is executed.
+01:41:45 INFO  : Context for processor 'microblaze_0' is selected.
+01:41:45 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+01:41:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+01:41:45 INFO  : Context for processor 'microblaze_0' is selected.
+01:41:45 INFO  : 'con' command is executed.
+01:41:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+01:41:45 INFO  : Disconnected from the channel tcfchan#111.
+02:31:00 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+02:31:11 INFO  : Result from executing command 'removePlatformRepo': 
+02:31:34 INFO  : Result from executing command 'getProjects': Pokemon_Top
+02:31:34 INFO  : Result from executing command 'getPlatforms': 
+02:31:34 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+02:31:38 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+02:31:38 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+02:31:38 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+02:31:38 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+02:31:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+02:31:47 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+02:31:47 INFO  : 'jtag frequency' command is executed.
+02:31:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+02:31:48 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+02:31:48 INFO  : Context for processor 'microblaze_0' is selected.
+02:31:48 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+02:31:48 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+02:31:48 INFO  : Context for processor 'microblaze_0' is selected.
+02:31:48 INFO  : System reset is completed.
+02:31:51 INFO  : 'after 3000' command is executed.
+02:31:51 INFO  : Context for processor 'microblaze_0' is selected.
+02:31:51 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+02:31:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+02:31:52 INFO  : Context for processor 'microblaze_0' is selected.
+02:31:52 INFO  : 'con' command is executed.
+02:31:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+02:31:52 INFO  : Disconnected from the channel tcfchan#114.
+03:58:42 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+03:58:54 INFO  : Result from executing command 'removePlatformRepo': 
+03:59:20 INFO  : Result from executing command 'getProjects': Pokemon_Top
+03:59:20 INFO  : Result from executing command 'getPlatforms': 
+03:59:20 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+03:59:25 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+03:59:25 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+03:59:25 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+03:59:25 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+03:59:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+03:59:37 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+03:59:37 INFO  : 'jtag frequency' command is executed.
+03:59:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+03:59:38 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+03:59:38 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+03:59:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+03:59:38 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:38 INFO  : System reset is completed.
+03:59:41 INFO  : 'after 3000' command is executed.
+03:59:41 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:42 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+03:59:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+03:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+03:59:42 INFO  : 'con' command is executed.
+03:59:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+03:59:42 INFO  : Disconnected from the channel tcfchan#117.
+05:31:10 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+05:31:28 INFO  : Result from executing command 'removePlatformRepo': 
+05:32:02 INFO  : Result from executing command 'getProjects': Pokemon_Top
+05:32:02 INFO  : Result from executing command 'getPlatforms': 
+05:32:03 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+05:32:09 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+05:32:09 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+05:32:09 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+05:32:09 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+05:32:19 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:32:19 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+05:32:19 INFO  : 'jtag frequency' command is executed.
+05:32:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+05:32:21 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+05:32:21 INFO  : Context for processor 'microblaze_0' is selected.
+05:32:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+05:32:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+05:32:21 INFO  : Context for processor 'microblaze_0' is selected.
+05:32:21 INFO  : System reset is completed.
+05:32:24 INFO  : 'after 3000' command is executed.
+05:32:24 INFO  : Context for processor 'microblaze_0' is selected.
+05:32:24 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+05:32:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+05:32:24 INFO  : Context for processor 'microblaze_0' is selected.
+05:32:24 INFO  : 'con' command is executed.
+05:32:24 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+05:32:25 INFO  : Disconnected from the channel tcfchan#120.
+05:54:29 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+05:54:48 INFO  : Result from executing command 'removePlatformRepo': 
+05:55:26 INFO  : Result from executing command 'getProjects': Pokemon_Top
+05:55:26 INFO  : Result from executing command 'getPlatforms': 
+05:55:26 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+05:55:31 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+05:55:31 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+05:55:31 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+05:55:31 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+05:55:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+05:55:39 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+05:55:39 INFO  : 'jtag frequency' command is executed.
+05:55:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+05:55:40 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+05:55:40 INFO  : Context for processor 'microblaze_0' is selected.
+05:55:40 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+05:55:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+05:55:40 INFO  : Context for processor 'microblaze_0' is selected.
+05:55:40 INFO  : System reset is completed.
+05:55:44 INFO  : 'after 3000' command is executed.
+05:55:44 INFO  : Context for processor 'microblaze_0' is selected.
+05:55:44 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+05:55:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+05:55:44 INFO  : Context for processor 'microblaze_0' is selected.
+05:55:44 INFO  : 'con' command is executed.
+05:55:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+05:55:44 INFO  : Disconnected from the channel tcfchan#123.
+10:43:02 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+10:43:16 INFO  : Result from executing command 'removePlatformRepo': 
+10:45:03 INFO  : Result from executing command 'getProjects': Pokemon_Top
+10:45:03 INFO  : Result from executing command 'getPlatforms': 
+10:45:04 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+10:45:10 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:45:10 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+10:45:10 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+10:45:10 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+10:46:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+10:46:19 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+10:46:19 INFO  : 'jtag frequency' command is executed.
+10:46:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+10:46:21 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+10:46:21 INFO  : Context for processor 'microblaze_0' is selected.
+10:46:21 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+10:46:21 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+10:46:21 INFO  : Context for processor 'microblaze_0' is selected.
+10:46:21 INFO  : System reset is completed.
+10:46:24 INFO  : 'after 3000' command is executed.
+10:46:24 INFO  : Context for processor 'microblaze_0' is selected.
+10:46:24 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+10:46:24 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+10:46:25 INFO  : Context for processor 'microblaze_0' is selected.
+10:46:25 INFO  : 'con' command is executed.
+10:46:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+10:46:25 INFO  : Disconnected from the channel tcfchan#126.
+11:08:13 INFO  : Result from executing command 'removePlatformRepo': 
+11:08:28 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+11:08:45 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+11:09:23 INFO  : Result from executing command 'getProjects': Pokemon_Top
+11:09:23 INFO  : Result from executing command 'getPlatforms': 
+11:09:23 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+11:09:30 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:09:30 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+11:09:30 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+11:09:30 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+11:09:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:37 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+11:09:37 INFO  : 'jtag frequency' command is executed.
+11:09:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:09:38 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+11:09:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:38 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+11:09:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:09:38 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:38 INFO  : System reset is completed.
+11:09:41 INFO  : 'after 3000' command is executed.
+11:09:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:42 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+11:09:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+11:09:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:09:42 INFO  : 'con' command is executed.
+11:09:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:09:42 INFO  : Disconnected from the channel tcfchan#130.
+11:25:38 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+11:26:04 INFO  : Result from executing command 'removePlatformRepo': 
+11:27:27 INFO  : Result from executing command 'getProjects': Pokemon_Top
+11:27:27 INFO  : Result from executing command 'getPlatforms': 
+11:27:27 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+11:27:36 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:27:36 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+11:27:36 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+11:27:36 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+11:27:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:27:52 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+11:27:52 INFO  : 'jtag frequency' command is executed.
+11:27:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:27:54 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+11:27:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:27:54 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+11:27:54 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:27:54 INFO  : Context for processor 'microblaze_0' is selected.
+11:27:54 INFO  : System reset is completed.
+11:27:57 INFO  : 'after 3000' command is executed.
+11:27:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:27:58 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+11:27:58 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+11:27:58 INFO  : Context for processor 'microblaze_0' is selected.
+11:27:58 INFO  : 'con' command is executed.
+11:27:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:27:58 INFO  : Disconnected from the channel tcfchan#133.
+11:44:51 INFO  : Hardware specification for platform project 'Pokemon_Top' is updated.
+11:45:03 INFO  : Result from executing command 'removePlatformRepo': 
+11:45:42 INFO  : Result from executing command 'getProjects': Pokemon_Top
+11:45:42 INFO  : Result from executing command 'getPlatforms': 
+11:45:42 INFO  : Checking for BSP changes to sync application flags for project 'ECE385_Pokemon'...
+11:45:48 INFO  : The hardware specification used by project 'ECE385_Pokemon' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:45:48 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.bit' stored in project is removed.
+11:45:48 INFO  : The file 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream\Pokemon_Top.mmi' stored in project is removed.
+11:45:48 INFO  : The updated bitstream files are copied from platform to folder 'C:\Users\klok1\Documents\ECE385_Pokemon\workspace\ECE385_Pokemon\_ide\bitstream' in project 'ECE385_Pokemon'.
+11:45:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:45:59 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+11:45:59 INFO  : 'jtag frequency' command is executed.
+11:45:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:46:00 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+11:46:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:01 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+11:46:01 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:46:01 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:01 INFO  : System reset is completed.
+11:46:04 INFO  : 'after 3000' command is executed.
+11:46:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:04 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+11:46:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+11:46:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:46:04 INFO  : 'con' command is executed.
+11:46:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:46:04 INFO  : Disconnected from the channel tcfchan#136.
+11:57:33 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:57:34 INFO  : Jtag cable 'RealDigital Boo 887429230108A' is selected.
+11:57:34 INFO  : 'jtag frequency' command is executed.
+11:57:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}' command is executed.
+11:57:35 INFO  : Device configured successfully with "C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit"
+11:57:35 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa'.
+11:57:36 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:57:36 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:36 INFO  : System reset is completed.
+11:57:39 INFO  : 'after 3000' command is executed.
+11:57:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:39 INFO  : The application 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf' is downloaded to processor 'microblaze_0'.
+11:57:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "RealDigital Boo 887429230108A" && level==0 && jtag_device_ctx=="jsn1-0362f093-0"}
+fpga -file C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/_ide/bitstream/Pokemon_Top.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/hw/Pokemon_Top.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/klok1/Documents/ECE385_Pokemon/workspace/ECE385_Pokemon/Debug/ECE385_Pokemon.elf
+----------------End of Script----------------
+
+11:57:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:57:39 INFO  : 'con' command is executed.
+11:57:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:57:39 INFO  : Disconnected from the channel tcfchan#137.
+14:18:18 DEBUG : Logs will be stored at 'C:/Users/klok1/Documents/ECE385_Pokemon/workspace/IDE.log'.
+14:18:19 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\klok1\Documents\ECE385_Pokemon\workspace\temp_xsdb_launch_script.tcl
+14:18:26 INFO  : Registering command handlers for Vitis TCF services
+14:18:26 INFO  : Platform repository initialization has completed.
+14:18:26 INFO  : XSCT server has started successfully.
+14:18:37 INFO  : Successfully done setting XSCT server connection channel  
+14:18:37 INFO  : plnx-install-location is set to ''
+14:18:37 INFO  : Successfully done query RDI_DATADIR 
+14:18:38 INFO  : Successfully done setting workspace for the tool. 
