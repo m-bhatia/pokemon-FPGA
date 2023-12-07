@@ -1,0 +1,390 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include "platform.h"
+#include "lw_usb/GenericMacros.h"
+#include "lw_usb/GenericTypeDefs.h"
+#include "lw_usb/MAX3421E.h"
+#include "lw_usb/USB.h"
+#include "lw_usb/usb_ch9.h"
+#include "lw_usb/transfer.h"
+#include "lw_usb/HID.h"
+
+#include "xparameters.h"
+#include "hdmi_text_controller.h"
+#include <xgpio.h>
+
+extern HID_DEVICE hid_device;
+
+static BYTE addr = 1; 				//hard-wired USB address
+const char* const devclasses[] = { " Uninitialized", " HID Keyboard", " HID Mouse", " Mass storage" };
+
+static XGpio Gpio_hex;
+static XGpio Gpio_wild_battle; // 0010
+volatile uint32_t* player_move_gpio_data = 0x40030000;
+
+BYTE GetDriverandReport() {
+	BYTE i;
+	BYTE rcode;
+	BYTE device = 0xFF;
+	BYTE tmpbyte;
+
+	DEV_RECORD* tpl_ptr;
+	xil_printf("Reached USB_STATE_RUNNING (0x40)\n");
+	for (i = 1; i < USB_NUMDEVICES; i++) {
+		tpl_ptr = GetDevtable(i);
+		if (tpl_ptr->epinfo != NULL) {
+			xil_printf("Device: %d", i);
+			xil_printf("%s \n", devclasses[tpl_ptr->devclass]);
+			device = tpl_ptr->devclass;
+		}
+	}
+	//Query rate and protocol
+	rcode = XferGetIdle(addr, 0, hid_device.interface, 0, &tmpbyte);
+	if (rcode) {   //error handling
+		xil_printf("GetIdle Error. Error code: ");
+		xil_printf("%x \n", rcode);
+	} else {
+		xil_printf("Update rate: ");
+		xil_printf("%x \n", tmpbyte);
+	}
+	xil_printf("Protocol: ");
+	rcode = XferGetProto(addr, 0, hid_device.interface, &tmpbyte);
+	if (rcode) {   //error handling
+		xil_printf("GetProto Error. Error code ");
+		xil_printf("%x \n", rcode);
+	} else {
+		xil_printf("%d \n", tmpbyte);
+	}
+	return device;
+}
+
+void printHex (u32 data, unsigned channel) {
+	XGpio_DiscreteWrite (&Gpio_hex, channel, data);
+}
+
+// ---------------------------------------------------------------------------------------------------------------------
+void print_map(int** tile_map, int map_height, int map_width) {
+	for (int i = 0; i < map_height; i++) {
+		for (int j = 0; j < map_width; j++) {
+			xil_printf("%d ", tile_map[i][j]);
+		}
+		xil_printf("\n");
+	}
+	xil_printf("\n");
+}
+
+int** set_tiles(int** tile_map, int map_width, int map_height) {
+	// Draw Horizontal Borders
+	for (int i = 0; i < map_width; i++) {
+		tile_map[0][i] = 3;
+		tile_map[7][i] = 3;
+	}
+
+	// Draw Vertical Borders
+	for (int i = 0; i < map_height; i++) {
+		tile_map[i][0] = 3;
+		tile_map[i][11] = 3;
+	}
+
+	// Draw Top Left
+	tile_map[1][1] = 1;
+	tile_map[1][2] = 1;
+	tile_map[1][3] = 1;
+	tile_map[2][1] = 1;
+	tile_map[2][2] = 1;
+	tile_map[3][1] = 1;
+
+	// Draw Bottom Left
+	tile_map[5][1] = 1;
+	tile_map[5][2] = 1;
+	tile_map[6][2] = 1;
+
+	// Draw Bottom Right
+	tile_map[4][10] = 1;
+	tile_map[5][10] = 1;
+	tile_map[6][10] = 1;
+	tile_map[6][9] = 1;
+	tile_map[6][8] = 1;
+
+	return tile_map;
+}
+
+int** initializeMap(int playerX, int playerY, int map_height, int map_width) {
+	// Allocate Map Memory
+    int** tile_map = (int**)malloc(map_height * sizeof(int*));
+    for (int i = 0; i < map_width; ++i) {
+    	tile_map[i] = (int*)malloc(map_width * sizeof(int));
+    }
+
+    // Initialize Map Tiles
+	for (int i = 0; i < map_height; i++) {
+		for (int j = 0; j < map_width; j++) {
+			tile_map[i][j] = 0;
+		}
+	}
+
+	// Set Non-Zero Tiles
+	tile_map = set_tiles(tile_map, map_width, map_height);
+
+	// Set Player Starting Location
+	tile_map[playerY][playerX] = 2;
+
+	// Print Map
+	print_map(tile_map, map_height, map_width);
+
+	return tile_map;
+}
+
+void free_map(int** tile_map, int map_height) {
+    for (int i = 0; i < map_height; ++i) {
+        free(tile_map[i]);
+    }
+    free(tile_map);
+}
+
+void player_move(int** tile_map, int* old_tile_map_ptr, int* playerXptr, int* playerYptr, int map_height, int map_width, BYTE keycode) {
+	int newPlayerX = *playerXptr;
+	int newPlayerY = *playerYptr;
+
+	// Player Move Keystroke Logic
+	tile_map[*playerYptr][*playerXptr] = *old_tile_map_ptr;
+	if (keycode == 0x1A) { // W
+		if (tile_map[*playerYptr - 1][*playerXptr] != 3) {
+			newPlayerY = *playerYptr - 1;
+		}
+	} else if (keycode == 0x04) { // A
+		if (tile_map[*playerYptr][*playerXptr - 1] != 3) {
+			newPlayerX = *playerXptr - 1;
+		}
+	} else if (keycode == 0x16) { // S
+		if (tile_map[*playerYptr + 1][*playerXptr] != 3) {
+			newPlayerY = *playerYptr + 1;
+		}
+	} else if (keycode == 0x07) { // D
+		if (tile_map[*playerYptr][*playerXptr + 1] != 3) {
+			newPlayerX = *playerXptr + 1;
+		}
+	}
+	*old_tile_map_ptr = tile_map[newPlayerY][newPlayerX];
+	tile_map[newPlayerY][newPlayerX] = 2;
+
+	// Clear PlayerX and PlayerY GPIO Tile Coordinates
+	*player_move_gpio_data &= ~*playerXptr;
+	*player_move_gpio_data &= ~(*playerYptr << 5);
+
+	// Update PlayerX and Y GPIO Tile Coordinates
+	*player_move_gpio_data |= newPlayerX;
+	*player_move_gpio_data |= (newPlayerY << 5);
+
+	// Determine if New Key (not Space) Pressed
+	if (keycode != 0x00 && keycode != 0x2C) {
+		*player_move_gpio_data |= (1 << 10);
+	} else {
+		*player_move_gpio_data &= ~(1 << 10);
+	}
+
+	// Determine if Player in Wild Grass
+	if (*old_tile_map_ptr == 1) {
+		XGpio_DiscreteWrite(&Gpio_wild_battle, 1, 1);
+		xil_printf("IN WILD GRASS\n");
+	} else {
+		XGpio_DiscreteWrite(&Gpio_wild_battle, 1, 0);
+		xil_printf("NOT IN WILD GRASS\n");
+	}
+
+	// Update PlayerX and Y Pointer Values
+	*playerXptr = newPlayerX;
+	*playerYptr = newPlayerY;
+}
+
+void hdmiClr() {
+	for (int i = 0; i<(ROWS * COLUMNS + 1); i++) {
+		hdmi_regs->VRAM[i] = 0x00;
+	}
+}
+
+void checksum_test() {
+	uint32_t checksum[ROWS], readsum[ROWS];
+
+	for (int j = 0; j < ROWS; j++) {
+		checksum[j] = 0;
+		for (int i = 0; i < COLUMNS; i++) {
+			hdmi_regs->VRAM[j*COLUMNS + i] = i + j;
+			checksum[j] += i + j;
+		}
+	}
+
+	for (int j = 0; j < ROWS; j++) {
+		readsum[j] = 0;
+		for (int i = 0; i < COLUMNS; i++) {
+			readsum[j] += hdmi_regs->VRAM[j*COLUMNS + i];
+			//printf ("%x \n\r", hdmi_ctrl->VRAM[j*COLUMNS + i]);
+		}
+		xil_printf("Row: %d, Checksum: %x, Read-back Checksum: %x\n\r", j, checksum[j], readsum[j]);
+		if (checksum[j] != readsum[j]) {
+			xil_printf("Checksum mismatch!, check your Avalon-MM code\n\r");
+			while (1){};
+		}
+	}
+
+	hdmiClr();
+	xil_printf("Checksum code passed!\n\r");
+}
+
+void display_moves() {
+	xil_printf("START DISPLAY MOVES\n");
+
+	hdmiClr();
+	checksum_test();
+
+	/**
+	char thunderbolt[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567887654321ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba";
+	memcpy((void*)&hdmi_regs->VRAM[0],thunderbolt, sizeof(thunderbolt));
+
+	for (int i = 0; i < sizeof(thunderbolt); i++) {
+		xil_printf("%c", hdmi_regs->VRAM[i]);
+	}
+	xil_printf("\n");
+	for (int i = 0; i < sizeof(thunderbolt); i++) {
+		xil_printf("%d ", hdmi_regs->VRAM[i]);
+	}
+	**/
+}
+
+void handle_wild_battle(long long seed) {
+	BOOT_KBD_REPORT kbdbuf;
+
+	// Creates new random seed
+	srand(seed);
+
+	// Generates a number between 1 and 8
+	int wild_pokemon_index = rand() % 7 + 1;
+
+	xil_printf("POKEMON RANDOM NUMBER: %d\n", wild_pokemon_index);
+
+	wild_pokemon_index = wild_pokemon_index << 2;
+	wild_pokemon_index += XGpio_DiscreteRead(&Gpio_wild_battle, 1);
+
+	XGpio_DiscreteWrite(&Gpio_wild_battle, 1, wild_pokemon_index);
+	xil_printf("GPIO WILD BATTLE START: %d\n", XGpio_DiscreteRead(&Gpio_wild_battle, 1));
+
+	display_moves();
+
+	while (1) {
+		kbdPoll(&kbdbuf);
+
+		printHex(kbdbuf.keycode[0] + (kbdbuf.keycode[1]<<8) + (kbdbuf.keycode[2]<<16) + + (kbdbuf.keycode[3]<<24), 1);
+		if (kbdbuf.keycode[0] == 0x2C) {
+			xil_printf("EXIT KEYCODE: %d\n", kbdbuf.keycode[0]);
+			break;
+		}
+	}
+}
+
+int main() {
+    init_platform();
+
+    xil_printf("Finished Init Platform\n");
+
+    XGpio_Initialize(&Gpio_hex, XPAR_GPIO_USB_KEYCODE_DEVICE_ID);
+   	XGpio_SetDataDirection(&Gpio_hex, 1, 0x00000000); //configure hex display GPIO
+   	XGpio_SetDataDirection(&Gpio_hex, 2, 0x00000000); //configure hex display GPIO
+
+   	xil_printf("Finished GPIO Hex Initialization\n");
+
+   	XGpio_Initialize(&Gpio_wild_battle, XPAR_GPIO_WILD_BATTLE_DEVICE_ID);
+   	XGpio_SetDataDirection(&Gpio_wild_battle, 1, 0x00000002);
+
+   	xil_printf("Finished GPIO Wild Battle Initialization\n");
+
+   	BYTE rcode;
+	BOOT_KBD_REPORT kbdbuf;
+
+	BYTE runningdebugflag = 0;//flag to dump out a bunch of information when we first get to USB_STATE_RUNNING
+	BYTE errorflag = 0; //flag once we get an error device so we don't keep dumping out state info
+	BYTE device;
+
+	xil_printf("initializing MAX3421E...\n");
+	MAX3421E_init();
+	xil_printf("initializing USB...\n");
+	USB_init();
+
+	long long seed = 0;
+	int playerX = 6;
+	int playerY = 3;
+	int map_width = 20;
+	int map_height = 15;
+	int old_tile_map = 0;
+
+	int* playerXptr = &playerX;
+	int* playerYptr = &playerY;
+	int* old_tile_map_ptr = &old_tile_map;
+
+	int** tile_map = initializeMap(playerX, playerY, map_height, map_width);
+
+	while (1) {
+		MAX3421E_Task();
+		USB_Task();
+
+		if (GetUsbTaskState() == USB_STATE_RUNNING) {
+			if (!runningdebugflag) {
+				runningdebugflag = 1;
+				device = GetDriverandReport();
+			} else if (device == 1) {
+				//run keyboard debug polling
+				rcode = kbdPoll(&kbdbuf);
+				if (rcode == hrNAK) {
+					continue; //NAK means no new data
+				} else if (rcode) {
+					xil_printf("Rcode: ");
+					xil_printf("%x \n", rcode);
+					continue;
+				}
+
+				xil_printf("keycodes: ");
+				for (int i = 0; i < 6; i++) {
+					xil_printf("%x ", kbdbuf.keycode[i]);
+				}
+
+				//Outputs the first 4 keycodes using the USB GPIO channel 1
+				printHex (kbdbuf.keycode[0] + (kbdbuf.keycode[1]<<8) + (kbdbuf.keycode[2]<<16) + + (kbdbuf.keycode[3]<<24), 1);
+				//Modify to output the last 2 keycodes on channel 2.
+				xil_printf("\n");
+			}
+
+		} else if (GetUsbTaskState() == USB_STATE_ERROR) {
+			if (!errorflag) {
+				errorflag = 1;
+				xil_printf("USB Error State\n");
+				//print out string descriptor here
+			}
+		} else { //not in USB running state
+			if (runningdebugflag) {	//previously running, reset USB hardware just to clear out any funky state, HS/FS etc
+				runningdebugflag = 0;
+				MAX3421E_init();
+				USB_init();
+			}
+			errorflag = 0;
+		}
+
+		// Player Move
+		if ((XGpio_DiscreteRead(&Gpio_wild_battle, 1) & 0b10) != 0b10) {
+			player_move(tile_map, old_tile_map_ptr, playerXptr, playerYptr, map_height, map_width, kbdbuf.keycode[0]);
+		} else {
+			handle_wild_battle(seed);
+		}
+
+		xil_printf("PLAYER GPIO DATA: %d\n", *player_move_gpio_data);
+		xil_printf("WILD BATTLE GPIO DATA: %d\n", XGpio_DiscreteRead(&Gpio_wild_battle, 1));
+
+		// Print Map
+		print_map(tile_map, map_height, map_width);
+
+		seed += 1;
+	}
+
+	free_map(tile_map, map_height);
+    cleanup_platform();
+	return 0;
+}

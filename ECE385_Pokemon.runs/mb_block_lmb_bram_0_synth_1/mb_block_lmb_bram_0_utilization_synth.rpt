@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Wed Nov 15 03:02:59 2023
+| Date         : Mon Dec  4 16:25:18 2023
 | Host         : LAPTOP-ULS54KHE running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mb_block_lmb_bram_0_utilization_synth.rpt -pb mb_block_lmb_bram_0_utilization_synth.pb
 | Design       : mb_block_lmb_bram_0
@@ -31,8 +31,8 @@ Table of Contents
 +----------------------------+------+-------+------------+-----------+-------+
 |          Site Type         | Used | Fixed | Prohibited | Available | Util% |
 +----------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*                |   16 |     0 |          0 |     32600 |  0.05 |
-|   LUT as Logic             |   14 |     0 |          0 |     32600 |  0.04 |
+| Slice LUTs*                |   10 |     0 |          0 |     32600 |  0.03 |
+|   LUT as Logic             |    8 |     0 |          0 |     32600 |  0.02 |
 |   LUT as Memory            |    2 |     0 |          0 |      9600 |  0.02 |
 |     LUT as Distributed RAM |    0 |     0 |            |           |       |
 |     LUT as Shift Register  |    2 |     0 |            |           |       |
@@ -71,9 +71,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 +-------------------+------+-------+------------+-----------+-------+
 |     Site Type     | Used | Fixed | Prohibited | Available | Util% |
 +-------------------+------+-------+------------+-----------+-------+
-| Block RAM Tile    |   32 |     0 |          0 |        75 | 42.67 |
-|   RAMB36/FIFO*    |   32 |     0 |          0 |        75 | 42.67 |
-|     RAMB36E1 only |   32 |       |            |           |       |
+| Block RAM Tile    |   16 |     0 |          0 |        75 | 21.33 |
+|   RAMB36/FIFO*    |   16 |     0 |          0 |        75 | 21.33 |
+|     RAMB36E1 only |   16 |       |            |           |       |
 |   RAMB18          |    0 |     0 |          0 |       150 |  0.00 |
 +-------------------+------+-------+------------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
@@ -150,9 +150,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| RAMB36E1 |   32 |        Block Memory |
-| LUT2     |   12 |                 LUT |
+| RAMB36E1 |   16 |        Block Memory |
 | FDRE     |   12 |        Flop & Latch |
+| LUT2     |    6 |                 LUT |
 | SRL16E   |    2 |  Distributed Memory |
 | LUT4     |    2 |                 LUT |
 +----------+------+---------------------+

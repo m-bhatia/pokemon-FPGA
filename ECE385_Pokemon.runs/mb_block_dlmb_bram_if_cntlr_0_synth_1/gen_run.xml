@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="mb_block_dlmb_bram_if_cntlr_0_synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1700038761">
+<GenRun Id="mb_block_dlmb_bram_if_cntlr_0_synth_1" LaunchPart="xc7s50csga324-1" LaunchTime="1701728570">
   <File Type="PA-TCL" Name="mb_block_dlmb_bram_if_cntlr_0.tcl"/>
   <File Type="REPORTS-TCL" Name="mb_block_dlmb_bram_if_cntlr_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="mb_block_dlmb_bram_if_cntlr_0.vds"/>
@@ -9,6 +9,7 @@
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mb_block_dlmb_bram_if_cntlr_0">
     <File Path="$PSRCDIR/sources_1/bd/mb_block/ip/mb_block_dlmb_bram_if_cntlr_0/mb_block_dlmb_bram_if_cntlr_0.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -22,6 +23,7 @@
   <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mb_block_dlmb_bram_if_cntlr_0">
     <File Path="$PSRCDIR/sources_1/bd/mb_block/ip/mb_block_dlmb_bram_if_cntlr_0/mb_block_dlmb_bram_if_cntlr_0.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -34,6 +36,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Pokemon_Top.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>

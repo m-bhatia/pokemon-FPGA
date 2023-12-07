@@ -167,6 +167,7 @@ BYTE* MAXbytes_rd(BYTE reg, BYTE nbytes, BYTE* data) {
 	Status = XSpi_Transfer(&SpiInstance, SendBuf, RecvBuf, nbytes + 1);
 	if (Status != XST_SUCCESS) {
 		xil_printf("ERROR: MAXbytes_rd\n");
+		xil_printf("ERROR CODE: %d", Status);
 	} else {
 		for (int i = 0; i < nbytes; i++) {
 			data[i] = RecvBuf[i+1];

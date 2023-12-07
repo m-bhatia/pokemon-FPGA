@@ -1,7 +1,6 @@
-11:45:09 **** Build of project Pokemon_Top ****
-buildplatform.bat 63783 Pokemon_Top  
-XSDB Server Channel: tcfchan#135
-C:/Xilinx/Vitis/2022.2/gnu/microblaze/nt
+04:27:44 **** Build of project Pokemon_Top ****
+buildplatform.bat 63687 Pokemon_Top  
+XSDB Server Channel: tcfchan#146
 Building the BSP Library for domain  - standalone_microblaze_0 on processor microblaze_0
 make --no-print-directory seq_libs
 
@@ -35,17 +34,17 @@ OMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loo
 
 "Running Make include in microblaze_0/libsrc/spi_v4_9/src"
 
+"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+
 make -C microblaze_0/libsrc/spi_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
 _FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_COM
 PILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
 
-"Running Make include in microblaze_0/libsrc/standalone_v8_0/src"
+"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
 
 make -C microblaze_0/libsrc/standalone_v8_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
 OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EX
 TRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribute-patterns"
-
-"Running Make include in microblaze_0/libsrc/tmrctr_v4_9/src"
 
 make -C microblaze_0/libsrc/tmrctr_v4_9/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
 LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mno-xl-reorder -mno-xl-soft-mul -mxl-barrel-shift -mxl-pattern-compare" "EXTRA_
@@ -144,7 +143,7 @@ xuartlite_stats.o
 mb-ar: creating microblaze_0/lib/libxil.a
 'Finished building libraries'
 
-11:45:43 **** Build of configuration Debug for project ECE385_Pokemon ****
+04:28:10 **** Build of configuration Debug for project ECE385_Pokemon ****
 make all 
 'Building file: ../src/lw_usb/HID.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -182,12 +181,12 @@ C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top
    32 | void SPI_init() {
       |      ^~~~~~~~
 ../src/lw_usb/MAX3421E.c: In function 'MAX3421E_Task':
-../src/lw_usb/MAX3421E.c:319:46: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
-  319 |         if (XGpio_DiscreteRead(&Gpio_int, 1) & 0x01 == 0) {
+../src/lw_usb/MAX3421E.c:320:46: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+  320 |         if (XGpio_DiscreteRead(&Gpio_int, 1) & 0x01 == 0) {
       |                                              ^
 ../src/lw_usb/MAX3421E.c: In function 'MaxGpxHandler':
-../src/lw_usb/MAX3421E.c:355:14: warning: variable 'GPINIRQ' set but not used [-Wunused-but-set-variable]
-  355 |         BYTE GPINIRQ;
+../src/lw_usb/MAX3421E.c:356:14: warning: variable 'GPINIRQ' set but not used [-Wunused-but-set-variable]
+  356 |         BYTE GPINIRQ;
       |              ^~~~~~~
 'Finished building: ../src/lw_usb/MAX3421E.c'
 ' '
@@ -207,14 +206,20 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb/transfer.o" -IC:/Users
       |       ^
 'Finished building: ../src/lw_usb/transfer.c'
 ' '
-'Building file: ../src/lw_usb_main.c'
+'Building file: ../src/Pokemon_Top.c'
 'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lw_usb_main.o" -IC:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/sw/Pokemon_Top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/lw_usb_main.d" -MT"src/lw_usb_main.o" -o "src/lw_usb_main.o" "../src/lw_usb_main.c"
-../src/lw_usb_main.c: In function 'main':
-../src/lw_usb_main.c:75:27: warning: unused variable 'buf' [-Wunused-variable]
-   75 |         BOOT_MOUSE_REPORT buf;          //USB mouse report
-      |                           ^~~
-'Finished building: ../src/lw_usb_main.c'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Pokemon_Top.o" -IC:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/sw/Pokemon_Top/standalone_microblaze_0/bspinclude/include -mno-xl-reorder -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/Pokemon_Top.d" -MT"src/Pokemon_Top.o" -o "src/Pokemon_Top.o" "../src/Pokemon_Top.c"
+In file included from ../src/Pokemon_Top.c:14:
+C:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/sw/Pokemon_Top/standalone_microblaze_0/bspinclude/include/xparameters.h:657:50: warning: initialization of 'volatile struct HDMI_TEXT_STRUCT *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+  657 | #define XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR 0x44A10000
+      |                                                  ^~~~~~~~~~
+../src/hdmi_text_controller.h:81:54: note: in expansion of macro 'XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR'
+   81 | static volatile struct HDMI_TEXT_STRUCT* hdmi_regs = XPAR_HDMI_TEXT_CONTROLLER_0_AXI_BASEADDR;
+      |                                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../src/Pokemon_Top.c:25:44: warning: initialization of 'volatile uint32_t *' {aka 'volatile long unsigned int *'} from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   25 | volatile uint32_t* player_move_gpio_data = 0x40030000;
+      |                                            ^~~~~~~~~~
+'Finished building: ../src/Pokemon_Top.c'
 ' '
 'Building file: ../src/platform.c'
 'Invoking: MicroBlaze gcc compiler'
@@ -223,15 +228,15 @@ mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -IC:/Users/klok1/
 ' '
 'Building target: ECE385_Pokemon.elf'
 'Invoking: MicroBlaze gcc linker'
-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/sw/Pokemon_Top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ECE385_Pokemon.elf"  ./src/lw_usb/HID.o ./src/lw_usb/MAX3421E.o ./src/lw_usb/transfer.o  ./src/lw_usb_main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/klok1/Documents/ECE385_Pokemon/workspace/Pokemon_Top/export/Pokemon_Top/sw/Pokemon_Top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v11.0 -mno-xl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ECE385_Pokemon.elf"  ./src/lw_usb/HID.o ./src/lw_usb/MAX3421E.o ./src/lw_usb/transfer.o  ./src/Pokemon_Top.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: ECE385_Pokemon.elf'
 ' '
 'Invoking: MicroBlaze Print Size'
 mb-size ECE385_Pokemon.elf  |tee "ECE385_Pokemon.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  23796	    488	   3676	  27960	   6d38	ECE385_Pokemon.elf
+  35736	   1572	   3756	  41064	   a068	ECE385_Pokemon.elf
 'Finished building: ECE385_Pokemon.elf.size'
 ' '
-11:45:49 **** Build of configuration Debug for project ECE385_Pokemon_system ****
+04:28:16 **** Build of configuration Debug for project ECE385_Pokemon_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

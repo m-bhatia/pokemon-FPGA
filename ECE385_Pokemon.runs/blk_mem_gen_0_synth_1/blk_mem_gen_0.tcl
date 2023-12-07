@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "blk_mem_gen_0_synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 2
+set_msg_config -id {HDL-1065} -limit 10000
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -85,13 +86,16 @@ set_property parent.project_path C:/Users/klok1/Documents/ECE385_Pokemon/ECE385_
 set_property XPM_LIBRARIES {XPM_CDC XPM_FIFO XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_repo_paths c:/Users/klok1/Documents/ECE385_Pokemon/ip_repo/hdmi_tx_1.0 [current_project]
+set_property ip_repo_paths {
+  c:/Users/klok1/Documents/ECE385_Pokemon/ip_repo/hdmi_tx_1.0
+  c:/Users/klok1/Documents/ECE385_Pokemon/ip_repo/hdmi_text_controller_1_0
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo c:/Users/klok1/Documents/ECE385_Pokemon/ECE385_Pokemon.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet c:/Users/klok1/Documents/ECE385_Pokemon/ECE385_Pokemon.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
+read_ip -quiet C:/Users/klok1/Documents/ECE385_Pokemon/ECE385_Pokemon.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci
 set_property used_in_implementation false [get_files -all c:/Users/klok1/Documents/ECE385_Pokemon/ECE385_Pokemon.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }

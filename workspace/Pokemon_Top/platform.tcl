@@ -171,3 +171,508 @@ platform generate
 platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
 platform clean
 platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform active {Pokemon_Top}
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate
+platform config -updatehw {C:/Users/klok1/Documents/ECE385_Pokemon/Pokemon_Top.xsa}
+platform clean
+platform generate
+platform clean
+platform generate
+platform clean
+platform generate

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ECE385_Pokemon/src/lw_usb_main.c&apos; to &apos;Pokemon_Top.c&apos;" description="Rename resource &apos;lw_usb_main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lw_usb_main.c" name="Pokemon_Top.c" stamp="1701590489986" updateReferences="true"/>
+</session>

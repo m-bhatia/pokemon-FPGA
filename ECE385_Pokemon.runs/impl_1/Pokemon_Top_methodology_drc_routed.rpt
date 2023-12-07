@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
-| Date         : Fri Nov 17 11:41:05 2023
+| Date         : Thu Dec  7 04:03:09 2023
 | Host         : LAPTOP-ULS54KHE running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Pokemon_Top_methodology_drc_routed.rpt -pb Pokemon_Top_methodology_drc_routed.pb -rpx Pokemon_Top_methodology_drc_routed.rpx
 | Design       : Pokemon_Top
@@ -23,18 +23,21 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 83
+             Violations found: 152
 +-----------+------------------+----------------------------------------------------+------------+
 | Rule      | Severity         | Description                                        | Violations |
 +-----------+------------------+----------------------------------------------------+------------+
 | TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree | 1          |
-| TIMING-17 | Critical Warning | Non-clocked sequential cell                        | 19         |
+| TIMING-6  | Critical Warning | No common primary clock between related clocks     | 1          |
+| TIMING-7  | Critical Warning | No common node between related clocks              | 1          |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                        | 15         |
 | TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin          | 1          |
+| DPIR-1    | Warning          | Asynchronous driver check                          | 32         |
 | LUTAR-1   | Warning          | LUT drives async reset alert                       | 4          |
+| SYNTH-10  | Warning          | Wide multiplier                                    | 12         |
 | TIMING-9  | Warning          | Unknown CDC Logic                                  | 1          |
-| TIMING-16 | Warning          | Large setup violation                              | 16         |
 | TIMING-18 | Warning          | Missing input or output delay                      | 33         |
-| TIMING-20 | Warning          | Non-clocked latch                                  | 7          |
+| TIMING-20 | Warning          | Non-clocked latch                                  | 50         |
 | LATCH-1   | Advisory         | Existing latches in the design                     | 1          |
 +-----------+------------------+----------------------------------------------------+------------+
 
@@ -43,6 +46,16 @@ Table of Contents
 TIMING-4#1 Critical Warning
 Invalid primary clock redefinition on a clock tree  
 Invalid clock redefinition on a clock tree. The primary clock mb_block/clk_wiz_1/inst/clk_in1 is defined downstream of clock clk_100 and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-6#1 Critical Warning
+No common primary clock between related clocks  
+The clocks clk_out1_mb_block_clk_wiz_1_0 and clk_100 are related (timed together) but they have no common primary clock. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_mb_block_clk_wiz_1_0] -to [get_clocks clk_100]
+Related violations: <none>
+
+TIMING-7#1 Critical Warning
+No common node between related clocks  
+The clocks clk_out1_mb_block_clk_wiz_1_0 and clk_100 are related (timed together) but they have no common node. The design could fail in hardware. To find a timing path between these clocks, run the following command: report_timing -from [get_clocks clk_out1_mb_block_clk_wiz_1_0] -to [get_clocks clk_100]
 Related violations: <none>
 
 TIMING-17#1 Critical Warning
@@ -117,32 +130,172 @@ Related violations: <none>
 
 TIMING-17#15 Critical Warning
 Non-clocked sequential cell  
-The clock pin player_instance/Player_X_Motion_reg[5]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#16 Critical Warning
-Non-clocked sequential cell  
-The clock pin player_instance/Player_X_Motion_reg[8]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#17 Critical Warning
-Non-clocked sequential cell  
-The clock pin player_instance/Player_Y_Motion_reg[5]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#18 Critical Warning
-Non-clocked sequential cell  
-The clock pin player_instance/Player_Y_Motion_reg[8]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-17#19 Critical Warning
-Non-clocked sequential cell  
-The clock pin player_instance/key_pressed_reg/C is not reached by a timing clock
+The clock pin player_instance/new_tile_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-27#1 Critical Warning
 Invalid primary clock on hierarchical pin  
 A primary clock mb_block/clk_wiz_1/inst/clk_in1 is created on an inappropriate internal pin mb_block/clk_wiz_1/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+DPIR-1#1 Warning
+Asynchronous driver check  
+DSP color_instance/Red4 input pin color_instance/Red4/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#2 Warning
+Asynchronous driver check  
+DSP color_instance/Red4 input pin color_instance/Red4/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#3 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__0 input pin color_instance/Red4__0/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#4 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__0 input pin color_instance/Red4__0/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#5 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__0 input pin color_instance/Red4__0/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#6 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__0 input pin color_instance/Red4__0/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#7 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__1 input pin color_instance/Red4__1/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#8 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__1 input pin color_instance/Red4__1/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#9 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__10 input pin color_instance/Red4__10/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#10 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__10 input pin color_instance/Red4__10/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#11 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__2 input pin color_instance/Red4__2/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#12 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__2 input pin color_instance/Red4__2/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#13 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__3 input pin color_instance/Red4__3/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#14 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__3 input pin color_instance/Red4__3/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#15 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__3 input pin color_instance/Red4__3/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#16 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__3 input pin color_instance/Red4__3/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#17 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__4 input pin color_instance/Red4__4/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#18 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__4 input pin color_instance/Red4__4/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#19 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__5 input pin color_instance/Red4__5/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#20 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__5 input pin color_instance/Red4__5/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#21 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__6 input pin color_instance/Red4__6/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#22 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__6 input pin color_instance/Red4__6/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#23 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__6 input pin color_instance/Red4__6/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#24 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__6 input pin color_instance/Red4__6/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#25 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__7 input pin color_instance/Red4__7/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#26 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__7 input pin color_instance/Red4__7/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#27 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__8 input pin color_instance/Red4__8/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#28 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__8 input pin color_instance/Red4__8/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#29 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__9 input pin color_instance/Red4__9/A[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#30 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__9 input pin color_instance/Red4__9/A[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#31 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__9 input pin color_instance/Red4__9/B[0] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
+Related violations: <none>
+
+DPIR-1#32 Warning
+Asynchronous driver check  
+DSP color_instance/Red4__9 input pin color_instance/Red4__9/B[1] is connected to registers with an asynchronous reset. This is preventing the possibility of merging these registers in to the DSP Block since the DSP block registers only possess synchronous reset capability.  It is suggested to recode or change these registers to remove the reset or use a synchronous reset to get the best optimization for performance, power and area.
 Related violations: <none>
 
 LUTAR-1#1 Warning
@@ -177,89 +330,69 @@ vga_to_hdmi/inst/encr/dout_reg[8]/CLR,
 vga_to_hdmi/inst/encr/dout_reg[9]/CLR (the first 15 of 42 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
 Related violations: <none>
 
+SYNTH-10#1 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#2 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__0 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#3 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__1 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#4 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__10 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#5 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__2 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#6 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__3 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#7 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__4 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#8 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__5 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#9 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__6 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#10 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__7 of size 18x15, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#11 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__8 of size 15x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
+SYNTH-10#12 Warning
+Wide multiplier  
+Detected multiplier at color_instance/Red4__9 of size 18x18, it is decomposed from a wide multipler into 4 DSP blocks.
+Related violations: <none>
+
 TIMING-9#1 Warning
 Unknown CDC Logic  
 One or more asynchronous Clock Domain Crossing has been detected between 2 clock domains through a set_false_path or a set_clock_groups or set_max_delay -datapath_only constraint but no double-registers logic synchronizer has been found on the side of the capture clock. It is recommended to run report_cdc for a complete and detailed CDC coverage. Please consider using XPM_CDC to avoid Critical severities
-Related violations: <none>
-
-TIMING-16#1 Warning
-Large setup violation  
-There is a large setup violation of -1.009 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#2 Warning
-Large setup violation  
-There is a large setup violation of -1.010 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#3 Warning
-Large setup violation  
-There is a large setup violation of -1.021 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#4 Warning
-Large setup violation  
-There is a large setup violation of -1.048 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#5 Warning
-Large setup violation  
-There is a large setup violation of -1.085 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#6 Warning
-Large setup violation  
-There is a large setup violation of -1.098 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#7 Warning
-Large setup violation  
-There is a large setup violation of -1.102 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#8 Warning
-Large setup violation  
-There is a large setup violation of -1.139 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#9 Warning
-Large setup violation  
-There is a large setup violation of -1.150 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#10 Warning
-Large setup violation  
-There is a large setup violation of -1.153 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#11 Warning
-Large setup violation  
-There is a large setup violation of -1.183 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#12 Warning
-Large setup violation  
-There is a large setup violation of -1.212 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#13 Warning
-Large setup violation  
-There is a large setup violation of -1.258 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#14 Warning
-Large setup violation  
-There is a large setup violation of -1.447 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#15 Warning
-Large setup violation  
-There is a large setup violation of -1.451 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
-Related violations: <none>
-
-TIMING-16#16 Warning
-Large setup violation  
-There is a large setup violation of -1.495 ns between vga/hc_reg[2]/C (clocked by clk_out1_clk_wiz_0) and sprites/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_init.ram/DEVICE_7SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram/ENARDEN (clocked by clk_100). Large setup violations at the end of those stages might be difficult to fix during the post-placement implementation flow and could be the result of non-optimal XDC constraints or non-optimal design architecture
 Related violations: <none>
 
 TIMING-18#1 Warning
@@ -429,42 +562,257 @@ Related violations: <none>
 
 TIMING-20#1 Warning
 Non-clocked latch  
-The latch wild_battle/Start_Wild_Battle_reg cannot be properly analyzed as its control pin wild_battle/Start_Wild_Battle_reg/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[0] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[0]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#2 Warning
 Non-clocked latch  
-The latch wild_battle/Wild_Grass_Threshold_reg[10] cannot be properly analyzed as its control pin wild_battle/Wild_Grass_Threshold_reg[10]/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[10] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[10]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#3 Warning
 Non-clocked latch  
-The latch wild_battle/Wild_Grass_Threshold_reg[15] cannot be properly analyzed as its control pin wild_battle/Wild_Grass_Threshold_reg[15]/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[11] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[11]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#4 Warning
 Non-clocked latch  
-The latch wild_battle/Wild_Grass_Threshold_reg[20] cannot be properly analyzed as its control pin wild_battle/Wild_Grass_Threshold_reg[20]/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[12] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[12]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#5 Warning
 Non-clocked latch  
-The latch wild_battle/Wild_Grass_Threshold_reg[25] cannot be properly analyzed as its control pin wild_battle/Wild_Grass_Threshold_reg[25]/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[13] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[13]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#6 Warning
 Non-clocked latch  
-The latch wild_battle/Wild_Grass_Threshold_reg[30] cannot be properly analyzed as its control pin wild_battle/Wild_Grass_Threshold_reg[30]/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[14] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[14]/G is not reached by a timing clock
 Related violations: <none>
 
 TIMING-20#7 Warning
 Non-clocked latch  
-The latch wild_battle/Wild_Grass_Threshold_reg[5] cannot be properly analyzed as its control pin wild_battle/Wild_Grass_Threshold_reg[5]/G is not reached by a timing clock
+The latch color_instance/bram_addr_reg[15] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[16] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[17] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[1] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[2] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[3] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[4] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[5] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[6] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[7] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[8] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch color_instance/bram_addr_reg[9] cannot be properly analyzed as its control pin color_instance/bram_addr_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[0] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[10] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[11] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[12] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[13] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[14] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[15] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[16] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[17] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[18] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[19] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[1] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[20] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[21] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[22] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[23] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[24] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[25] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[26] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[27] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[28] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[29] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[2] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[30] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[31] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[3] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[4] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[5] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[6] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[7] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[8] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch color_instance/curr_reg_reg[9] cannot be properly analyzed as its control pin color_instance/curr_reg_reg[9]/G is not reached by a timing clock
 Related violations: <none>
 
 LATCH-1#1 Advisory
 Existing latches in the design  
-There are 7 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+There are 50 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
 Related violations: <none>
 
 

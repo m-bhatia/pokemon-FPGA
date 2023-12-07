@@ -351,3 +351,1234 @@ timestamp=[2023-11-17 11:45:49], mode=BUILD, duration=0:00:00.485, duration_ms=4
 timestamp=[2023-11-28 14:18:24], mode=WORKBENCH_START, duration=0:00:13.952, duration_ms=13952, data={}
 timestamp=[2023-11-28 14:18:25], mode=WORKBENCH_UI_INIT, duration=0:00:01.040, duration_ms=1040, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
 timestamp=[2023-11-28 14:18:26], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.210, duration_ms=210, data={}
+timestamp=[2023-11-30 02:46:17], mode=WORKBENCH_START, duration=0:00:11.544, duration_ms=11544, data={}
+timestamp=[2023-11-30 02:46:18], mode=WORKBENCH_UI_INIT, duration=0:00:00.842, duration_ms=842, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-11-30 02:46:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.168, duration_ms=168, data={}
+timestamp=[2023-11-30 02:47:15], mode=BUILD, duration=0:00:00.577, duration_ms=577, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-11-30 02:47:16], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-30 02:47:21], mode=PLATFORM_GENERATION, duration=0:00:05.455, duration_ms=5455, data={name=Pokemon_Top}
+timestamp=[2023-11-30 02:47:42], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-11-30 02:47:42], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-11-30 02:47:45], mode=PLATFORM_GENERATION, duration=0:00:03.608, duration_ms=3608, data={name=Pokemon_Top}
+timestamp=[2023-11-30 02:48:05], mode=PLATFORM_GENERATION, duration=0:00:15.464, duration_ms=15464, data={name=Pokemon_Top}
+timestamp=[2023-11-30 02:48:09], mode=BUILD, duration=0:00:03.927, duration_ms=3927, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-11-30 02:48:10], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-02 12:55:38], mode=WORKBENCH_START, duration=0:00:10.924, duration_ms=10924, data={}
+timestamp=[2023-12-02 12:55:39], mode=WORKBENCH_UI_INIT, duration=0:00:01.228, duration_ms=1228, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-02 12:55:39], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.134, duration_ms=134, data={}
+timestamp=[2023-12-02 12:56:08], mode=BUILD, duration=0:00:00.578, duration_ms=578, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-02 12:56:08], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-02 12:56:14], mode=PLATFORM_GENERATION, duration=0:00:05.203, duration_ms=5203, data={name=Pokemon_Top}
+timestamp=[2023-12-02 12:56:29], mode=BUILD, duration=0:00:00.400, duration_ms=400, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-02 12:56:30], mode=BUILD, duration=0:00:00.306, duration_ms=306, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-02 12:56:33], mode=PLATFORM_GENERATION, duration=0:00:03.605, duration_ms=3605, data={name=Pokemon_Top}
+timestamp=[2023-12-02 12:56:49], mode=PLATFORM_GENERATION, duration=0:00:13.591, duration_ms=13591, data={name=Pokemon_Top}
+timestamp=[2023-12-02 12:56:54], mode=BUILD, duration=0:00:03.691, duration_ms=3691, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-02 12:56:54], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-02 14:07:57], mode=WORKBENCH_START, duration=0:00:09.312, duration_ms=9312, data={}
+timestamp=[2023-12-02 14:07:58], mode=WORKBENCH_UI_INIT, duration=0:00:01.067, duration_ms=1067, data={editors_count=6, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-02 14:07:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.088, duration_ms=88, data={}
+timestamp=[2023-12-03 01:04:42], mode=BUILD, duration=0:00:01.001, duration_ms=1001, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 01:04:43], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 01:04:53], mode=PLATFORM_GENERATION, duration=0:00:10.010, duration_ms=10010, data={name=Pokemon_Top}
+timestamp=[2023-12-03 01:05:10], mode=BUILD, duration=0:00:00.425, duration_ms=425, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 01:05:10], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 01:05:15], mode=PLATFORM_GENERATION, duration=0:00:05.049, duration_ms=5049, data={name=Pokemon_Top}
+timestamp=[2023-12-03 01:05:38], mode=PLATFORM_GENERATION, duration=0:00:18.953, duration_ms=18953, data={name=Pokemon_Top}
+timestamp=[2023-12-03 01:05:45], mode=BUILD, duration=0:00:06.371, duration_ms=6371, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 01:05:46], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 01:31:47], mode=BUILD, duration=0:00:00.439, duration_ms=439, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 01:31:48], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 01:31:54], mode=PLATFORM_GENERATION, duration=0:00:05.916, duration_ms=5916, data={name=Pokemon_Top}
+timestamp=[2023-12-03 01:32:20], mode=PLATFORM_GENERATION, duration=0:00:17.723, duration_ms=17723, data={name=Pokemon_Top}
+timestamp=[2023-12-03 01:32:24], mode=BUILD, duration=0:00:04.004, duration_ms=4004, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 01:32:25], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 02:11:18], mode=BUILD, duration=0:00:00.858, duration_ms=858, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 02:11:19], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 02:11:30], mode=PLATFORM_GENERATION, duration=0:00:10.833, duration_ms=10833, data={name=Pokemon_Top}
+timestamp=[2023-12-03 02:12:27], mode=PLATFORM_GENERATION, duration=0:00:21.447, duration_ms=21447, data={name=Pokemon_Top}
+timestamp=[2023-12-03 02:12:32], mode=BUILD, duration=0:00:04.646, duration_ms=4646, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 02:12:33], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 02:25:03], mode=BUILD, duration=0:00:00.439, duration_ms=439, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 02:25:04], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 02:25:10], mode=PLATFORM_GENERATION, duration=0:00:06.001, duration_ms=6001, data={name=Pokemon_Top}
+timestamp=[2023-12-03 02:25:32], mode=PLATFORM_GENERATION, duration=0:00:17.862, duration_ms=17862, data={name=Pokemon_Top}
+timestamp=[2023-12-03 02:25:36], mode=BUILD, duration=0:00:03.594, duration_ms=3594, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 02:25:36], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 02:48:08], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 02:48:08], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 02:48:16], mode=PLATFORM_GENERATION, duration=0:00:07.608, duration_ms=7608, data={name=Pokemon_Top}
+timestamp=[2023-12-03 02:48:51], mode=PLATFORM_GENERATION, duration=0:00:22.816, duration_ms=22816, data={name=Pokemon_Top}
+timestamp=[2023-12-03 02:48:56], mode=BUILD, duration=0:00:03.905, duration_ms=3905, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 02:48:57], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:05:23], mode=BUILD, duration=0:00:00.636, duration_ms=636, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:05:24], mode=BUILD, duration=0:00:00.499, duration_ms=499, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:05:33], mode=PLATFORM_GENERATION, duration=0:00:08.866, duration_ms=8866, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:06:33], mode=PLATFORM_GENERATION, duration=0:00:22.961, duration_ms=22961, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:06:37], mode=BUILD, duration=0:00:03.678, duration_ms=3678, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:07:09], mode=BUILD, duration=0:00:00.722, duration_ms=722, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:07:10], mode=BUILD, duration=0:00:00.522, duration_ms=522, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:07:20], mode=PLATFORM_GENERATION, duration=0:00:09.608, duration_ms=9608, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:07:56], mode=PLATFORM_GENERATION, duration=0:00:21.321, duration_ms=21321, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:07:59], mode=BUILD, duration=0:00:03.462, duration_ms=3462, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:08:38], mode=BUILD, duration=0:00:00.886, duration_ms=886, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:08:55], mode=BUILD, duration=0:00:00.643, duration_ms=643, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:08:56], mode=BUILD, duration=0:00:00.490, duration_ms=490, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:09:05], mode=PLATFORM_GENERATION, duration=0:00:08.870, duration_ms=8870, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:09:26], mode=PLATFORM_GENERATION, duration=0:00:19.023, duration_ms=19023, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:09:30], mode=BUILD, duration=0:00:03.738, duration_ms=3738, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:13:43], mode=BUILD, duration=0:00:00.573, duration_ms=573, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:13:43], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:13:52], mode=PLATFORM_GENERATION, duration=0:00:09.358, duration_ms=9358, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:14:17], mode=PLATFORM_GENERATION, duration=0:00:18.972, duration_ms=18972, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:14:23], mode=BUILD, duration=0:00:06.139, duration_ms=6139, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:14:24], mode=BUILD, duration=0:00:00.505, duration_ms=505, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:28:38], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:28:39], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:28:48], mode=PLATFORM_GENERATION, duration=0:00:08.872, duration_ms=8872, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:29:11], mode=PLATFORM_GENERATION, duration=0:00:19.604, duration_ms=19604, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:29:15], mode=BUILD, duration=0:00:03.048, duration_ms=3048, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:30:43], mode=BUILD, duration=0:00:00.544, duration_ms=544, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:30:44], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:30:53], mode=PLATFORM_GENERATION, duration=0:00:08.779, duration_ms=8779, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:31:19], mode=PLATFORM_GENERATION, duration=0:00:23.062, duration_ms=23062, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:31:21], mode=BUILD, duration=0:00:02.582, duration_ms=2582, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:31:52], mode=BUILD, duration=0:00:00.546, duration_ms=546, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:31:53], mode=BUILD, duration=0:00:00.471, duration_ms=471, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:32:02], mode=PLATFORM_GENERATION, duration=0:00:09.210, duration_ms=9210, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:32:25], mode=PLATFORM_GENERATION, duration=0:00:21.118, duration_ms=21118, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:32:31], mode=BUILD, duration=0:00:05.723, duration_ms=5723, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:32:32], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:37:02], mode=BUILD, duration=0:00:00.623, duration_ms=623, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:37:03], mode=BUILD, duration=0:00:00.523, duration_ms=523, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:37:11], mode=PLATFORM_GENERATION, duration=0:00:08.386, duration_ms=8386, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:37:39], mode=PLATFORM_GENERATION, duration=0:00:22.092, duration_ms=22092, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:37:43], mode=BUILD, duration=0:00:04.194, duration_ms=4194, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:37:44], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:39:28], mode=BUILD, duration=0:00:00.554, duration_ms=554, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:39:28], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:39:38], mode=PLATFORM_GENERATION, duration=0:00:09.283, duration_ms=9283, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:40:02], mode=PLATFORM_GENERATION, duration=0:00:20.383, duration_ms=20383, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:40:07], mode=BUILD, duration=0:00:04.814, duration_ms=4814, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:40:08], mode=BUILD, duration=0:00:00.405, duration_ms=405, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:42:15], mode=BUILD, duration=0:00:00.622, duration_ms=622, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:42:16], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 03:42:24], mode=PLATFORM_GENERATION, duration=0:00:08.924, duration_ms=8924, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:42:50], mode=PLATFORM_GENERATION, duration=0:00:21.563, duration_ms=21563, data={name=Pokemon_Top}
+timestamp=[2023-12-03 03:42:56], mode=BUILD, duration=0:00:05.647, duration_ms=5647, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 03:42:57], mode=BUILD, duration=0:00:00.375, duration_ms=375, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 04:53:29], mode=BUILD, duration=0:00:00.456, duration_ms=456, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 04:53:29], mode=BUILD, duration=0:00:00.340, duration_ms=340, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 04:53:36], mode=PLATFORM_GENERATION, duration=0:00:06.853, duration_ms=6853, data={name=Pokemon_Top}
+timestamp=[2023-12-03 04:54:00], mode=PLATFORM_GENERATION, duration=0:00:20.106, duration_ms=20106, data={name=Pokemon_Top}
+timestamp=[2023-12-03 04:54:07], mode=BUILD, duration=0:00:05.544, duration_ms=5544, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 04:54:08], mode=BUILD, duration=0:00:00.410, duration_ms=410, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 04:56:09], mode=BUILD, duration=0:00:00.433, duration_ms=433, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 04:56:09], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 04:56:16], mode=PLATFORM_GENERATION, duration=0:00:06.315, duration_ms=6315, data={name=Pokemon_Top}
+timestamp=[2023-12-03 04:56:50], mode=PLATFORM_GENERATION, duration=0:00:14.833, duration_ms=14833, data={name=Pokemon_Top}
+timestamp=[2023-12-03 04:56:55], mode=BUILD, duration=0:00:04.940, duration_ms=4940, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 04:56:57], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 04:58:15], mode=BUILD, duration=0:00:00.420, duration_ms=420, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 04:58:15], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 04:58:21], mode=PLATFORM_GENERATION, duration=0:00:06.094, duration_ms=6094, data={name=Pokemon_Top}
+timestamp=[2023-12-03 04:58:49], mode=PLATFORM_GENERATION, duration=0:00:22.260, duration_ms=22260, data={name=Pokemon_Top}
+timestamp=[2023-12-03 04:58:54], mode=BUILD, duration=0:00:05.325, duration_ms=5325, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 04:58:55], mode=BUILD, duration=0:00:00.310, duration_ms=310, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 05:32:16], mode=BUILD, duration=0:00:00.469, duration_ms=469, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 05:32:16], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 05:32:24], mode=PLATFORM_GENERATION, duration=0:00:07.303, duration_ms=7303, data={name=Pokemon_Top}
+timestamp=[2023-12-03 05:32:49], mode=PLATFORM_GENERATION, duration=0:00:23.568, duration_ms=23568, data={name=Pokemon_Top}
+timestamp=[2023-12-03 05:32:53], mode=BUILD, duration=0:00:02.852, duration_ms=2852, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 05:33:07], mode=BUILD, duration=0:00:02.315, duration_ms=2315, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 05:33:08], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 05:44:05], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 05:44:06], mode=BUILD, duration=0:00:00.320, duration_ms=320, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 05:44:12], mode=PLATFORM_GENERATION, duration=0:00:06.813, duration_ms=6813, data={name=Pokemon_Top}
+timestamp=[2023-12-03 05:44:36], mode=PLATFORM_GENERATION, duration=0:00:19.861, duration_ms=19861, data={name=Pokemon_Top}
+timestamp=[2023-12-03 05:44:41], mode=BUILD, duration=0:00:04.951, duration_ms=4951, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 05:44:42], mode=BUILD, duration=0:00:00.264, duration_ms=264, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 06:03:54], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 06:03:54], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 06:04:01], mode=PLATFORM_GENERATION, duration=0:00:06.444, duration_ms=6444, data={name=Pokemon_Top}
+timestamp=[2023-12-03 06:04:35], mode=PLATFORM_GENERATION, duration=0:00:23.668, duration_ms=23668, data={name=Pokemon_Top}
+timestamp=[2023-12-03 06:04:40], mode=BUILD, duration=0:00:04.073, duration_ms=4073, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 06:04:41], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 15:17:17], mode=BUILD, duration=0:00:00.430, duration_ms=430, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 15:17:18], mode=BUILD, duration=0:00:00.347, duration_ms=347, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 15:17:24], mode=PLATFORM_GENERATION, duration=0:00:06.664, duration_ms=6664, data={name=Pokemon_Top}
+timestamp=[2023-12-03 15:17:45], mode=PLATFORM_GENERATION, duration=0:00:17.000, duration_ms=17000, data={name=Pokemon_Top}
+timestamp=[2023-12-03 15:17:49], mode=BUILD, duration=0:00:03.587, duration_ms=3587, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 15:17:50], mode=BUILD, duration=0:00:00.259, duration_ms=259, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 15:31:18], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 15:31:19], mode=BUILD, duration=0:00:00.445, duration_ms=445, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 15:31:27], mode=PLATFORM_GENERATION, duration=0:00:07.671, duration_ms=7671, data={name=Pokemon_Top}
+timestamp=[2023-12-03 15:31:50], mode=PLATFORM_GENERATION, duration=0:00:18.244, duration_ms=18244, data={name=Pokemon_Top}
+timestamp=[2023-12-03 15:31:53], mode=BUILD, duration=0:00:03.371, duration_ms=3371, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 15:31:54], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:10:32], mode=BUILD, duration=0:00:00.585, duration_ms=585, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:10:33], mode=BUILD, duration=0:00:00.380, duration_ms=380, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:10:40], mode=PLATFORM_GENERATION, duration=0:00:07.463, duration_ms=7463, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:11:07], mode=PLATFORM_GENERATION, duration=0:00:22.122, duration_ms=22122, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:11:11], mode=BUILD, duration=0:00:03.854, duration_ms=3854, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:11:12], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:13:13], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:13:13], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:13:20], mode=PLATFORM_GENERATION, duration=0:00:06.628, duration_ms=6628, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:13:39], mode=PLATFORM_GENERATION, duration=0:00:15.496, duration_ms=15496, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:13:43], mode=BUILD, duration=0:00:03.683, duration_ms=3683, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:13:44], mode=BUILD, duration=0:00:00.262, duration_ms=262, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:15:01], mode=BUILD, duration=0:00:00.426, duration_ms=426, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:15:01], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:15:08], mode=PLATFORM_GENERATION, duration=0:00:06.512, duration_ms=6512, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:15:27], mode=PLATFORM_GENERATION, duration=0:00:15.222, duration_ms=15222, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:15:31], mode=BUILD, duration=0:00:03.728, duration_ms=3728, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:15:32], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:29:11], mode=BUILD, duration=0:00:00.456, duration_ms=456, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:29:11], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:29:18], mode=PLATFORM_GENERATION, duration=0:00:06.882, duration_ms=6882, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:29:53], mode=PLATFORM_GENERATION, duration=0:00:19.519, duration_ms=19519, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:29:57], mode=BUILD, duration=0:00:03.838, duration_ms=3838, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:29:58], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:31:45], mode=BUILD, duration=0:00:00.393, duration_ms=393, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:31:45], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:31:51], mode=PLATFORM_GENERATION, duration=0:00:06.256, duration_ms=6256, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:32:11], mode=PLATFORM_GENERATION, duration=0:00:15.223, duration_ms=15223, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:32:15], mode=BUILD, duration=0:00:03.762, duration_ms=3762, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:32:15], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:38:29], mode=BUILD, duration=0:00:00.518, duration_ms=518, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:38:30], mode=BUILD, duration=0:00:00.463, duration_ms=463, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:38:36], mode=PLATFORM_GENERATION, duration=0:00:06.534, duration_ms=6534, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:38:55], mode=PLATFORM_GENERATION, duration=0:00:14.316, duration_ms=14316, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:38:57], mode=BUILD, duration=0:00:01.962, duration_ms=1962, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:39:16], mode=BUILD, duration=0:00:00.427, duration_ms=427, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:39:17], mode=BUILD, duration=0:00:00.357, duration_ms=357, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:39:23], mode=PLATFORM_GENERATION, duration=0:00:06.778, duration_ms=6778, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:39:41], mode=PLATFORM_GENERATION, duration=0:00:14.214, duration_ms=14214, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:39:44], mode=BUILD, duration=0:00:03.146, duration_ms=3146, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:39:45], mode=BUILD, duration=0:00:00.261, duration_ms=261, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:41:26], mode=BUILD, duration=0:00:00.412, duration_ms=412, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:41:27], mode=BUILD, duration=0:00:00.352, duration_ms=352, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:41:33], mode=PLATFORM_GENERATION, duration=0:00:06.231, duration_ms=6231, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:41:55], mode=PLATFORM_GENERATION, duration=0:00:13.749, duration_ms=13749, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:41:59], mode=BUILD, duration=0:00:03.361, duration_ms=3361, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:41:59], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:46:28], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:46:29], mode=BUILD, duration=0:00:00.334, duration_ms=334, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 16:46:35], mode=PLATFORM_GENERATION, duration=0:00:06.460, duration_ms=6460, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:47:11], mode=PLATFORM_GENERATION, duration=0:00:14.743, duration_ms=14743, data={name=Pokemon_Top}
+timestamp=[2023-12-03 16:47:14], mode=BUILD, duration=0:00:03.218, duration_ms=3218, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 16:47:15], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:14:52], mode=BUILD, duration=0:00:00.512, duration_ms=512, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:14:52], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:14:59], mode=PLATFORM_GENERATION, duration=0:00:06.645, duration_ms=6645, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:15:26], mode=PLATFORM_GENERATION, duration=0:00:18.347, duration_ms=18347, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:15:30], mode=BUILD, duration=0:00:03.528, duration_ms=3528, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:15:31], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:18:08], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:18:08], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:18:14], mode=PLATFORM_GENERATION, duration=0:00:06.071, duration_ms=6071, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:18:32], mode=PLATFORM_GENERATION, duration=0:00:13.068, duration_ms=13068, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:18:35], mode=BUILD, duration=0:00:02.816, duration_ms=2816, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:18:36], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:19:51], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:19:52], mode=BUILD, duration=0:00:00.401, duration_ms=401, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:19:58], mode=PLATFORM_GENERATION, duration=0:00:06.447, duration_ms=6447, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:20:14], mode=PLATFORM_GENERATION, duration=0:00:13.300, duration_ms=13300, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:20:17], mode=BUILD, duration=0:00:02.954, duration_ms=2954, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:20:18], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:32:25], mode=BUILD, duration=0:00:00.653, duration_ms=653, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:32:26], mode=BUILD, duration=0:00:00.465, duration_ms=465, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:32:33], mode=PLATFORM_GENERATION, duration=0:00:07.200, duration_ms=7200, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:32:53], mode=PLATFORM_GENERATION, duration=0:00:16.358, duration_ms=16358, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:32:55], mode=BUILD, duration=0:00:02.086, duration_ms=2086, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:37:47], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:37:47], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:37:54], mode=PLATFORM_GENERATION, duration=0:00:07.431, duration_ms=7431, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:38:44], mode=PLATFORM_GENERATION, duration=0:00:15.608, duration_ms=15608, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:38:48], mode=BUILD, duration=0:00:03.677, duration_ms=3677, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:38:49], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:40:00], mode=BUILD, duration=0:00:00.514, duration_ms=514, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:40:01], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 17:40:08], mode=PLATFORM_GENERATION, duration=0:00:07.230, duration_ms=7230, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:40:26], mode=PLATFORM_GENERATION, duration=0:00:14.930, duration_ms=14930, data={name=Pokemon_Top}
+timestamp=[2023-12-03 17:40:30], mode=BUILD, duration=0:00:03.766, duration_ms=3766, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 17:40:31], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 22:58:47], mode=BUILD, duration=0:00:00.789, duration_ms=789, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 22:58:47], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 22:59:01], mode=PLATFORM_GENERATION, duration=0:00:14.088, duration_ms=14088, data={name=Pokemon_Top}
+timestamp=[2023-12-03 22:59:35], mode=PLATFORM_GENERATION, duration=0:00:17.932, duration_ms=17932, data={name=Pokemon_Top}
+timestamp=[2023-12-03 22:59:40], mode=BUILD, duration=0:00:04.749, duration_ms=4749, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 22:59:41], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:03:02], mode=BUILD, duration=0:00:00.522, duration_ms=522, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:03:03], mode=BUILD, duration=0:00:00.477, duration_ms=477, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:03:10], mode=PLATFORM_GENERATION, duration=0:00:07.590, duration_ms=7590, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:03:31], mode=PLATFORM_GENERATION, duration=0:00:17.045, duration_ms=17045, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:03:35], mode=BUILD, duration=0:00:03.896, duration_ms=3896, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:03:36], mode=BUILD, duration=0:00:00.269, duration_ms=269, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:04:34], mode=BUILD, duration=0:00:00.656, duration_ms=656, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:04:35], mode=BUILD, duration=0:00:00.507, duration_ms=507, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:04:42], mode=PLATFORM_GENERATION, duration=0:00:07.897, duration_ms=7897, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:05:02], mode=PLATFORM_GENERATION, duration=0:00:17.211, duration_ms=17211, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:05:06], mode=BUILD, duration=0:00:03.904, duration_ms=3904, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:05:07], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:06:39], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:06:40], mode=BUILD, duration=0:00:00.442, duration_ms=442, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:06:48], mode=PLATFORM_GENERATION, duration=0:00:08.055, duration_ms=8055, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:07:09], mode=PLATFORM_GENERATION, duration=0:00:16.806, duration_ms=16806, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:07:14], mode=BUILD, duration=0:00:04.268, duration_ms=4268, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:07:15], mode=BUILD, duration=0:00:00.357, duration_ms=357, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:08:35], mode=BUILD, duration=0:00:00.633, duration_ms=633, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:08:36], mode=BUILD, duration=0:00:00.447, duration_ms=447, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:08:44], mode=PLATFORM_GENERATION, duration=0:00:08.403, duration_ms=8403, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:09:06], mode=PLATFORM_GENERATION, duration=0:00:18.624, duration_ms=18624, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:09:11], mode=BUILD, duration=0:00:04.664, duration_ms=4664, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:09:12], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:34:27], mode=BUILD, duration=0:00:00.735, duration_ms=735, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:34:28], mode=BUILD, duration=0:00:00.457, duration_ms=457, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:34:37], mode=PLATFORM_GENERATION, duration=0:00:09.015, duration_ms=9015, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:35:07], mode=PLATFORM_GENERATION, duration=0:00:27.140, duration_ms=27140, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:35:12], mode=BUILD, duration=0:00:05.020, duration_ms=5020, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:35:14], mode=BUILD, duration=0:00:00.370, duration_ms=370, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:51:44], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:51:44], mode=BUILD, duration=0:00:00.350, duration_ms=350, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-03 23:51:52], mode=PLATFORM_GENERATION, duration=0:00:07.837, duration_ms=7837, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:52:21], mode=PLATFORM_GENERATION, duration=0:00:21.661, duration_ms=21661, data={name=Pokemon_Top}
+timestamp=[2023-12-03 23:52:26], mode=BUILD, duration=0:00:03.969, duration_ms=3969, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-03 23:52:27], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 00:13:31], mode=BUILD, duration=0:00:00.603, duration_ms=603, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 00:13:31], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 00:13:38], mode=PLATFORM_GENERATION, duration=0:00:07.119, duration_ms=7119, data={name=Pokemon_Top}
+timestamp=[2023-12-04 00:13:59], mode=PLATFORM_GENERATION, duration=0:00:19.356, duration_ms=19356, data={name=Pokemon_Top}
+timestamp=[2023-12-04 00:14:03], mode=BUILD, duration=0:00:04.099, duration_ms=4099, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 00:14:04], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 00:34:41], mode=BUILD, duration=0:00:00.675, duration_ms=675, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 00:34:41], mode=BUILD, duration=0:00:00.485, duration_ms=485, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 00:34:49], mode=PLATFORM_GENERATION, duration=0:00:08.181, duration_ms=8181, data={name=Pokemon_Top}
+timestamp=[2023-12-04 00:35:17], mode=PLATFORM_GENERATION, duration=0:00:23.012, duration_ms=23012, data={name=Pokemon_Top}
+timestamp=[2023-12-04 00:35:22], mode=BUILD, duration=0:00:04.095, duration_ms=4095, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 00:35:23], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 01:05:19], mode=BUILD, duration=0:00:00.680, duration_ms=680, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 01:05:20], mode=BUILD, duration=0:00:00.857, duration_ms=857, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 01:05:29], mode=PLATFORM_GENERATION, duration=0:00:09.217, duration_ms=9217, data={name=Pokemon_Top}
+timestamp=[2023-12-04 01:06:03], mode=PLATFORM_GENERATION, duration=0:00:24.013, duration_ms=24013, data={name=Pokemon_Top}
+timestamp=[2023-12-04 01:06:09], mode=BUILD, duration=0:00:04.824, duration_ms=4824, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 01:06:10], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 02:40:18], mode=BUILD, duration=0:00:01.052, duration_ms=1052, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 02:40:18], mode=BUILD, duration=0:00:00.466, duration_ms=466, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 02:40:30], mode=PLATFORM_GENERATION, duration=0:00:11.750, duration_ms=11750, data={name=Pokemon_Top}
+timestamp=[2023-12-04 02:41:03], mode=PLATFORM_GENERATION, duration=0:00:29.443, duration_ms=29443, data={name=Pokemon_Top}
+timestamp=[2023-12-04 02:41:09], mode=BUILD, duration=0:00:05.624, duration_ms=5624, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 02:41:10], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 03:07:40], mode=BUILD, duration=0:00:00.984, duration_ms=984, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 03:07:40], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 03:07:50], mode=PLATFORM_GENERATION, duration=0:00:09.978, duration_ms=9978, data={name=Pokemon_Top}
+timestamp=[2023-12-04 03:08:29], mode=PLATFORM_GENERATION, duration=0:00:33.081, duration_ms=33081, data={name=Pokemon_Top}
+timestamp=[2023-12-04 03:08:36], mode=BUILD, duration=0:00:06.612, duration_ms=6612, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 03:08:37], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 03:32:47], mode=BUILD, duration=0:00:01.413, duration_ms=1413, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 03:32:48], mode=BUILD, duration=0:00:00.747, duration_ms=747, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 03:33:01], mode=PLATFORM_GENERATION, duration=0:00:13.047, duration_ms=13047, data={name=Pokemon_Top}
+timestamp=[2023-12-04 03:33:49], mode=PLATFORM_GENERATION, duration=0:00:43.480, duration_ms=43480, data={name=Pokemon_Top}
+timestamp=[2023-12-04 03:34:07], mode=BUILD, duration=0:00:14.722, duration_ms=14722, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 03:34:12], mode=BUILD, duration=0:00:00.625, duration_ms=625, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 03:56:55], mode=BUILD, duration=0:00:01.484, duration_ms=1484, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 03:56:56], mode=BUILD, duration=0:00:00.612, duration_ms=612, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 03:57:15], mode=PLATFORM_GENERATION, duration=0:00:18.930, duration_ms=18930, data={name=Pokemon_Top}
+timestamp=[2023-12-04 03:57:57], mode=PLATFORM_GENERATION, duration=0:00:38.856, duration_ms=38856, data={name=Pokemon_Top}
+timestamp=[2023-12-04 03:58:07], mode=BUILD, duration=0:00:08.914, duration_ms=8914, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 03:58:09], mode=BUILD, duration=0:00:00.831, duration_ms=831, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 04:15:51], mode=BUILD, duration=0:00:01.149, duration_ms=1149, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 04:15:52], mode=BUILD, duration=0:00:00.650, duration_ms=650, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 04:16:05], mode=PLATFORM_GENERATION, duration=0:00:13.485, duration_ms=13485, data={name=Pokemon_Top}
+timestamp=[2023-12-04 04:16:43], mode=PLATFORM_GENERATION, duration=0:00:35.859, duration_ms=35859, data={name=Pokemon_Top}
+timestamp=[2023-12-04 04:16:51], mode=BUILD, duration=0:00:08.146, duration_ms=8146, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 04:16:53], mode=BUILD, duration=0:00:00.573, duration_ms=573, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 04:44:09], mode=BUILD, duration=0:00:01.873, duration_ms=1873, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 04:44:10], mode=BUILD, duration=0:00:00.700, duration_ms=700, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 04:44:23], mode=PLATFORM_GENERATION, duration=0:00:12.625, duration_ms=12625, data={name=Pokemon_Top}
+timestamp=[2023-12-04 04:45:10], mode=PLATFORM_GENERATION, duration=0:00:41.403, duration_ms=41403, data={name=Pokemon_Top}
+timestamp=[2023-12-04 04:45:21], mode=BUILD, duration=0:00:10.102, duration_ms=10102, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 04:45:23], mode=BUILD, duration=0:00:00.811, duration_ms=811, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 05:12:55], mode=BUILD, duration=0:00:01.345, duration_ms=1345, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 05:12:56], mode=BUILD, duration=0:00:00.769, duration_ms=769, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 05:13:11], mode=PLATFORM_GENERATION, duration=0:00:14.864, duration_ms=14864, data={name=Pokemon_Top}
+timestamp=[2023-12-04 05:14:28], mode=PLATFORM_GENERATION, duration=0:00:36.451, duration_ms=36451, data={name=Pokemon_Top}
+timestamp=[2023-12-04 05:14:39], mode=BUILD, duration=0:00:09.971, duration_ms=9971, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 05:14:44], mode=BUILD, duration=0:00:00.811, duration_ms=811, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 05:31:55], mode=BUILD, duration=0:00:01.255, duration_ms=1255, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 05:31:55], mode=BUILD, duration=0:00:00.575, duration_ms=575, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 05:32:07], mode=PLATFORM_GENERATION, duration=0:00:11.665, duration_ms=11665, data={name=Pokemon_Top}
+timestamp=[2023-12-04 05:32:52], mode=PLATFORM_GENERATION, duration=0:00:33.153, duration_ms=33153, data={name=Pokemon_Top}
+timestamp=[2023-12-04 05:33:01], mode=BUILD, duration=0:00:07.719, duration_ms=7719, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 05:33:03], mode=BUILD, duration=0:00:00.529, duration_ms=529, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 10:59:48], mode=WORKBENCH_START, duration=0:00:17.564, duration_ms=17564, data={}
+timestamp=[2023-12-04 10:59:50], mode=WORKBENCH_UI_INIT, duration=0:00:01.384, duration_ms=1384, data={editors_count=8, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-04 10:59:52], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.198, duration_ms=198, data={}
+timestamp=[2023-12-04 11:00:12], mode=BUILD, duration=0:00:00.919, duration_ms=919, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 11:00:12], mode=BUILD, duration=0:00:00.363, duration_ms=363, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 11:00:20], mode=PLATFORM_GENERATION, duration=0:00:07.873, duration_ms=7873, data={name=Pokemon_Top}
+timestamp=[2023-12-04 11:00:37], mode=BUILD, duration=0:00:00.533, duration_ms=533, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 11:00:37], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 11:00:43], mode=PLATFORM_GENERATION, duration=0:00:05.418, duration_ms=5418, data={name=Pokemon_Top}
+timestamp=[2023-12-04 11:01:10], mode=PLATFORM_GENERATION, duration=0:00:18.390, duration_ms=18390, data={name=Pokemon_Top}
+timestamp=[2023-12-04 11:01:16], mode=BUILD, duration=0:00:05.167, duration_ms=5167, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 11:01:18], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 11:29:12], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 11:29:12], mode=BUILD, duration=0:00:00.380, duration_ms=380, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 11:29:18], mode=PLATFORM_GENERATION, duration=0:00:06.202, duration_ms=6202, data={name=Pokemon_Top}
+timestamp=[2023-12-04 11:29:42], mode=PLATFORM_GENERATION, duration=0:00:17.477, duration_ms=17477, data={name=Pokemon_Top}
+timestamp=[2023-12-04 11:29:47], mode=BUILD, duration=0:00:04.520, duration_ms=4520, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 11:29:48], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 12:15:44], mode=BUILD, duration=0:00:00.666, duration_ms=666, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 12:15:44], mode=BUILD, duration=0:00:00.378, duration_ms=378, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 12:15:51], mode=PLATFORM_GENERATION, duration=0:00:06.459, duration_ms=6459, data={name=Pokemon_Top}
+timestamp=[2023-12-04 12:16:14], mode=PLATFORM_GENERATION, duration=0:00:20.249, duration_ms=20249, data={name=Pokemon_Top}
+timestamp=[2023-12-04 12:16:19], mode=BUILD, duration=0:00:04.678, duration_ms=4678, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 12:16:20], mode=BUILD, duration=0:00:00.363, duration_ms=363, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 12:37:37], mode=BUILD, duration=0:00:00.589, duration_ms=589, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 12:37:37], mode=BUILD, duration=0:00:00.377, duration_ms=377, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 12:37:44], mode=PLATFORM_GENERATION, duration=0:00:06.695, duration_ms=6695, data={name=Pokemon_Top}
+timestamp=[2023-12-04 12:38:05], mode=PLATFORM_GENERATION, duration=0:00:18.224, duration_ms=18224, data={name=Pokemon_Top}
+timestamp=[2023-12-04 12:38:09], mode=BUILD, duration=0:00:03.923, duration_ms=3923, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 12:38:10], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 13:12:49], mode=BUILD, duration=0:00:00.625, duration_ms=625, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 13:12:49], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 13:12:56], mode=PLATFORM_GENERATION, duration=0:00:06.744, duration_ms=6744, data={name=Pokemon_Top}
+timestamp=[2023-12-04 13:13:18], mode=PLATFORM_GENERATION, duration=0:00:17.819, duration_ms=17819, data={name=Pokemon_Top}
+timestamp=[2023-12-04 13:13:22], mode=BUILD, duration=0:00:04.169, duration_ms=4169, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 13:13:23], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 14:55:06], mode=BUILD, duration=0:00:00.952, duration_ms=952, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 14:55:06], mode=BUILD, duration=0:00:00.367, duration_ms=367, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 14:55:18], mode=PLATFORM_GENERATION, duration=0:00:12.405, duration_ms=12405, data={name=Pokemon_Top}
+timestamp=[2023-12-04 14:55:39], mode=PLATFORM_GENERATION, duration=0:00:18.230, duration_ms=18230, data={name=Pokemon_Top}
+timestamp=[2023-12-04 14:55:44], mode=BUILD, duration=0:00:04.093, duration_ms=4093, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 14:55:45], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 16:49:42], mode=BUILD, duration=0:00:01.122, duration_ms=1122, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 16:49:43], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 16:49:55], mode=PLATFORM_GENERATION, duration=0:00:12.230, duration_ms=12230, data={name=Pokemon_Top}
+timestamp=[2023-12-04 16:50:20], mode=PLATFORM_GENERATION, duration=0:00:19.841, duration_ms=19841, data={name=Pokemon_Top}
+timestamp=[2023-12-04 16:50:25], mode=BUILD, duration=0:00:04.525, duration_ms=4525, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 16:50:26], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 17:06:22], mode=BUILD, duration=0:00:00.564, duration_ms=564, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 17:06:23], mode=BUILD, duration=0:00:00.350, duration_ms=350, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 17:06:31], mode=PLATFORM_GENERATION, duration=0:00:07.944, duration_ms=7944, data={name=Pokemon_Top}
+timestamp=[2023-12-04 17:06:57], mode=PLATFORM_GENERATION, duration=0:00:18.369, duration_ms=18369, data={name=Pokemon_Top}
+timestamp=[2023-12-04 17:07:01], mode=BUILD, duration=0:00:03.830, duration_ms=3830, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 17:07:02], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 17:30:13], mode=BUILD, duration=0:00:00.658, duration_ms=658, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 17:30:13], mode=BUILD, duration=0:00:00.363, duration_ms=363, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 17:30:20], mode=PLATFORM_GENERATION, duration=0:00:06.803, duration_ms=6803, data={name=Pokemon_Top}
+timestamp=[2023-12-04 17:31:29], mode=PLATFORM_GENERATION, duration=0:00:18.662, duration_ms=18662, data={name=Pokemon_Top}
+timestamp=[2023-12-04 17:31:33], mode=BUILD, duration=0:00:03.859, duration_ms=3859, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 17:31:34], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 21:16:09], mode=BUILD, duration=0:00:00.630, duration_ms=630, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 21:16:09], mode=BUILD, duration=0:00:00.332, duration_ms=332, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 21:16:22], mode=PLATFORM_GENERATION, duration=0:00:13.014, duration_ms=13014, data={name=Pokemon_Top}
+timestamp=[2023-12-04 21:16:43], mode=PLATFORM_GENERATION, duration=0:00:16.343, duration_ms=16343, data={name=Pokemon_Top}
+timestamp=[2023-12-04 21:16:47], mode=BUILD, duration=0:00:04.318, duration_ms=4318, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 21:16:48], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 21:38:05], mode=BUILD, duration=0:00:00.577, duration_ms=577, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 21:38:06], mode=BUILD, duration=0:00:00.441, duration_ms=441, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 21:38:13], mode=PLATFORM_GENERATION, duration=0:00:06.938, duration_ms=6938, data={name=Pokemon_Top}
+timestamp=[2023-12-04 21:38:38], mode=PLATFORM_GENERATION, duration=0:00:18.609, duration_ms=18609, data={name=Pokemon_Top}
+timestamp=[2023-12-04 21:38:42], mode=BUILD, duration=0:00:03.902, duration_ms=3902, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 21:38:43], mode=BUILD, duration=0:00:00.349, duration_ms=349, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 21:40:49], mode=BUILD, duration=0:00:00.511, duration_ms=511, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 21:40:50], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 21:40:56], mode=PLATFORM_GENERATION, duration=0:00:06.671, duration_ms=6671, data={name=Pokemon_Top}
+timestamp=[2023-12-04 21:41:15], mode=PLATFORM_GENERATION, duration=0:00:15.868, duration_ms=15868, data={name=Pokemon_Top}
+timestamp=[2023-12-04 21:41:19], mode=BUILD, duration=0:00:04.233, duration_ms=4233, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 21:41:20], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:19:58], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:19:58], mode=BUILD, duration=0:00:00.362, duration_ms=362, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:20:05], mode=PLATFORM_GENERATION, duration=0:00:07.103, duration_ms=7103, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:20:31], mode=PLATFORM_GENERATION, duration=0:00:20.147, duration_ms=20147, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:20:36], mode=BUILD, duration=0:00:04.018, duration_ms=4018, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:20:37], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:23:28], mode=BUILD, duration=0:00:00.561, duration_ms=561, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:23:28], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:23:35], mode=PLATFORM_GENERATION, duration=0:00:06.754, duration_ms=6754, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:24:06], mode=PLATFORM_GENERATION, duration=0:00:14.454, duration_ms=14454, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:24:10], mode=BUILD, duration=0:00:03.864, duration_ms=3864, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:24:11], mode=BUILD, duration=0:00:00.303, duration_ms=303, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:40:28], mode=BUILD, duration=0:00:00.520, duration_ms=520, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:40:29], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:40:36], mode=PLATFORM_GENERATION, duration=0:00:07.078, duration_ms=7078, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:41:09], mode=PLATFORM_GENERATION, duration=0:00:14.677, duration_ms=14677, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:41:12], mode=BUILD, duration=0:00:02.415, duration_ms=2415, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:41:56], mode=BUILD, duration=0:00:00.513, duration_ms=513, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:41:56], mode=BUILD, duration=0:00:00.370, duration_ms=370, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:42:04], mode=PLATFORM_GENERATION, duration=0:00:07.726, duration_ms=7726, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:42:27], mode=PLATFORM_GENERATION, duration=0:00:14.828, duration_ms=14828, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:42:31], mode=BUILD, duration=0:00:04.216, duration_ms=4216, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:42:32], mode=BUILD, duration=0:00:00.261, duration_ms=261, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:43:48], mode=BUILD, duration=0:00:00.495, duration_ms=495, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:43:48], mode=BUILD, duration=0:00:00.446, duration_ms=446, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-04 22:43:56], mode=PLATFORM_GENERATION, duration=0:00:07.299, duration_ms=7299, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:44:13], mode=PLATFORM_GENERATION, duration=0:00:14.292, duration_ms=14292, data={name=Pokemon_Top}
+timestamp=[2023-12-04 22:44:16], mode=BUILD, duration=0:00:03.552, duration_ms=3552, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-04 22:44:17], mode=BUILD, duration=0:00:00.247, duration_ms=247, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 00:12:30], mode=BUILD, duration=0:00:01.121, duration_ms=1121, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 00:12:30], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 00:12:42], mode=PLATFORM_GENERATION, duration=0:00:12.188, duration_ms=12188, data={name=Pokemon_Top}
+timestamp=[2023-12-05 00:13:03], mode=PLATFORM_GENERATION, duration=0:00:17.892, duration_ms=17892, data={name=Pokemon_Top}
+timestamp=[2023-12-05 00:13:08], mode=BUILD, duration=0:00:03.715, duration_ms=3715, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 00:13:09], mode=BUILD, duration=0:00:00.265, duration_ms=265, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:02:29], mode=BUILD, duration=0:00:00.694, duration_ms=694, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:02:29], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:02:38], mode=PLATFORM_GENERATION, duration=0:00:08.503, duration_ms=8503, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:03:07], mode=PLATFORM_GENERATION, duration=0:00:21.759, duration_ms=21759, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:03:13], mode=BUILD, duration=0:00:04.822, duration_ms=4822, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:03:14], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:08:39], mode=BUILD, duration=0:00:00.534, duration_ms=534, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:08:40], mode=BUILD, duration=0:00:00.370, duration_ms=370, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:08:47], mode=PLATFORM_GENERATION, duration=0:00:07.448, duration_ms=7448, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:09:10], mode=PLATFORM_GENERATION, duration=0:00:17.292, duration_ms=17292, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:09:14], mode=BUILD, duration=0:00:04.059, duration_ms=4059, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:09:15], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:35:28], mode=BUILD, duration=0:00:00.710, duration_ms=710, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:35:28], mode=BUILD, duration=0:00:00.455, duration_ms=455, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:35:37], mode=PLATFORM_GENERATION, duration=0:00:08.135, duration_ms=8135, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:36:08], mode=PLATFORM_GENERATION, duration=0:00:21.957, duration_ms=21957, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:36:13], mode=BUILD, duration=0:00:04.383, duration_ms=4383, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:36:14], mode=BUILD, duration=0:00:00.299, duration_ms=299, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:53:35], mode=BUILD, duration=0:00:00.646, duration_ms=646, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:53:36], mode=BUILD, duration=0:00:00.476, duration_ms=476, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 01:53:45], mode=PLATFORM_GENERATION, duration=0:00:09.247, duration_ms=9247, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:54:53], mode=PLATFORM_GENERATION, duration=0:00:24.478, duration_ms=24478, data={name=Pokemon_Top}
+timestamp=[2023-12-05 01:54:58], mode=BUILD, duration=0:00:05.000, duration_ms=5000, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 01:54:59], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:18:07], mode=BUILD, duration=0:00:00.840, duration_ms=840, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:18:07], mode=BUILD, duration=0:00:00.595, duration_ms=595, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:18:16], mode=PLATFORM_GENERATION, duration=0:00:08.801, duration_ms=8801, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:18:52], mode=PLATFORM_GENERATION, duration=0:00:26.146, duration_ms=26146, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:18:58], mode=BUILD, duration=0:00:05.415, duration_ms=5415, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:18:59], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:42:15], mode=BUILD, duration=0:00:00.749, duration_ms=749, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:42:15], mode=BUILD, duration=0:00:00.472, duration_ms=472, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:42:23], mode=PLATFORM_GENERATION, duration=0:00:07.909, duration_ms=7909, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:42:49], mode=PLATFORM_GENERATION, duration=0:00:23.327, duration_ms=23327, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:42:54], mode=BUILD, duration=0:00:04.365, duration_ms=4365, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:42:55], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:47:35], mode=BUILD, duration=0:00:00.607, duration_ms=607, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:47:35], mode=BUILD, duration=0:00:00.430, duration_ms=430, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:47:44], mode=PLATFORM_GENERATION, duration=0:00:08.524, duration_ms=8524, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:48:09], mode=PLATFORM_GENERATION, duration=0:00:22.565, duration_ms=22565, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:48:14], mode=BUILD, duration=0:00:04.242, duration_ms=4242, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:48:15], mode=BUILD, duration=0:00:00.335, duration_ms=335, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:50:53], mode=BUILD, duration=0:00:00.674, duration_ms=674, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:50:53], mode=BUILD, duration=0:00:00.507, duration_ms=507, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:51:03], mode=PLATFORM_GENERATION, duration=0:00:09.585, duration_ms=9585, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:51:37], mode=PLATFORM_GENERATION, duration=0:00:19.482, duration_ms=19482, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:51:41], mode=BUILD, duration=0:00:03.748, duration_ms=3748, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:52:04], mode=BUILD, duration=0:00:00.808, duration_ms=808, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:52:05], mode=BUILD, duration=0:00:00.584, duration_ms=584, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:52:13], mode=PLATFORM_GENERATION, duration=0:00:08.414, duration_ms=8414, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:52:37], mode=PLATFORM_GENERATION, duration=0:00:19.701, duration_ms=19701, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:52:41], mode=BUILD, duration=0:00:04.341, duration_ms=4341, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:55:19], mode=BUILD, duration=0:00:00.633, duration_ms=633, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:55:20], mode=BUILD, duration=0:00:00.571, duration_ms=571, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:55:29], mode=PLATFORM_GENERATION, duration=0:00:08.731, duration_ms=8731, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:55:51], mode=PLATFORM_GENERATION, duration=0:00:19.052, duration_ms=19052, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:55:56], mode=BUILD, duration=0:00:04.592, duration_ms=4592, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:55:57], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:58:32], mode=BUILD, duration=0:00:00.597, duration_ms=597, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:58:33], mode=BUILD, duration=0:00:00.489, duration_ms=489, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 02:58:42], mode=PLATFORM_GENERATION, duration=0:00:08.915, duration_ms=8915, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:59:01], mode=PLATFORM_GENERATION, duration=0:00:16.980, duration_ms=16980, data={name=Pokemon_Top}
+timestamp=[2023-12-05 02:59:06], mode=BUILD, duration=0:00:04.465, duration_ms=4465, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 02:59:07], mode=BUILD, duration=0:00:00.349, duration_ms=349, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:25:55], mode=BUILD, duration=0:00:00.834, duration_ms=834, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:25:56], mode=BUILD, duration=0:00:00.611, duration_ms=611, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:26:06], mode=PLATFORM_GENERATION, duration=0:00:09.822, duration_ms=9822, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:26:37], mode=PLATFORM_GENERATION, duration=0:00:26.025, duration_ms=26025, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:26:43], mode=BUILD, duration=0:00:05.360, duration_ms=5360, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:26:44], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:29:46], mode=BUILD, duration=0:00:00.752, duration_ms=752, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:29:46], mode=BUILD, duration=0:00:00.742, duration_ms=742, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:29:56], mode=PLATFORM_GENERATION, duration=0:00:09.336, duration_ms=9336, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:30:25], mode=PLATFORM_GENERATION, duration=0:00:25.605, duration_ms=25605, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:30:30], mode=BUILD, duration=0:00:05.585, duration_ms=5585, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:30:32], mode=BUILD, duration=0:00:00.445, duration_ms=445, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:35:02], mode=BUILD, duration=0:00:01.347, duration_ms=1347, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:35:03], mode=BUILD, duration=0:00:00.621, duration_ms=621, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:35:14], mode=PLATFORM_GENERATION, duration=0:00:10.979, duration_ms=10979, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:36:00], mode=PLATFORM_GENERATION, duration=0:00:33.256, duration_ms=33256, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:36:07], mode=BUILD, duration=0:00:06.759, duration_ms=6759, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:36:08], mode=BUILD, duration=0:00:00.421, duration_ms=421, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:39:31], mode=BUILD, duration=0:00:01.594, duration_ms=1594, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:39:32], mode=BUILD, duration=0:00:00.937, duration_ms=937, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:39:46], mode=PLATFORM_GENERATION, duration=0:00:14.237, duration_ms=14237, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:40:19], mode=BUILD, duration=0:00:01.699, duration_ms=1699, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:40:20], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:40:31], mode=PLATFORM_GENERATION, duration=0:00:11.939, duration_ms=11939, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:42:59], mode=PLATFORM_GENERATION, duration=0:02:07.166, duration_ms=127166, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:43:50], mode=BUILD, duration=0:00:49.644, duration_ms=49644, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:43:56], mode=BUILD, duration=0:00:03.488, duration_ms=3488, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:45:38], mode=BUILD, duration=0:00:02.950, duration_ms=2950, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:45:40], mode=BUILD, duration=0:00:01.320, duration_ms=1320, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:46:09], mode=PLATFORM_GENERATION, duration=0:00:28.790, duration_ms=28790, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:47:13], mode=PLATFORM_GENERATION, duration=0:01:00.451, duration_ms=60451, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:47:25], mode=BUILD, duration=0:00:12.287, duration_ms=12287, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:47:42], mode=BUILD, duration=0:00:06.436, duration_ms=6436, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:47:44], mode=BUILD, duration=0:00:00.972, duration_ms=972, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:51:46], mode=BUILD, duration=0:00:02.051, duration_ms=2051, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:51:47], mode=BUILD, duration=0:00:00.938, duration_ms=938, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:52:06], mode=PLATFORM_GENERATION, duration=0:00:18.707, duration_ms=18707, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:53:57], mode=PLATFORM_GENERATION, duration=0:01:05.447, duration_ms=65447, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:54:09], mode=BUILD, duration=0:00:11.299, duration_ms=11299, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:54:10], mode=BUILD, duration=0:00:00.752, duration_ms=752, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:54:32], mode=BUILD, duration=0:00:01.663, duration_ms=1663, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:54:33], mode=BUILD, duration=0:00:00.848, duration_ms=848, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:54:48], mode=PLATFORM_GENERATION, duration=0:00:15.182, duration_ms=15182, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:55:45], mode=PLATFORM_GENERATION, duration=0:00:49.874, duration_ms=49874, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:55:57], mode=BUILD, duration=0:00:11.363, duration_ms=11363, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:56:00], mode=BUILD, duration=0:00:00.896, duration_ms=896, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 04:58:18], mode=WORKBENCH_START, duration=0:00:15.591, duration_ms=15591, data={}
+timestamp=[2023-12-05 04:58:19], mode=WORKBENCH_UI_INIT, duration=0:00:01.270, duration_ms=1270, data={editors_count=9, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-05 04:58:21], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.127, duration_ms=127, data={}
+timestamp=[2023-12-05 04:59:08], mode=BUILD, duration=0:00:00.746, duration_ms=746, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:59:08], mode=BUILD, duration=0:00:00.427, duration_ms=427, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:59:15], mode=PLATFORM_GENERATION, duration=0:00:06.675, duration_ms=6675, data={name=Pokemon_Top}
+timestamp=[2023-12-05 04:59:31], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:59:32], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 04:59:37], mode=PLATFORM_GENERATION, duration=0:00:05.668, duration_ms=5668, data={name=Pokemon_Top}
+timestamp=[2023-12-05 05:00:00], mode=PLATFORM_GENERATION, duration=0:00:19.676, duration_ms=19676, data={name=Pokemon_Top}
+timestamp=[2023-12-05 05:00:05], mode=BUILD, duration=0:00:05.070, duration_ms=5070, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 05:00:06], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 05:14:34], mode=BUILD, duration=0:00:00.685, duration_ms=685, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 05:14:34], mode=BUILD, duration=0:00:00.456, duration_ms=456, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 05:14:42], mode=PLATFORM_GENERATION, duration=0:00:07.811, duration_ms=7811, data={name=Pokemon_Top}
+timestamp=[2023-12-05 05:15:10], mode=PLATFORM_GENERATION, duration=0:00:20.953, duration_ms=20953, data={name=Pokemon_Top}
+timestamp=[2023-12-05 05:15:15], mode=BUILD, duration=0:00:04.637, duration_ms=4637, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 05:15:17], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 16:37:38], mode=WORKBENCH_START, duration=0:00:21.089, duration_ms=21089, data={}
+timestamp=[2023-12-05 16:37:39], mode=WORKBENCH_UI_INIT, duration=0:00:01.211, duration_ms=1211, data={editors_count=9, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-05 16:37:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.218, duration_ms=218, data={}
+timestamp=[2023-12-05 16:39:14], mode=BUILD, duration=0:00:01.310, duration_ms=1310, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 16:39:14], mode=BUILD, duration=0:00:00.460, duration_ms=460, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 16:39:25], mode=PLATFORM_GENERATION, duration=0:00:10.718, duration_ms=10718, data={name=Pokemon_Top}
+timestamp=[2023-12-05 16:39:43], mode=BUILD, duration=0:00:00.935, duration_ms=935, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 16:39:43], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 16:39:50], mode=PLATFORM_GENERATION, duration=0:00:06.555, duration_ms=6555, data={name=Pokemon_Top}
+timestamp=[2023-12-05 16:40:21], mode=PLATFORM_GENERATION, duration=0:00:25.404, duration_ms=25404, data={name=Pokemon_Top}
+timestamp=[2023-12-05 16:40:29], mode=BUILD, duration=0:00:07.366, duration_ms=7366, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 16:40:30], mode=BUILD, duration=0:00:00.333, duration_ms=333, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 19:53:18], mode=BUILD, duration=0:00:00.914, duration_ms=914, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 19:53:19], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 19:53:29], mode=PLATFORM_GENERATION, duration=0:00:10.715, duration_ms=10715, data={name=Pokemon_Top}
+timestamp=[2023-12-05 19:54:04], mode=PLATFORM_GENERATION, duration=0:00:26.070, duration_ms=26070, data={name=Pokemon_Top}
+timestamp=[2023-12-05 19:54:15], mode=BUILD, duration=0:00:09.349, duration_ms=9349, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 19:54:16], mode=BUILD, duration=0:00:00.373, duration_ms=373, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 20:16:43], mode=BUILD, duration=0:00:00.709, duration_ms=709, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 20:16:44], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 20:16:51], mode=PLATFORM_GENERATION, duration=0:00:07.366, duration_ms=7366, data={name=Pokemon_Top}
+timestamp=[2023-12-05 20:18:12], mode=PLATFORM_GENERATION, duration=0:00:19.949, duration_ms=19949, data={name=Pokemon_Top}
+timestamp=[2023-12-05 20:18:17], mode=BUILD, duration=0:00:05.093, duration_ms=5093, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 20:18:18], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 22:55:10], mode=BUILD, duration=0:00:00.968, duration_ms=968, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 22:55:11], mode=BUILD, duration=0:00:00.521, duration_ms=521, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 22:55:21], mode=PLATFORM_GENERATION, duration=0:00:09.824, duration_ms=9824, data={name=Pokemon_Top}
+timestamp=[2023-12-05 22:55:42], mode=PLATFORM_GENERATION, duration=0:00:18.124, duration_ms=18124, data={name=Pokemon_Top}
+timestamp=[2023-12-05 22:55:47], mode=BUILD, duration=0:00:04.913, duration_ms=4913, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 22:55:48], mode=BUILD, duration=0:00:00.357, duration_ms=357, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 22:56:58], mode=BUILD, duration=0:00:00.642, duration_ms=642, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 22:56:59], mode=BUILD, duration=0:00:00.480, duration_ms=480, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 22:57:08], mode=PLATFORM_GENERATION, duration=0:00:09.360, duration_ms=9360, data={name=Pokemon_Top}
+timestamp=[2023-12-05 22:57:26], mode=PLATFORM_GENERATION, duration=0:00:17.142, duration_ms=17142, data={name=Pokemon_Top}
+timestamp=[2023-12-05 22:57:31], mode=BUILD, duration=0:00:04.638, duration_ms=4638, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 22:57:32], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 23:06:07], mode=BUILD, duration=0:00:00.917, duration_ms=917, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 23:06:07], mode=BUILD, duration=0:00:00.510, duration_ms=510, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-05 23:06:23], mode=PLATFORM_GENERATION, duration=0:00:15.620, duration_ms=15620, data={name=Pokemon_Top}
+timestamp=[2023-12-05 23:07:13], mode=PLATFORM_GENERATION, duration=0:00:41.456, duration_ms=41456, data={name=Pokemon_Top}
+timestamp=[2023-12-05 23:07:22], mode=BUILD, duration=0:00:09.099, duration_ms=9099, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-05 23:07:23], mode=BUILD, duration=0:00:00.435, duration_ms=435, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 00:56:07], mode=BUILD, duration=0:00:01.258, duration_ms=1258, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 00:56:08], mode=BUILD, duration=0:00:00.425, duration_ms=425, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 00:56:26], mode=PLATFORM_GENERATION, duration=0:00:18.125, duration_ms=18125, data={name=Pokemon_Top}
+timestamp=[2023-12-06 00:57:02], mode=PLATFORM_GENERATION, duration=0:00:33.670, duration_ms=33670, data={name=Pokemon_Top}
+timestamp=[2023-12-06 00:57:12], mode=BUILD, duration=0:00:08.267, duration_ms=8267, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 00:57:13], mode=BUILD, duration=0:00:00.383, duration_ms=383, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 00:59:01], mode=BUILD, duration=0:00:00.878, duration_ms=878, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 00:59:02], mode=BUILD, duration=0:00:01.383, duration_ms=1383, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 00:59:13], mode=PLATFORM_GENERATION, duration=0:00:11.304, duration_ms=11304, data={name=Pokemon_Top}
+timestamp=[2023-12-06 00:59:52], mode=PLATFORM_GENERATION, duration=0:00:23.022, duration_ms=23022, data={name=Pokemon_Top}
+timestamp=[2023-12-06 00:59:58], mode=BUILD, duration=0:00:05.335, duration_ms=5335, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 00:59:59], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:03:26], mode=BUILD, duration=0:00:00.742, duration_ms=742, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:03:27], mode=BUILD, duration=0:00:00.569, duration_ms=569, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:03:37], mode=PLATFORM_GENERATION, duration=0:00:09.973, duration_ms=9973, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:04:01], mode=PLATFORM_GENERATION, duration=0:00:22.875, duration_ms=22875, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:04:09], mode=BUILD, duration=0:00:07.045, duration_ms=7045, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:04:10], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:06:31], mode=BUILD, duration=0:00:02.400, duration_ms=2400, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:06:32], mode=BUILD, duration=0:00:01.567, duration_ms=1567, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:06:45], mode=PLATFORM_GENERATION, duration=0:00:12.868, duration_ms=12868, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:07:25], mode=PLATFORM_GENERATION, duration=0:00:36.376, duration_ms=36376, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:07:37], mode=BUILD, duration=0:00:11.787, duration_ms=11787, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:07:39], mode=BUILD, duration=0:00:00.999, duration_ms=999, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:09:11], mode=BUILD, duration=0:00:00.913, duration_ms=913, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:09:12], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:09:29], mode=PLATFORM_GENERATION, duration=0:00:16.763, duration_ms=16763, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:10:06], mode=PLATFORM_GENERATION, duration=0:00:34.420, duration_ms=34420, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:10:17], mode=BUILD, duration=0:00:11.173, duration_ms=11173, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:10:19], mode=BUILD, duration=0:00:00.627, duration_ms=627, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:13:41], mode=BUILD, duration=0:00:01.367, duration_ms=1367, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:13:42], mode=BUILD, duration=0:00:00.912, duration_ms=912, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:13:53], mode=PLATFORM_GENERATION, duration=0:00:11.027, duration_ms=11027, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:14:27], mode=PLATFORM_GENERATION, duration=0:00:28.424, duration_ms=28424, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:14:34], mode=BUILD, duration=0:00:06.630, duration_ms=6630, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:14:35], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:18:44], mode=BUILD, duration=0:00:01.562, duration_ms=1562, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:18:44], mode=BUILD, duration=0:00:00.953, duration_ms=953, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:18:58], mode=PLATFORM_GENERATION, duration=0:00:13.340, duration_ms=13340, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:19:52], mode=PLATFORM_GENERATION, duration=0:00:23.590, duration_ms=23590, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:19:57], mode=BUILD, duration=0:00:05.151, duration_ms=5151, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:19:58], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:23:42], mode=BUILD, duration=0:00:00.747, duration_ms=747, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:23:43], mode=BUILD, duration=0:00:00.621, duration_ms=621, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:23:53], mode=PLATFORM_GENERATION, duration=0:00:10.363, duration_ms=10363, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:24:22], mode=PLATFORM_GENERATION, duration=0:00:23.119, duration_ms=23119, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:24:27], mode=BUILD, duration=0:00:05.424, duration_ms=5424, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:24:29], mode=BUILD, duration=0:00:00.557, duration_ms=557, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:27:00], mode=BUILD, duration=0:00:00.914, duration_ms=914, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:27:01], mode=BUILD, duration=0:00:00.777, duration_ms=777, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 01:27:11], mode=PLATFORM_GENERATION, duration=0:00:10.625, duration_ms=10625, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:27:52], mode=PLATFORM_GENERATION, duration=0:00:27.519, duration_ms=27519, data={name=Pokemon_Top}
+timestamp=[2023-12-06 01:27:58], mode=BUILD, duration=0:00:05.888, duration_ms=5888, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 01:28:00], mode=BUILD, duration=0:00:00.632, duration_ms=632, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 02:06:08], mode=BUILD, duration=0:00:00.982, duration_ms=982, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 02:06:09], mode=BUILD, duration=0:00:00.594, duration_ms=594, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 02:06:20], mode=PLATFORM_GENERATION, duration=0:00:11.052, duration_ms=11052, data={name=Pokemon_Top}
+timestamp=[2023-12-06 02:07:05], mode=PLATFORM_GENERATION, duration=0:00:34.432, duration_ms=34432, data={name=Pokemon_Top}
+timestamp=[2023-12-06 02:07:14], mode=BUILD, duration=0:00:08.124, duration_ms=8124, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 02:07:15], mode=BUILD, duration=0:00:00.555, duration_ms=555, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 02:49:54], mode=BUILD, duration=0:00:15.209, duration_ms=15209, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 02:49:55], mode=BUILD, duration=0:00:01.092, duration_ms=1092, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 02:50:15], mode=PLATFORM_GENERATION, duration=0:00:19.880, duration_ms=19880, data={name=Pokemon_Top}
+timestamp=[2023-12-06 02:52:29], mode=PLATFORM_GENERATION, duration=0:02:06.639, duration_ms=126639, data={name=Pokemon_Top}
+timestamp=[2023-12-06 02:53:06], mode=BUILD, duration=0:00:29.336, duration_ms=29336, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 02:53:13], mode=BUILD, duration=0:00:02.196, duration_ms=2196, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 03:13:18], mode=WORKBENCH_START, duration=0:00:09.486, duration_ms=9486, data={}
+timestamp=[2023-12-06 03:13:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.700, duration_ms=700, data={editors_count=10, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-06 03:13:20], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.184, duration_ms=184, data={}
+timestamp=[2023-12-06 03:14:12], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 03:14:12], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 03:14:17], mode=PLATFORM_GENERATION, duration=0:00:04.599, duration_ms=4599, data={name=Pokemon_Top}
+timestamp=[2023-12-06 03:14:46], mode=PLATFORM_GENERATION, duration=0:00:12.778, duration_ms=12778, data={name=Pokemon_Top}
+timestamp=[2023-12-06 03:14:50], mode=BUILD, duration=0:00:03.101, duration_ms=3101, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 03:14:51], mode=BUILD, duration=0:00:00.232, duration_ms=232, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 03:36:11], mode=BUILD, duration=0:00:00.417, duration_ms=417, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 03:36:11], mode=BUILD, duration=0:00:00.321, duration_ms=321, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 03:36:17], mode=PLATFORM_GENERATION, duration=0:00:06.336, duration_ms=6336, data={name=Pokemon_Top}
+timestamp=[2023-12-06 03:36:46], mode=PLATFORM_GENERATION, duration=0:00:19.139, duration_ms=19139, data={name=Pokemon_Top}
+timestamp=[2023-12-06 03:36:50], mode=BUILD, duration=0:00:03.543, duration_ms=3543, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 03:36:50], mode=BUILD, duration=0:00:00.257, duration_ms=257, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 03:52:59], mode=BUILD, duration=0:00:00.426, duration_ms=426, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 03:52:59], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 03:53:05], mode=PLATFORM_GENERATION, duration=0:00:05.802, duration_ms=5802, data={name=Pokemon_Top}
+timestamp=[2023-12-06 03:53:27], mode=PLATFORM_GENERATION, duration=0:00:17.088, duration_ms=17088, data={name=Pokemon_Top}
+timestamp=[2023-12-06 03:53:32], mode=BUILD, duration=0:00:03.557, duration_ms=3557, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 03:53:33], mode=BUILD, duration=0:00:00.254, duration_ms=254, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 04:42:08], mode=BUILD, duration=0:00:00.511, duration_ms=511, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 04:42:08], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 04:42:15], mode=PLATFORM_GENERATION, duration=0:00:06.630, duration_ms=6630, data={name=Pokemon_Top}
+timestamp=[2023-12-06 04:42:44], mode=PLATFORM_GENERATION, duration=0:00:23.171, duration_ms=23171, data={name=Pokemon_Top}
+timestamp=[2023-12-06 04:42:48], mode=BUILD, duration=0:00:03.362, duration_ms=3362, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 04:42:49], mode=BUILD, duration=0:00:00.276, duration_ms=276, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 04:44:48], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 04:44:49], mode=BUILD, duration=0:00:00.363, duration_ms=363, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 04:44:56], mode=PLATFORM_GENERATION, duration=0:00:07.133, duration_ms=7133, data={name=Pokemon_Top}
+timestamp=[2023-12-06 04:45:16], mode=PLATFORM_GENERATION, duration=0:00:16.787, duration_ms=16787, data={name=Pokemon_Top}
+timestamp=[2023-12-06 04:45:19], mode=BUILD, duration=0:00:03.290, duration_ms=3290, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 04:45:20], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 04:46:35], mode=BUILD, duration=0:00:00.460, duration_ms=460, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 04:46:35], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 04:46:42], mode=PLATFORM_GENERATION, duration=0:00:06.783, duration_ms=6783, data={name=Pokemon_Top}
+timestamp=[2023-12-06 04:47:03], mode=PLATFORM_GENERATION, duration=0:00:17.811, duration_ms=17811, data={name=Pokemon_Top}
+timestamp=[2023-12-06 04:47:07], mode=BUILD, duration=0:00:03.298, duration_ms=3298, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 04:47:07], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 05:04:46], mode=BUILD, duration=0:00:00.532, duration_ms=532, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 05:04:47], mode=BUILD, duration=0:00:00.387, duration_ms=387, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 05:04:55], mode=PLATFORM_GENERATION, duration=0:00:07.837, duration_ms=7837, data={name=Pokemon_Top}
+timestamp=[2023-12-06 05:05:23], mode=PLATFORM_GENERATION, duration=0:00:25.914, duration_ms=25914, data={name=Pokemon_Top}
+timestamp=[2023-12-06 05:05:28], mode=BUILD, duration=0:00:04.083, duration_ms=4083, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 05:05:29], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 05:16:53], mode=BUILD, duration=0:00:00.640, duration_ms=640, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 05:16:54], mode=BUILD, duration=0:00:00.352, duration_ms=352, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 05:17:01], mode=PLATFORM_GENERATION, duration=0:00:07.198, duration_ms=7198, data={name=Pokemon_Top}
+timestamp=[2023-12-06 05:17:28], mode=PLATFORM_GENERATION, duration=0:00:23.965, duration_ms=23965, data={name=Pokemon_Top}
+timestamp=[2023-12-06 05:17:32], mode=BUILD, duration=0:00:03.709, duration_ms=3709, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 05:17:33], mode=BUILD, duration=0:00:00.268, duration_ms=268, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 05:30:31], mode=BUILD, duration=0:00:00.550, duration_ms=550, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 05:30:31], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 05:30:38], mode=PLATFORM_GENERATION, duration=0:00:06.988, duration_ms=6988, data={name=Pokemon_Top}
+timestamp=[2023-12-06 05:31:05], mode=PLATFORM_GENERATION, duration=0:00:23.097, duration_ms=23097, data={name=Pokemon_Top}
+timestamp=[2023-12-06 05:31:09], mode=BUILD, duration=0:00:03.715, duration_ms=3715, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 05:31:10], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 06:06:53], mode=BUILD, duration=0:00:00.620, duration_ms=620, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 06:06:53], mode=BUILD, duration=0:00:00.560, duration_ms=560, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 06:07:02], mode=PLATFORM_GENERATION, duration=0:00:08.593, duration_ms=8593, data={name=Pokemon_Top}
+timestamp=[2023-12-06 06:07:35], mode=PLATFORM_GENERATION, duration=0:00:30.246, duration_ms=30246, data={name=Pokemon_Top}
+timestamp=[2023-12-06 06:07:40], mode=BUILD, duration=0:00:04.708, duration_ms=4708, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 06:07:42], mode=BUILD, duration=0:00:00.387, duration_ms=387, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 06:22:37], mode=BUILD, duration=0:00:00.841, duration_ms=841, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 06:22:37], mode=BUILD, duration=0:00:00.558, duration_ms=558, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 06:22:47], mode=PLATFORM_GENERATION, duration=0:00:09.406, duration_ms=9406, data={name=Pokemon_Top}
+timestamp=[2023-12-06 06:23:29], mode=PLATFORM_GENERATION, duration=0:00:40.171, duration_ms=40171, data={name=Pokemon_Top}
+timestamp=[2023-12-06 06:23:36], mode=BUILD, duration=0:00:05.807, duration_ms=5807, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 06:23:37], mode=BUILD, duration=0:00:00.426, duration_ms=426, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 10:59:30], mode=BUILD, duration=0:00:01.662, duration_ms=1662, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 10:59:31], mode=BUILD, duration=0:00:00.794, duration_ms=794, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 10:59:51], mode=PLATFORM_GENERATION, duration=0:00:20.871, duration_ms=20871, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:01:02], mode=PLATFORM_GENERATION, duration=0:01:01.581, duration_ms=61581, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:01:16], mode=BUILD, duration=0:00:12.599, duration_ms=12599, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 11:01:18], mode=BUILD, duration=0:00:00.650, duration_ms=650, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 11:15:17], mode=BUILD, duration=0:00:01.226, duration_ms=1226, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 11:15:18], mode=BUILD, duration=0:00:01.022, duration_ms=1022, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 11:15:32], mode=PLATFORM_GENERATION, duration=0:00:14.026, duration_ms=14026, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:16:38], mode=PLATFORM_GENERATION, duration=0:00:59.331, duration_ms=59331, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:16:49], mode=BUILD, duration=0:00:10.082, duration_ms=10082, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 11:16:52], mode=BUILD, duration=0:00:00.912, duration_ms=912, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 11:53:33], mode=WORKBENCH_START, duration=0:00:08.568, duration_ms=8568, data={}
+timestamp=[2023-12-06 11:53:34], mode=WORKBENCH_UI_INIT, duration=0:00:00.652, duration_ms=652, data={editors_count=10, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-06 11:53:35], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.105, duration_ms=105, data={}
+timestamp=[2023-12-06 11:54:17], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 11:54:17], mode=BUILD, duration=0:00:00.240, duration_ms=240, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 11:54:21], mode=PLATFORM_GENERATION, duration=0:00:04.132, duration_ms=4132, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:54:50], mode=BUILD, duration=0:00:00.335, duration_ms=335, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 11:54:50], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 11:54:53], mode=PLATFORM_GENERATION, duration=0:00:03.375, duration_ms=3375, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:55:10], mode=PLATFORM_GENERATION, duration=0:00:11.955, duration_ms=11955, data={name=Pokemon_Top}
+timestamp=[2023-12-06 11:55:13], mode=BUILD, duration=0:00:03.276, duration_ms=3276, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 11:55:14], mode=BUILD, duration=0:00:00.157, duration_ms=157, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 15:00:05], mode=BUILD, duration=0:00:00.467, duration_ms=467, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 15:00:06], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 15:00:15], mode=PLATFORM_GENERATION, duration=0:00:08.731, duration_ms=8731, data={name=Pokemon_Top}
+timestamp=[2023-12-06 15:00:34], mode=PLATFORM_GENERATION, duration=0:00:16.613, duration_ms=16613, data={name=Pokemon_Top}
+timestamp=[2023-12-06 15:00:38], mode=BUILD, duration=0:00:03.786, duration_ms=3786, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 15:00:39], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 15:38:51], mode=BUILD, duration=0:00:00.425, duration_ms=425, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 15:38:52], mode=BUILD, duration=0:00:00.312, duration_ms=312, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 15:38:57], mode=PLATFORM_GENERATION, duration=0:00:05.599, duration_ms=5599, data={name=Pokemon_Top}
+timestamp=[2023-12-06 15:39:23], mode=PLATFORM_GENERATION, duration=0:00:16.776, duration_ms=16776, data={name=Pokemon_Top}
+timestamp=[2023-12-06 15:39:27], mode=BUILD, duration=0:00:03.149, duration_ms=3149, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 15:39:27], mode=BUILD, duration=0:00:00.242, duration_ms=242, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:07:19], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:07:19], mode=BUILD, duration=0:00:00.309, duration_ms=309, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:07:24], mode=PLATFORM_GENERATION, duration=0:00:05.352, duration_ms=5352, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:07:53], mode=PLATFORM_GENERATION, duration=0:00:16.084, duration_ms=16084, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:07:57], mode=BUILD, duration=0:00:02.830, duration_ms=2830, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:07:58], mode=BUILD, duration=0:00:00.251, duration_ms=251, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:09:55], mode=BUILD, duration=0:00:00.376, duration_ms=376, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:09:55], mode=BUILD, duration=0:00:00.311, duration_ms=311, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:10:01], mode=PLATFORM_GENERATION, duration=0:00:05.526, duration_ms=5526, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:10:15], mode=PLATFORM_GENERATION, duration=0:00:12.357, duration_ms=12357, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:10:18], mode=BUILD, duration=0:00:02.710, duration_ms=2710, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:10:19], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:11:57], mode=BUILD, duration=0:00:00.407, duration_ms=407, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:11:57], mode=BUILD, duration=0:00:00.340, duration_ms=340, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:12:04], mode=PLATFORM_GENERATION, duration=0:00:06.199, duration_ms=6199, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:12:20], mode=PLATFORM_GENERATION, duration=0:00:14.298, duration_ms=14298, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:12:23], mode=BUILD, duration=0:00:03.169, duration_ms=3169, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:12:24], mode=BUILD, duration=0:00:00.224, duration_ms=224, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:36:08], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:36:08], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:36:15], mode=PLATFORM_GENERATION, duration=0:00:07.032, duration_ms=7032, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:36:45], mode=PLATFORM_GENERATION, duration=0:00:25.768, duration_ms=25768, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:36:50], mode=BUILD, duration=0:00:04.533, duration_ms=4533, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:36:51], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:54:34], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:54:35], mode=BUILD, duration=0:00:00.323, duration_ms=323, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 16:54:41], mode=PLATFORM_GENERATION, duration=0:00:06.112, duration_ms=6112, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:55:19], mode=PLATFORM_GENERATION, duration=0:00:21.458, duration_ms=21458, data={name=Pokemon_Top}
+timestamp=[2023-12-06 16:55:23], mode=BUILD, duration=0:00:03.554, duration_ms=3554, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 16:55:24], mode=BUILD, duration=0:00:00.273, duration_ms=273, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:19:59], mode=BUILD, duration=0:00:00.693, duration_ms=693, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:19:59], mode=BUILD, duration=0:00:00.451, duration_ms=451, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:20:09], mode=PLATFORM_GENERATION, duration=0:00:09.110, duration_ms=9110, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:21:05], mode=PLATFORM_GENERATION, duration=0:00:25.444, duration_ms=25444, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:21:09], mode=BUILD, duration=0:00:03.759, duration_ms=3759, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:21:10], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:23:03], mode=BUILD, duration=0:00:00.413, duration_ms=413, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:23:04], mode=BUILD, duration=0:00:00.366, duration_ms=366, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:23:11], mode=PLATFORM_GENERATION, duration=0:00:06.784, duration_ms=6784, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:23:31], mode=PLATFORM_GENERATION, duration=0:00:16.365, duration_ms=16365, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:23:35], mode=BUILD, duration=0:00:03.500, duration_ms=3500, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:23:36], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:25:51], mode=BUILD, duration=0:00:00.494, duration_ms=494, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:25:51], mode=BUILD, duration=0:00:00.369, duration_ms=369, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:25:58], mode=PLATFORM_GENERATION, duration=0:00:06.929, duration_ms=6929, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:26:21], mode=PLATFORM_GENERATION, duration=0:00:17.121, duration_ms=17121, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:26:23], mode=BUILD, duration=0:00:02.059, duration_ms=2059, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:27:26], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:27:26], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:27:33], mode=PLATFORM_GENERATION, duration=0:00:07.034, duration_ms=7034, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:27:56], mode=PLATFORM_GENERATION, duration=0:00:17.015, duration_ms=17015, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:28:00], mode=BUILD, duration=0:00:03.551, duration_ms=3551, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:28:01], mode=BUILD, duration=0:00:00.253, duration_ms=253, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:28:47], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:28:47], mode=BUILD, duration=0:00:00.340, duration_ms=340, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:28:54], mode=PLATFORM_GENERATION, duration=0:00:06.600, duration_ms=6600, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:30:13], mode=PLATFORM_GENERATION, duration=0:00:17.292, duration_ms=17292, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:30:16], mode=BUILD, duration=0:00:03.295, duration_ms=3295, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:30:17], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:44:39], mode=BUILD, duration=0:00:00.585, duration_ms=585, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:44:40], mode=BUILD, duration=0:00:00.496, duration_ms=496, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 17:44:49], mode=PLATFORM_GENERATION, duration=0:00:08.649, duration_ms=8649, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:45:18], mode=PLATFORM_GENERATION, duration=0:00:28.037, duration_ms=28037, data={name=Pokemon_Top}
+timestamp=[2023-12-06 17:45:24], mode=BUILD, duration=0:00:04.642, duration_ms=4642, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 17:45:25], mode=BUILD, duration=0:00:00.629, duration_ms=629, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 18:55:32], mode=BUILD, duration=0:00:00.531, duration_ms=531, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 18:55:32], mode=BUILD, duration=0:00:00.415, duration_ms=415, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 18:55:40], mode=PLATFORM_GENERATION, duration=0:00:07.238, duration_ms=7238, data={name=Pokemon_Top}
+timestamp=[2023-12-06 18:56:06], mode=PLATFORM_GENERATION, duration=0:00:24.410, duration_ms=24410, data={name=Pokemon_Top}
+timestamp=[2023-12-06 18:56:11], mode=BUILD, duration=0:00:04.114, duration_ms=4114, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 18:56:12], mode=BUILD, duration=0:00:00.272, duration_ms=272, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 19:00:42], mode=BUILD, duration=0:00:00.634, duration_ms=634, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 19:00:43], mode=BUILD, duration=0:00:00.592, duration_ms=592, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 19:00:51], mode=PLATFORM_GENERATION, duration=0:00:08.571, duration_ms=8571, data={name=Pokemon_Top}
+timestamp=[2023-12-06 19:01:36], mode=PLATFORM_GENERATION, duration=0:00:24.211, duration_ms=24211, data={name=Pokemon_Top}
+timestamp=[2023-12-06 19:01:41], mode=BUILD, duration=0:00:04.609, duration_ms=4609, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 19:01:42], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 19:10:35], mode=BUILD, duration=0:00:00.644, duration_ms=644, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 19:10:35], mode=BUILD, duration=0:00:00.509, duration_ms=509, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 19:10:43], mode=PLATFORM_GENERATION, duration=0:00:07.968, duration_ms=7968, data={name=Pokemon_Top}
+timestamp=[2023-12-06 19:12:10], mode=PLATFORM_GENERATION, duration=0:00:21.920, duration_ms=21920, data={name=Pokemon_Top}
+timestamp=[2023-12-06 19:12:14], mode=BUILD, duration=0:00:04.400, duration_ms=4400, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 19:12:15], mode=BUILD, duration=0:00:00.278, duration_ms=278, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:04:43], mode=BUILD, duration=0:00:00.972, duration_ms=972, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:04:44], mode=BUILD, duration=0:00:00.518, duration_ms=518, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:04:54], mode=PLATFORM_GENERATION, duration=0:00:10.394, duration_ms=10394, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:05:33], mode=PLATFORM_GENERATION, duration=0:00:36.440, duration_ms=36440, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:05:40], mode=BUILD, duration=0:00:06.227, duration_ms=6227, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:05:41], mode=BUILD, duration=0:00:00.426, duration_ms=426, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:29:05], mode=BUILD, duration=0:00:01.047, duration_ms=1047, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:29:06], mode=BUILD, duration=0:00:00.528, duration_ms=528, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:29:15], mode=PLATFORM_GENERATION, duration=0:00:09.383, duration_ms=9383, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:30:14], mode=PLATFORM_GENERATION, duration=0:00:37.616, duration_ms=37616, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:30:21], mode=BUILD, duration=0:00:06.347, duration_ms=6347, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:30:23], mode=BUILD, duration=0:00:00.516, duration_ms=516, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:33:36], mode=BUILD, duration=0:00:01.005, duration_ms=1005, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:33:37], mode=BUILD, duration=0:00:00.651, duration_ms=651, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:33:48], mode=PLATFORM_GENERATION, duration=0:00:11.515, duration_ms=11515, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:34:20], mode=PLATFORM_GENERATION, duration=0:00:26.961, duration_ms=26961, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:34:27], mode=BUILD, duration=0:00:06.086, duration_ms=6086, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:34:28], mode=BUILD, duration=0:00:00.305, duration_ms=305, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:35:16], mode=BUILD, duration=0:00:01.778, duration_ms=1778, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:35:17], mode=BUILD, duration=0:00:01.824, duration_ms=1824, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 20:35:28], mode=PLATFORM_GENERATION, duration=0:00:10.456, duration_ms=10456, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:36:13], mode=PLATFORM_GENERATION, duration=0:00:24.096, duration_ms=24096, data={name=Pokemon_Top}
+timestamp=[2023-12-06 20:36:19], mode=BUILD, duration=0:00:05.531, duration_ms=5531, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 20:36:21], mode=BUILD, duration=0:00:00.448, duration_ms=448, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:44:55], mode=WORKBENCH_START, duration=0:00:10.525, duration_ms=10525, data={}
+timestamp=[2023-12-06 21:44:56], mode=WORKBENCH_UI_INIT, duration=0:00:01.275, duration_ms=1275, data={editors_count=10, platform_editors_count=3, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=ECE385_Pokemon,ECE385_Pokemon_system,Pokemon_Top,RemoteSystemsTempFiles}
+timestamp=[2023-12-06 21:44:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.101, duration_ms=101, data={}
+timestamp=[2023-12-06 21:45:41], mode=BUILD, duration=0:00:00.482, duration_ms=482, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:45:41], mode=BUILD, duration=0:00:00.221, duration_ms=221, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:45:46], mode=PLATFORM_GENERATION, duration=0:00:04.592, duration_ms=4592, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:46:28], mode=PLATFORM_GENERATION, duration=0:00:16.096, duration_ms=16096, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:46:32], mode=BUILD, duration=0:00:04.262, duration_ms=4262, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:46:34], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:53:19], mode=BUILD, duration=0:00:00.352, duration_ms=352, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:53:20], mode=BUILD, duration=0:00:00.218, duration_ms=218, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:53:24], mode=PLATFORM_GENERATION, duration=0:00:04.445, duration_ms=4445, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:53:38], mode=PLATFORM_GENERATION, duration=0:00:08.734, duration_ms=8734, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:53:40], mode=BUILD, duration=0:00:02.788, duration_ms=2788, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:53:41], mode=BUILD, duration=0:00:00.226, duration_ms=226, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:55:03], mode=BUILD, duration=0:00:00.356, duration_ms=356, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:55:03], mode=BUILD, duration=0:00:00.229, duration_ms=229, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:55:09], mode=PLATFORM_GENERATION, duration=0:00:05.167, duration_ms=5167, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:55:23], mode=PLATFORM_GENERATION, duration=0:00:08.565, duration_ms=8565, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:55:25], mode=BUILD, duration=0:00:02.514, duration_ms=2514, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:55:26], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:58:54], mode=BUILD, duration=0:00:00.331, duration_ms=331, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:58:54], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 21:58:59], mode=PLATFORM_GENERATION, duration=0:00:05.292, duration_ms=5292, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:59:09], mode=PLATFORM_GENERATION, duration=0:00:08.655, duration_ms=8655, data={name=Pokemon_Top}
+timestamp=[2023-12-06 21:59:12], mode=BUILD, duration=0:00:02.330, duration_ms=2330, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 21:59:12], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 22:00:51], mode=BUILD, duration=0:00:00.344, duration_ms=344, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 22:00:51], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-06 22:00:56], mode=PLATFORM_GENERATION, duration=0:00:04.535, duration_ms=4535, data={name=Pokemon_Top}
+timestamp=[2023-12-06 22:01:07], mode=PLATFORM_GENERATION, duration=0:00:08.534, duration_ms=8534, data={name=Pokemon_Top}
+timestamp=[2023-12-06 22:01:10], mode=BUILD, duration=0:00:02.313, duration_ms=2313, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-06 22:01:10], mode=BUILD, duration=0:00:00.166, duration_ms=166, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:17:49], mode=BUILD, duration=0:00:00.475, duration_ms=475, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:17:49], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:18:00], mode=PLATFORM_GENERATION, duration=0:00:11.257, duration_ms=11257, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:18:22], mode=PLATFORM_GENERATION, duration=0:00:14.535, duration_ms=14535, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:18:24], mode=BUILD, duration=0:00:01.893, duration_ms=1893, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:20:10], mode=BUILD, duration=0:00:00.328, duration_ms=328, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:20:11], mode=BUILD, duration=0:00:00.310, duration_ms=310, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:20:17], mode=PLATFORM_GENERATION, duration=0:00:06.055, duration_ms=6055, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:20:37], mode=PLATFORM_GENERATION, duration=0:00:13.113, duration_ms=13113, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:20:39], mode=BUILD, duration=0:00:01.741, duration_ms=1741, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:23:24], mode=BUILD, duration=0:00:00.337, duration_ms=337, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:23:25], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:23:30], mode=PLATFORM_GENERATION, duration=0:00:05.783, duration_ms=5783, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:23:49], mode=PLATFORM_GENERATION, duration=0:00:13.343, duration_ms=13343, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:23:51], mode=BUILD, duration=0:00:01.648, duration_ms=1648, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:26:47], mode=BUILD, duration=0:00:00.561, duration_ms=561, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:26:52], mode=BUILD, duration=0:00:00.319, duration_ms=319, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:26:52], mode=BUILD, duration=0:00:00.326, duration_ms=326, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:26:59], mode=PLATFORM_GENERATION, duration=0:00:06.350, duration_ms=6350, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:27:28], mode=PLATFORM_GENERATION, duration=0:00:13.948, duration_ms=13948, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:27:30], mode=BUILD, duration=0:00:01.732, duration_ms=1732, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:28:41], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:28:41], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:28:47], mode=PLATFORM_GENERATION, duration=0:00:06.037, duration_ms=6037, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:29:12], mode=PLATFORM_GENERATION, duration=0:00:12.932, duration_ms=12932, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:29:14], mode=BUILD, duration=0:00:01.636, duration_ms=1636, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:30:41], mode=BUILD, duration=0:00:00.419, duration_ms=419, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:30:41], mode=BUILD, duration=0:00:00.330, duration_ms=330, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:30:48], mode=PLATFORM_GENERATION, duration=0:00:07.105, duration_ms=7105, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:31:04], mode=PLATFORM_GENERATION, duration=0:00:13.056, duration_ms=13056, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:31:05], mode=BUILD, duration=0:00:01.570, duration_ms=1570, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:31:22], mode=BUILD, duration=0:00:00.316, duration_ms=316, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:31:22], mode=BUILD, duration=0:00:00.231, duration_ms=231, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:31:30], mode=PLATFORM_GENERATION, duration=0:00:07.545, duration_ms=7545, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:31:48], mode=PLATFORM_GENERATION, duration=0:00:14.953, duration_ms=14953, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:31:50], mode=BUILD, duration=0:00:01.573, duration_ms=1573, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:34:37], mode=BUILD, duration=0:00:00.483, duration_ms=483, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:34:38], mode=BUILD, duration=0:00:00.422, duration_ms=422, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:34:45], mode=PLATFORM_GENERATION, duration=0:00:06.786, duration_ms=6786, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:35:05], mode=PLATFORM_GENERATION, duration=0:00:14.701, duration_ms=14701, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:35:07], mode=BUILD, duration=0:00:02.216, duration_ms=2216, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:42:02], mode=BUILD, duration=0:00:00.402, duration_ms=402, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:42:02], mode=BUILD, duration=0:00:00.325, duration_ms=325, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:42:08], mode=PLATFORM_GENERATION, duration=0:00:05.935, duration_ms=5935, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:42:24], mode=PLATFORM_GENERATION, duration=0:00:12.854, duration_ms=12854, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:42:26], mode=BUILD, duration=0:00:01.495, duration_ms=1495, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:42:51], mode=BUILD, duration=0:00:00.329, duration_ms=329, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:42:52], mode=BUILD, duration=0:00:00.324, duration_ms=324, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:42:58], mode=PLATFORM_GENERATION, duration=0:00:06.015, duration_ms=6015, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:43:14], mode=PLATFORM_GENERATION, duration=0:00:12.781, duration_ms=12781, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:43:17], mode=BUILD, duration=0:00:03.023, duration_ms=3023, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:43:18], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:46:39], mode=BUILD, duration=0:00:00.317, duration_ms=317, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:46:40], mode=BUILD, duration=0:00:00.304, duration_ms=304, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:46:45], mode=PLATFORM_GENERATION, duration=0:00:05.746, duration_ms=5746, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:47:02], mode=PLATFORM_GENERATION, duration=0:00:13.161, duration_ms=13161, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:47:05], mode=BUILD, duration=0:00:02.664, duration_ms=2664, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:47:06], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:48:29], mode=BUILD, duration=0:00:00.396, duration_ms=396, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:48:30], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:48:35], mode=PLATFORM_GENERATION, duration=0:00:05.932, duration_ms=5932, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:48:53], mode=PLATFORM_GENERATION, duration=0:00:13.526, duration_ms=13526, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:48:55], mode=BUILD, duration=0:00:02.739, duration_ms=2739, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:48:56], mode=BUILD, duration=0:00:00.252, duration_ms=252, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:51:29], mode=BUILD, duration=0:00:00.342, duration_ms=342, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:51:29], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:51:35], mode=PLATFORM_GENERATION, duration=0:00:05.805, duration_ms=5805, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:51:54], mode=PLATFORM_GENERATION, duration=0:00:13.037, duration_ms=13037, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:51:57], mode=BUILD, duration=0:00:02.656, duration_ms=2656, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:51:57], mode=BUILD, duration=0:00:00.234, duration_ms=234, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:58:10], mode=BUILD, duration=0:00:00.381, duration_ms=381, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:58:10], mode=BUILD, duration=0:00:00.307, duration_ms=307, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 00:58:16], mode=PLATFORM_GENERATION, duration=0:00:05.876, duration_ms=5876, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:58:42], mode=PLATFORM_GENERATION, duration=0:00:14.106, duration_ms=14106, data={name=Pokemon_Top}
+timestamp=[2023-12-07 00:58:46], mode=BUILD, duration=0:00:03.191, duration_ms=3191, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 00:58:46], mode=BUILD, duration=0:00:00.233, duration_ms=233, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:00:47], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:00:47], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:00:54], mode=PLATFORM_GENERATION, duration=0:00:06.538, duration_ms=6538, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:11:15], mode=PLATFORM_GENERATION, duration=0:00:14.994, duration_ms=14994, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:11:19], mode=BUILD, duration=0:00:03.982, duration_ms=3982, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:11:20], mode=BUILD, duration=0:00:00.248, duration_ms=248, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:12:17], mode=BUILD, duration=0:00:00.416, duration_ms=416, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:12:17], mode=BUILD, duration=0:00:00.318, duration_ms=318, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:12:24], mode=PLATFORM_GENERATION, duration=0:00:06.155, duration_ms=6155, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:12:42], mode=PLATFORM_GENERATION, duration=0:00:15.323, duration_ms=15323, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:12:45], mode=BUILD, duration=0:00:03.050, duration_ms=3050, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:12:46], mode=BUILD, duration=0:00:00.243, duration_ms=243, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:15:40], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:15:40], mode=BUILD, duration=0:00:00.340, duration_ms=340, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:15:46], mode=PLATFORM_GENERATION, duration=0:00:06.119, duration_ms=6119, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:16:07], mode=PLATFORM_GENERATION, duration=0:00:15.749, duration_ms=15749, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:16:10], mode=BUILD, duration=0:00:03.561, duration_ms=3561, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:16:11], mode=BUILD, duration=0:00:00.270, duration_ms=270, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:18:31], mode=BUILD, duration=0:00:00.410, duration_ms=410, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:18:31], mode=BUILD, duration=0:00:00.322, duration_ms=322, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:18:38], mode=PLATFORM_GENERATION, duration=0:00:06.401, duration_ms=6401, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:18:55], mode=PLATFORM_GENERATION, duration=0:00:14.829, duration_ms=14829, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:18:58], mode=BUILD, duration=0:00:03.240, duration_ms=3240, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:18:59], mode=BUILD, duration=0:00:00.239, duration_ms=239, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:22:20], mode=BUILD, duration=0:00:00.446, duration_ms=446, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:22:20], mode=BUILD, duration=0:00:00.340, duration_ms=340, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:22:27], mode=PLATFORM_GENERATION, duration=0:00:06.457, duration_ms=6457, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:22:47], mode=PLATFORM_GENERATION, duration=0:00:15.207, duration_ms=15207, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:22:50], mode=BUILD, duration=0:00:03.048, duration_ms=3048, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:22:51], mode=BUILD, duration=0:00:00.261, duration_ms=261, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:27:06], mode=BUILD, duration=0:00:00.408, duration_ms=408, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:27:07], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:27:13], mode=PLATFORM_GENERATION, duration=0:00:06.645, duration_ms=6645, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:27:36], mode=PLATFORM_GENERATION, duration=0:00:14.920, duration_ms=14920, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:27:39], mode=BUILD, duration=0:00:03.289, duration_ms=3289, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:27:40], mode=BUILD, duration=0:00:00.256, duration_ms=256, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:31:04], mode=BUILD, duration=0:00:00.560, duration_ms=560, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:31:05], mode=BUILD, duration=0:00:00.352, duration_ms=352, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:31:12], mode=PLATFORM_GENERATION, duration=0:00:06.857, duration_ms=6857, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:31:38], mode=PLATFORM_GENERATION, duration=0:00:18.345, duration_ms=18345, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:31:42], mode=BUILD, duration=0:00:03.936, duration_ms=3936, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:31:43], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:37:43], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:37:43], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:37:51], mode=PLATFORM_GENERATION, duration=0:00:07.646, duration_ms=7646, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:38:12], mode=PLATFORM_GENERATION, duration=0:00:18.806, duration_ms=18806, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:38:16], mode=BUILD, duration=0:00:03.620, duration_ms=3620, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:38:45], mode=BUILD, duration=0:00:00.519, duration_ms=519, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:38:46], mode=BUILD, duration=0:00:00.591, duration_ms=591, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:38:54], mode=PLATFORM_GENERATION, duration=0:00:07.842, duration_ms=7842, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:40:58], mode=PLATFORM_GENERATION, duration=0:00:20.983, duration_ms=20983, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:41:03], mode=BUILD, duration=0:00:04.963, duration_ms=4963, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:41:04], mode=BUILD, duration=0:00:00.382, duration_ms=382, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:53:24], mode=BUILD, duration=0:00:00.511, duration_ms=511, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:53:24], mode=BUILD, duration=0:00:00.379, duration_ms=379, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:53:32], mode=PLATFORM_GENERATION, duration=0:00:07.960, duration_ms=7960, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:53:53], mode=PLATFORM_GENERATION, duration=0:00:17.876, duration_ms=17876, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:53:55], mode=BUILD, duration=0:00:02.127, duration_ms=2127, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:54:07], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:54:08], mode=BUILD, duration=0:00:00.443, duration_ms=443, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:54:16], mode=PLATFORM_GENERATION, duration=0:00:07.832, duration_ms=7832, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:54:35], mode=PLATFORM_GENERATION, duration=0:00:18.585, duration_ms=18585, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:54:39], mode=BUILD, duration=0:00:03.774, duration_ms=3774, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:54:40], mode=BUILD, duration=0:00:00.282, duration_ms=282, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:58:40], mode=BUILD, duration=0:00:00.506, duration_ms=506, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:58:40], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:58:48], mode=PLATFORM_GENERATION, duration=0:00:07.283, duration_ms=7283, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:59:07], mode=PLATFORM_GENERATION, duration=0:00:16.841, duration_ms=16841, data={name=Pokemon_Top}
+timestamp=[2023-12-07 01:59:10], mode=BUILD, duration=0:00:03.301, duration_ms=3301, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:59:11], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 01:59:53], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 01:59:53], mode=BUILD, duration=0:00:00.368, duration_ms=368, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:00:00], mode=PLATFORM_GENERATION, duration=0:00:07.339, duration_ms=7339, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:00:22], mode=PLATFORM_GENERATION, duration=0:00:17.011, duration_ms=17011, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:00:26], mode=BUILD, duration=0:00:03.567, duration_ms=3567, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:00:27], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:01:41], mode=BUILD, duration=0:00:00.440, duration_ms=440, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:01:41], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:01:48], mode=PLATFORM_GENERATION, duration=0:00:06.997, duration_ms=6997, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:02:13], mode=PLATFORM_GENERATION, duration=0:00:16.979, duration_ms=16979, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:02:16], mode=BUILD, duration=0:00:03.495, duration_ms=3495, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:02:17], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:11:37], mode=BUILD, duration=0:00:00.460, duration_ms=460, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:11:38], mode=BUILD, duration=0:00:00.347, duration_ms=347, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:11:44], mode=PLATFORM_GENERATION, duration=0:00:06.599, duration_ms=6599, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:12:05], mode=PLATFORM_GENERATION, duration=0:00:18.100, duration_ms=18100, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:12:08], mode=BUILD, duration=0:00:03.369, duration_ms=3369, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:12:09], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:14:19], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:14:19], mode=BUILD, duration=0:00:00.339, duration_ms=339, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:14:26], mode=PLATFORM_GENERATION, duration=0:00:06.974, duration_ms=6974, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:14:48], mode=PLATFORM_GENERATION, duration=0:00:18.218, duration_ms=18218, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:14:51], mode=BUILD, duration=0:00:03.533, duration_ms=3533, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:14:52], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:17:28], mode=BUILD, duration=0:00:00.524, duration_ms=524, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:17:29], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:17:36], mode=PLATFORM_GENERATION, duration=0:00:06.922, duration_ms=6922, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:18:00], mode=PLATFORM_GENERATION, duration=0:00:18.628, duration_ms=18628, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:18:03], mode=BUILD, duration=0:00:03.496, duration_ms=3496, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:18:04], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:18:59], mode=BUILD, duration=0:00:00.517, duration_ms=517, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:18:59], mode=BUILD, duration=0:00:00.433, duration_ms=433, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:19:07], mode=PLATFORM_GENERATION, duration=0:00:07.527, duration_ms=7527, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:19:30], mode=PLATFORM_GENERATION, duration=0:00:17.641, duration_ms=17641, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:19:34], mode=BUILD, duration=0:00:03.315, duration_ms=3315, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:19:34], mode=BUILD, duration=0:00:00.250, duration_ms=250, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:22:46], mode=BUILD, duration=0:00:00.528, duration_ms=528, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:22:47], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 02:22:54], mode=PLATFORM_GENERATION, duration=0:00:06.979, duration_ms=6979, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:23:14], mode=PLATFORM_GENERATION, duration=0:00:16.978, duration_ms=16978, data={name=Pokemon_Top}
+timestamp=[2023-12-07 02:23:18], mode=BUILD, duration=0:00:03.493, duration_ms=3493, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 02:23:19], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:03:09], mode=BUILD, duration=0:00:00.538, duration_ms=538, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:03:10], mode=BUILD, duration=0:00:00.385, duration_ms=385, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:03:17], mode=PLATFORM_GENERATION, duration=0:00:07.315, duration_ms=7315, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:03:39], mode=PLATFORM_GENERATION, duration=0:00:17.493, duration_ms=17493, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:03:42], mode=BUILD, duration=0:00:03.416, duration_ms=3416, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:03:43], mode=BUILD, duration=0:00:00.365, duration_ms=365, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:04:32], mode=BUILD, duration=0:00:00.444, duration_ms=444, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:04:33], mode=BUILD, duration=0:00:00.372, duration_ms=372, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:04:39], mode=PLATFORM_GENERATION, duration=0:00:06.766, duration_ms=6766, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:05:01], mode=PLATFORM_GENERATION, duration=0:00:19.176, duration_ms=19176, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:05:05], mode=BUILD, duration=0:00:03.582, duration_ms=3582, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:05:06], mode=BUILD, duration=0:00:00.303, duration_ms=303, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:06:16], mode=BUILD, duration=0:00:00.515, duration_ms=515, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:06:16], mode=BUILD, duration=0:00:00.388, duration_ms=388, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:06:23], mode=PLATFORM_GENERATION, duration=0:00:06.942, duration_ms=6942, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:06:43], mode=PLATFORM_GENERATION, duration=0:00:17.960, duration_ms=17960, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:06:47], mode=BUILD, duration=0:00:03.480, duration_ms=3480, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:06:48], mode=BUILD, duration=0:00:00.289, duration_ms=289, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:08:54], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:08:54], mode=BUILD, duration=0:00:00.639, duration_ms=639, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:09:02], mode=PLATFORM_GENERATION, duration=0:00:07.852, duration_ms=7852, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:10:10], mode=PLATFORM_GENERATION, duration=0:00:18.488, duration_ms=18488, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:10:14], mode=BUILD, duration=0:00:03.722, duration_ms=3722, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:10:15], mode=BUILD, duration=0:00:00.291, duration_ms=291, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:10:45], mode=BUILD, duration=0:00:00.432, duration_ms=432, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:10:45], mode=BUILD, duration=0:00:00.327, duration_ms=327, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:10:53], mode=PLATFORM_GENERATION, duration=0:00:07.233, duration_ms=7233, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:11:13], mode=PLATFORM_GENERATION, duration=0:00:18.339, duration_ms=18339, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:11:17], mode=BUILD, duration=0:00:03.556, duration_ms=3556, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:11:18], mode=BUILD, duration=0:00:00.266, duration_ms=266, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:14:18], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:14:18], mode=BUILD, duration=0:00:00.355, duration_ms=355, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:14:25], mode=PLATFORM_GENERATION, duration=0:00:06.661, duration_ms=6661, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:14:56], mode=PLATFORM_GENERATION, duration=0:00:17.250, duration_ms=17250, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:15:00], mode=BUILD, duration=0:00:03.185, duration_ms=3185, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:15:00], mode=BUILD, duration=0:00:00.263, duration_ms=263, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:26:05], mode=BUILD, duration=0:00:00.462, duration_ms=462, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:26:05], mode=BUILD, duration=0:00:00.341, duration_ms=341, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:26:12], mode=PLATFORM_GENERATION, duration=0:00:06.991, duration_ms=6991, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:26:34], mode=PLATFORM_GENERATION, duration=0:00:18.019, duration_ms=18019, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:26:38], mode=BUILD, duration=0:00:03.698, duration_ms=3698, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:26:38], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:28:20], mode=BUILD, duration=0:00:00.515, duration_ms=515, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:28:21], mode=BUILD, duration=0:00:00.460, duration_ms=460, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:28:28], mode=PLATFORM_GENERATION, duration=0:00:07.444, duration_ms=7444, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:28:48], mode=PLATFORM_GENERATION, duration=0:00:17.605, duration_ms=17605, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:28:51], mode=BUILD, duration=0:00:03.382, duration_ms=3382, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:28:52], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:29:58], mode=BUILD, duration=0:00:00.529, duration_ms=529, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:29:58], mode=BUILD, duration=0:00:00.404, duration_ms=404, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:30:06], mode=PLATFORM_GENERATION, duration=0:00:07.271, duration_ms=7271, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:30:28], mode=PLATFORM_GENERATION, duration=0:00:17.425, duration_ms=17425, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:30:32], mode=BUILD, duration=0:00:03.494, duration_ms=3494, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:30:33], mode=BUILD, duration=0:00:00.279, duration_ms=279, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:31:28], mode=BUILD, duration=0:00:00.530, duration_ms=530, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:31:29], mode=BUILD, duration=0:00:00.418, duration_ms=418, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:31:36], mode=PLATFORM_GENERATION, duration=0:00:07.336, duration_ms=7336, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:31:56], mode=PLATFORM_GENERATION, duration=0:00:17.506, duration_ms=17506, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:32:00], mode=BUILD, duration=0:00:03.683, duration_ms=3683, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:32:01], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:40:49], mode=BUILD, duration=0:00:00.461, duration_ms=461, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:40:49], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:40:56], mode=PLATFORM_GENERATION, duration=0:00:06.636, duration_ms=6636, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:41:27], mode=PLATFORM_GENERATION, duration=0:00:19.795, duration_ms=19795, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:41:31], mode=BUILD, duration=0:00:03.821, duration_ms=3821, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:41:32], mode=BUILD, duration=0:00:00.255, duration_ms=255, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:50:09], mode=BUILD, duration=0:00:00.699, duration_ms=699, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:50:09], mode=BUILD, duration=0:00:00.492, duration_ms=492, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 03:50:18], mode=PLATFORM_GENERATION, duration=0:00:08.707, duration_ms=8707, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:50:54], mode=PLATFORM_GENERATION, duration=0:00:21.713, duration_ms=21713, data={name=Pokemon_Top}
+timestamp=[2023-12-07 03:50:59], mode=BUILD, duration=0:00:04.860, duration_ms=4860, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 03:51:01], mode=BUILD, duration=0:00:00.354, duration_ms=354, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 04:21:51], mode=BUILD, duration=0:00:00.800, duration_ms=800, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 04:21:52], mode=BUILD, duration=0:00:00.574, duration_ms=574, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 04:22:01], mode=PLATFORM_GENERATION, duration=0:00:09.386, duration_ms=9386, data={name=Pokemon_Top}
+timestamp=[2023-12-07 04:22:38], mode=PLATFORM_GENERATION, duration=0:00:31.831, duration_ms=31831, data={name=Pokemon_Top}
+timestamp=[2023-12-07 04:22:41], mode=BUILD, duration=0:00:02.471, duration_ms=2471, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 04:23:36], mode=BUILD, duration=0:00:00.578, duration_ms=578, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 04:23:36], mode=BUILD, duration=0:00:00.543, duration_ms=543, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 04:23:45], mode=PLATFORM_GENERATION, duration=0:00:09.167, duration_ms=9167, data={name=Pokemon_Top}
+timestamp=[2023-12-07 04:24:25], mode=PLATFORM_GENERATION, duration=0:00:29.914, duration_ms=29914, data={name=Pokemon_Top}
+timestamp=[2023-12-07 04:24:28], mode=BUILD, duration=0:00:03.488, duration_ms=3488, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 04:26:37], mode=BUILD, duration=0:00:01.042, duration_ms=1042, data={name=ECE385_Pokemon, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 04:26:37], mode=BUILD, duration=0:00:00.592, duration_ms=592, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=true}
+timestamp=[2023-12-07 04:26:49], mode=PLATFORM_GENERATION, duration=0:00:11.679, duration_ms=11679, data={name=Pokemon_Top}
+timestamp=[2023-12-07 04:28:10], mode=PLATFORM_GENERATION, duration=0:00:25.840, duration_ms=25840, data={name=Pokemon_Top}
+timestamp=[2023-12-07 04:28:15], mode=BUILD, duration=0:00:05.244, duration_ms=5244, data={name=ECE385_Pokemon, configuration=Debug, clean_build=false}
+timestamp=[2023-12-07 04:28:16], mode=BUILD, duration=0:00:00.341, duration_ms=341, data={name=ECE385_Pokemon_system, configuration=Debug, clean_build=false}
